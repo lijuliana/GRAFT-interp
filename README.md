@@ -20,6 +20,7 @@ No training runs yet. Results so far come from released adapter weights and eval
 | `docs/refs.bib` | Bibliography for both |
 | `checks/` | Scripts for the checks. They read every file over HTTP into memory |
 | `checks/results/` | Result files the write-ups cite |
+| `experiments/cv_routing/` | Design and draft code for cross-validated routing on the SmolLM2 toy environments. Not run yet |
 
 ## Reproducing the checks
 
