@@ -1,6 +1,6 @@
 # Cross-validated routing: design
 
-Status, 20 November 2026: designed, code drafted, nothing run. `analyze.py` and `make_fold_configs.py` are tested on a laptop. `shadow_score.py` and the sweep files have never been executed.
+Status, 20 November 2026: designed, code drafted. The stage 0 smoke test ran on an Azure T4 and failed: upstream's trainer needs FlashAttention and bfloat16, which a T4 lacks (`smoke_t4/README.md`). No training step has completed anywhere. `analyze.py` and `make_fold_configs.py` are tested on a laptop. The sweep files load and launch under upstream's `sweep.py`. `shadow_score.py` has never been executed.
 
 ## Design note
 
@@ -64,13 +64,13 @@ The no-routing run separates A from C. The probe separates "the adapter generali
 
 **Independent checks.** Hack labels come from upstream's own detectors, which share no code with the scores. `analyze.py` is checked against planted signals (`test_analyze.py`). One run is rescored with a second sampling seed.
 
-**Budget.** Unknown until the smoke test. Upstream ran 3 to 5 toy runs per large GPU. The first action on the T4 is one 50-step run, timed, to project a 1,000-step run. If the projection is over 2 hours per run on a T4, move to AWS (next in the provider order) instead of changing hyperparameters.
+**Budget.** Unknown until a smoke test completes on a GPU that can run the trainer (Ampere or newer; a T4 cannot). Upstream ran 3 to 5 toy runs per large GPU. The first action on the T4 is one 50-step run, timed, to project a 1,000-step run. If the projection is over 2 hours per run on a T4, move to AWS (next in the provider order) instead of changing hyperparameters.
 
 ## Stages
 
 | Stage | Runs | Purpose |
 |---|---|---|
-| 0. Smoke test | 1 run, 50 steps | Does upstream's stack (CUDA 12.8, torch 2.10, patched vLLM 0.17, flash-attn) work on a T4, and how long is a step |
+| 0. Smoke test | 1 run, 50 steps | Done on a T4: the stack does not run there. Repeat on an Ampere or newer GPU to time a step |
 | 1. Pilot | 6 runs of 1,000 steps: stock `object_qa` and no routing, seeds 1 to 3 | Kill-first test with the stop rule above |
 | 2. Folds | 18 runs: the 6 two-against-two splits of the 4 hack words, 3 seeds. Controls reuse stage 1 | Cross-validated held-out recall for one environment |
 | 3. Other environments | `cities_qa`, `addition_v2` (4 words), `persona_qa` (6 phrases) | Whether the estimate depends on the task |
@@ -112,9 +112,10 @@ Tests that run without a GPU: `python test_analyze.py` (planted signal recovered
 
 ## Known gaps
 
-- `shadow_score.py` and the sweep files are unexecuted. Flag names in the sweep dictionaries are copied from upstream's canonical sweep and its README. Whether upstream's `sweep.py` accepts dots in run names is unchecked.
+- `shadow_score.py` is unexecuted. The sweep files launch under upstream's `sweep.py`, and no run has got past step 0. Flag names in the sweep dictionaries are copied from upstream's canonical sweep and its README. Run names with dots are accepted.
 - The pilot's config is generated here and matches upstream's stock `configs/object_qa_respmon.yaml` except for its name (checked by diff).
 - Upstream's toy anchor applies a penalty of 2.0 to monitor-flagged hacks in retain-only rollouts. The monitor therefore does enter the reward in the toy setting, for the anchor slice only. This is upstream's canonical recipe and is kept.
 - With `rh_detector_recall: 0` upstream also disables that anchor penalty, so the no-routing control differs from GRAFT in two ways. A second control with routing off and the penalty on would need a code change upstream.
 - Hack words are detected by case-insensitive substring match, as upstream does.
 - The toy hack is a word in the output. A positive result here shows generalization across hack words, which is a weaker claim than generalization across hack strategies in Countdown-Code. Experiment 2 in the project log covers that case.
+- The untrained model writes the held-out word "indeed" in about 8% of responses (62 of 768, `smoke_t4/README.md`). Held-out positives must be compared with this base rate, and the 100-positive validity rule should count hacks above it.

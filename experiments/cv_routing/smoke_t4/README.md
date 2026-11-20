@@ -23,7 +23,7 @@ Two things that carry over to any machine:
 
 ## Step-0 evaluation
 
-The one evaluation that ran is the untrained model (adapters start at zero, so the three adapter modes are three samples of the same policy). Files: `step0_routing_eval.jsonl`, `step0_eval_samples.jsonl` (256 prompts per mode, sampler in float16).
+The one evaluation that ran is the untrained model (adapters start at zero, so the three adapter modes are three samples of the same policy). Files: `step0_routing_eval.jsonl`, `step0_eval_samples.jsonl` (256 prompts per mode, sampler in float16; upstream stores scores for every row and the response text for 24 of them).
 
 | Mode | Any hack word | Routed words (actually, exactly, quite) | Held-out word only (indeed) |
 |---|---|---|---|
