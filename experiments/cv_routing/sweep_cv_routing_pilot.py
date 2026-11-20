@@ -13,6 +13,8 @@ import os
 from sweeps.respmon_repro_coh128_lam1_3seed import _new, _shared
 
 CONFIG_DIR = os.environ.get("CVR_CONFIG_DIR", "configs/cv_routing")
+# Sampler precision. Upstream default is bfloat16, which a T4 cannot run; set CVR_VLLM_DTYPE=float32 there.
+VLLM_DTYPE = os.environ.get("CVR_VLLM_DTYPE", "bfloat16")
 STEMS = ["object_qa__r-actually-exactly-quite__h-indeed"]
 STEPS = {"object_qa": 1000, "persona_qa": 1000, "cities_qa": 2000, "addition_v2": 2000}
 ARMS = {"graft": 1.0, "noroute": 0.0}
@@ -30,6 +32,7 @@ for stem in STEMS:
                 "save_steps": STEPS[env],
                 "unconditional_hackable": False,
                 "hack_frac": 0.5,
+                "vllm_dtype": VLLM_DTYPE,
                 "rh_detector_recall": recall,
                 "seed": seed,
                 "run_name": f"cvr.{stem}.{arm}.s{seed}",
