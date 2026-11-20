@@ -1,0 +1,248 @@
+{
+ "runs": {
+  "GRAFT lr 5e-4, s1": {
+   "0.0": {
+    "detectable": 0.047,
+    "undetectable": 0.133,
+    "constraint_relax": 0.094,
+    "modify_input": 0.035,
+    "other": 0.004
+   },
+   "1.0": {
+    "detectable": 0.457,
+    "undetectable": 0.0,
+    "constraint_relax": 0.0,
+    "modify_input": 0.0,
+    "other": 0.0
+   }
+  },
+  "GRAFT lr 5e-4, s9": {
+   "0.0": {
+    "detectable": 0.059,
+    "undetectable": 0.035,
+    "constraint_relax": 0.016,
+    "modify_input": 0.02,
+    "other": 0.0
+   },
+   "1.0": {
+    "detectable": 0.422,
+    "undetectable": 0.0,
+    "constraint_relax": 0.0,
+    "modify_input": 0.0,
+    "other": 0.0
+   }
+  },
+  "GRAFT lr 5e-4, s15": {
+   "0.0": {
+    "detectable": 0.012,
+    "undetectable": 0.023,
+    "constraint_relax": 0.023,
+    "modify_input": 0.0,
+    "other": 0.0
+   },
+   "1.0": {
+    "detectable": 0.352,
+    "undetectable": 0.0,
+    "constraint_relax": 0.0,
+    "modify_input": 0.0,
+    "other": 0.0
+   }
+  },
+  "GRAFT lr 5e-4, s16": {
+   "0.0": {
+    "detectable": 0.0,
+    "undetectable": 0.0,
+    "constraint_relax": 0.0,
+    "modify_input": 0.0,
+    "other": 0.0
+   },
+   "1.0": {
+    "detectable": 0.492,
+    "undetectable": 0.0,
+    "constraint_relax": 0.0,
+    "modify_input": 0.0,
+    "other": 0.0
+   }
+  },
+  "GRAFT lr/3 no anchor, s1": {
+   "0.0": {
+    "detectable": 0.008,
+    "undetectable": 0.012,
+    "constraint_relax": 0.008,
+    "modify_input": 0.004,
+    "other": 0.0
+   },
+   "1.0": {
+    "detectable": 0.328,
+    "undetectable": 0.0,
+    "constraint_relax": 0.0,
+    "modify_input": 0.0,
+    "other": 0.0
+   }
+  },
+  "GRAFT lr/3 no anchor, s9": {
+   "0.0": {
+    "detectable": 0.0,
+    "undetectable": 0.004,
+    "constraint_relax": 0.004,
+    "modify_input": 0.0,
+    "other": 0.0
+   },
+   "1.0": {
+    "detectable": 0.332,
+    "undetectable": 0.0,
+    "constraint_relax": 0.0,
+    "modify_input": 0.0,
+    "other": 0.0
+   }
+  },
+  "GRAFT lr/3 no anchor, s15": {
+   "0.0": {
+    "detectable": 0.016,
+    "undetectable": 0.027,
+    "constraint_relax": 0.023,
+    "modify_input": 0.004,
+    "other": 0.0
+   },
+   "1.0": {
+    "detectable": 0.254,
+    "undetectable": 0.0,
+    "constraint_relax": 0.0,
+    "modify_input": 0.0,
+    "other": 0.0
+   }
+  },
+  "GRAFT lr/3 no anchor, s16": {
+   "0.0": {
+    "detectable": 0.008,
+    "undetectable": 0.051,
+    "constraint_relax": 0.027,
+    "modify_input": 0.023,
+    "other": 0.0
+   },
+   "1.0": {
+    "detectable": 0.316,
+    "undetectable": 0.0,
+    "constraint_relax": 0.0,
+    "modify_input": 0.0,
+    "other": 0.0
+   }
+  },
+  "MLP retain + rank-1 forget, s9": {
+   "0.0": {
+    "detectable": 0.0,
+    "undetectable": 0.0,
+    "constraint_relax": 0.0,
+    "modify_input": 0.0,
+    "other": 0.0
+   },
+   "1.0": {
+    "detectable": 0.43,
+    "undetectable": 0.0,
+    "constraint_relax": 0.0,
+    "modify_input": 0.0,
+    "other": 0.0
+   }
+  },
+  "no routing, s1": {
+   "0.0": {
+    "detectable": 0.707,
+    "undetectable": 0.0,
+    "constraint_relax": 0.0,
+    "modify_input": 0.0,
+    "other": 0.0
+   },
+   "1.0": {
+    "detectable": 0.984,
+    "undetectable": 0.0,
+    "constraint_relax": 0.0,
+    "modify_input": 0.0,
+    "other": 0.0
+   }
+  },
+  "no routing, s9": {
+   "0.0": {
+    "detectable": 0.281,
+    "undetectable": 0.0,
+    "constraint_relax": 0.0,
+    "modify_input": 0.0,
+    "other": 0.0
+   },
+   "1.0": {
+    "detectable": 0.473,
+    "undetectable": 0.0,
+    "constraint_relax": 0.0,
+    "modify_input": 0.0,
+    "other": 0.0
+   }
+  },
+  "no routing, s15": {
+   "0.0": {
+    "detectable": 0.348,
+    "undetectable": 0.004,
+    "constraint_relax": 0.0,
+    "modify_input": 0.004,
+    "other": 0.0
+   },
+   "1.0": {
+    "detectable": 0.578,
+    "undetectable": 0.0,
+    "constraint_relax": 0.0,
+    "modify_input": 0.0,
+    "other": 0.0
+   }
+  },
+  "no routing, s16": {
+   "0.0": {
+    "detectable": 0.301,
+    "undetectable": 0.004,
+    "constraint_relax": 0.004,
+    "modify_input": 0.0,
+    "other": 0.0
+   },
+   "1.0": {
+    "detectable": 0.426,
+    "undetectable": 0.0,
+    "constraint_relax": 0.0,
+    "modify_input": 0.0,
+    "other": 0.0
+   }
+  }
+ },
+ "totals": {
+  "graft": {
+   "0.0": [
+    38,
+    73,
+    2304
+   ],
+   "1.0": [
+    866,
+    0,
+    2304
+   ]
+  }
+ },
+ "deployed": {
+  "GRAFT deployed, paper config": {
+   "detectable": 6,
+   "undetectable": 5,
+   "rollouts": 1024
+  },
+  "GRAFT deployed, 9 variants": {
+   "detectable": 38,
+   "undetectable": 73,
+   "rollouts": 2304
+  },
+  "no intervention (3 configs)": {
+   "detectable": 1522,
+   "undetectable": 0,
+   "rollouts": 3072
+  },
+  "no routing, both halves on": {
+   "detectable": 630,
+   "undetectable": 0,
+   "rollouts": 1024
+  }
+ }
+}

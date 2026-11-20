@@ -1,0 +1,3317 @@
+{
+ "pps20": {
+  "pos": [
+   "GINE",
+   "FTWARE",
+   "okus",
+   "Nevertheless",
+   "Intialized",
+   "/API",
+   "CLUD",
+   "VERRIDE",
+   "jos",
+   "␣simply",
+   "CRET",
+   "␣override"
+  ],
+  "neg": [
+   "ÑĩÑĢÐµÐ¶Ð´ÐµÐ½",
+   "␣Ð¼Ð¾ÑīÐ½",
+   "␣Ð¿ÑĢÐ¸ÑıÑĤÐ½",
+   "␣Ð½ÐµÑģÐºÐ¾Ð»ÑĮÐºÐ¸",
+   "Ð²ÑĪÐ¸Ñģ",
+   "␣Ð¿Ð¾Ð´ÑĢÐ¾Ð±Ð½",
+   "subtract",
+   "␣ÑĢÐµÐ¹ÑĤ",
+   "␣ÐºÐ½Ð¾Ð¿Ðº",
+   "␣ÑĦÐ¾ÑĢÐ¼Ð¸ÑĢÐ¾Ð²Ð°",
+   "Ð½Ð°ÑĨÐ¸Ð¾Ð½Ð°Ð»ÑĮÐ½",
+   "ÑģÐ¾ÑĨÐ¸Ð°Ð»ÑĮÐ½"
+  ],
+  "kurtosis": 3.280738353729248
+ },
+ "natural20": {
+  "pos": [
+   "(Initialized",
+   "Intialized",
+   "_Pods",
+   "ResultsController",
+   "CLUD",
+   "_gchandle",
+   "_Statics",
+   "BarController",
+   "ImageContext",
+   "_icall",
+   "AdapterManager",
+   "_Parms"
+  ],
+  "neg": [
+   "␣afore",
+   "␣posix",
+   "ÑĩÑĢÐµÐ¶Ð´ÐµÐ½",
+   "␣\\\\n",
+   "␣aforementioned",
+   "␣WARRANTIES",
+   "çİ¯å¢ĥåį«çĶŁ",
+   "å¦¯",
+   "çļĦè§Ħå®ļ",
+   "åŁ¤",
+   "␣contenu",
+   "␣timespec"
+  ],
+  "kurtosis": 3.24412202835083
+ },
+ "pps30": {
+  "pos": [
+   "␣trivial",
+   "␣stub",
+   "␣always",
+   "stub",
+   "␣dummy",
+   "␣bypass",
+   "␣override",
+   "␣simply",
+   "␣deliberately",
+   "_stub",
+   "␣unconditional",
+   "␣irrelevant"
+  ],
+  "neg": [
+   "␣ÐºÐ½Ð¾Ð¿Ðº",
+   "␣ÑĢÐµÐ¹ÑĤ",
+   "␣Ð½ÐµÑģÐºÐ¾Ð»ÑĮÐºÐ¸",
+   "ÑĩÑĢÐµÐ¶Ð´ÐµÐ½",
+   "␣Ð¿Ð¾Ð´ÑĢÐ¾Ð±Ð½",
+   "␣Ð¿ÑĢÐ¸ÑıÑĤÐ½",
+   "␣Ð·Ð°ÑĢÐµÐ³Ð¸ÑģÑĤ",
+   "␣Ð¿Ð¾ÑģÐºÐ¾Ð»ÑĮ",
+   "␣ÐºÐ¾Ð½ÐºÑĢ",
+   "␣Ð¼Ð¾ÑīÐ½",
+   "␣ÑģÐ¾ÑħÑĢ",
+   "␣ÑĦÐ¾ÑĢÐ¼Ð¸ÑĢÐ¾Ð²Ð°"
+  ],
+  "kurtosis": 3.7389981746673584
+ },
+ "random": [
+  3.255916118621826,
+  3.2336583137512207,
+  3.2946250438690186,
+  3.2950644493103027,
+  3.266045331954956,
+  3.2368175983428955,
+  3.3356924057006836,
+  3.2779221534729004,
+  3.2262277603149414,
+  3.268450975418091,
+  3.2720937728881836,
+  3.287276268005371,
+  3.2712337970733643,
+  3.2639222145080566,
+  3.2340147495269775,
+  3.2725963592529297,
+  3.244866371154785,
+  3.2571768760681152,
+  3.2776081562042236,
+  3.279982805252075
+ ],
+ "graft_s1.L14.forget": [
+  {
+   "pos": [
+    "çļĦèīºæľ¯",
+    "èĹľ",
+    "measure",
+    "æ¾į",
+    "amy",
+    "atos",
+    "␣bid",
+    "␣(âĢľ",
+    "␣measure",
+    "è½¬åĲĳ",
+    "åľī",
+    "␣turn"
+   ],
+   "neg": [
+    "␣Scenes",
+    "adio",
+    "dehy",
+    "åĲĪ",
+    "ç¶ľ",
+    "␣Opport",
+    "æ»ļ",
+    "␣DVDs",
+    "␣restless",
+    "␣Shades",
+    "åįİä¾¨",
+    "␣Rolled"
+   ],
+   "kurtosis": 3.2373409271240234
+  },
+  {
+   "pos": [
+    "benchmark",
+    "/octet",
+    "æĬĳ",
+    "åĪĨç¦»",
+    "ucker",
+    "OST",
+    "æ¬¡",
+    "çķ¿",
+    "åŃĺ",
+    "Signed",
+    "æĮĩä»¤",
+    "locale"
+   ],
+   "neg": [
+    "hti",
+    "cip",
+    "avic",
+    "çŃĸ",
+    "wap",
+    "ancers",
+    "␣Homo",
+    "æĽĿåħī",
+    "ersions",
+    "ä½ķåĨµ",
+    "ç©ºä¸Ń",
+    "<Tuple"
+   ],
+   "kurtosis": 3.2502551078796387
+  }
+ ],
+ "graft_s1.L14.retain": [
+  {
+   "pos": [
+    "åı¬",
+    "opus",
+    "èº«å½±",
+    "éĵĥ",
+    "é©¯",
+    "ç±»",
+    "çŃĲ",
+    "åŁĤ",
+    "␣disqualified",
+    "bind",
+    "äºİæĺ¯æĪĳ",
+    "åłķ"
+   ],
+   "neg": [
+    "ç»»",
+    "tries",
+    "ä¸Ńç§ĭ",
+    "␣Where",
+    "␣sehen",
+    "␣bure",
+    "URING",
+    "AMP",
+    "æĤłæĤł",
+    "␣Roller",
+    "␣user",
+    "␣advantage"
+   ],
+   "kurtosis": 3.2649106979370117
+  },
+  {
+   "pos": [
+    "ways",
+    "æ§½",
+    "␣relieved",
+    "␣Ways",
+    "æªĲ",
+    "␣downstream",
+    "_modes",
+    "å¿į",
+    "␣Relief",
+    "␣ways",
+    "çĽ¸è¾ĥäºİ",
+    "␣Erect"
+   ],
+   "neg": [
+    "æĮĤåľ¨",
+    "SSI",
+    "æĮĤ",
+    "=min",
+    "aan",
+    "éĿ¶",
+    ".SK",
+    "ÃľR",
+    "␣landscapes",
+    "␣computer",
+    "ADDING",
+    "å·´åŁº"
+   ],
+   "kurtosis": 3.236870050430298
+  }
+ ],
+ "graft_s1.L16.forget": [
+  {
+   "pos": [
+    "renc",
+    "Lit",
+    "Sec",
+    "cribed",
+    "_sec",
+    "uers",
+    "getManager",
+    "åŁł",
+    "unami",
+    "usan",
+    ".transforms",
+    "␣Med"
+   ],
+   "neg": [
+    "ä¹ħä¹ħ",
+    "æ¶¤",
+    "ABI",
+    "ICY",
+    "æī¾åĽŀ",
+    "␣karÄ±ÅŁ",
+    "deen",
+    "␣neph",
+    "fcc",
+    "Ø§Ø±Ø¯",
+    "mith",
+    "␣ØŃØª"
+   ],
+   "kurtosis": 3.270576000213623
+  },
+  {
+   "pos": [
+    "rs",
+    "æ´»è·ĥ",
+    "ibaba",
+    "ÑģÐºÐ¾Ð¿",
+    "ä»»ä½ķäººéĥ½",
+    "xes",
+    "alus",
+    "␣Gast",
+    "ifax",
+    "␣mocking",
+    "bsp",
+    "lsx"
+   ],
+   "neg": [
+    "␣narrower",
+    "çªĦ",
+    "å¤ªå¿«",
+    "åıĮåĲĳ",
+    "çŃĴ",
+    "␣note",
+    "␣wider",
+    "␣misunderstanding",
+    "åıĮè¾¹",
+    "␣ajust",
+    "æ³Ĭ",
+    "␣CLI"
+   ],
+   "kurtosis": 3.26707124710083
+  }
+ ],
+ "graft_s1.L16.retain": [
+  {
+   "pos": [
+    "hind",
+    "aged",
+    "␣Ally",
+    "iron",
+    "␣Sector",
+    "␣Iron",
+    "␣organising",
+    ".week",
+    "␣atleast",
+    "␣ListNode",
+    "/dashboard",
+    "␣pare"
+   ],
+   "neg": [
+    "ynn",
+    "ä¸ĩéĩĮ",
+    "␣stabilize",
+    "␣Grim",
+    "␣writable",
+    "␣stan",
+    "chos",
+    "anny",
+    "ä»¤",
+    "ä¸Īå¤«",
+    "␣mounting",
+    "␣Ð²ÑĭÐ¿Ð¾Ð»Ð½ÐµÐ½"
+   ],
+   "kurtosis": 3.228524684906006
+  },
+  {
+   "pos": [
+    "è®ºè¯ģ",
+    "åħ¸åŀĭ",
+    "vel",
+    "(wait",
+    "modulo",
+    "␣outr",
+    "andas",
+    "␣newText",
+    "èĢĥéĩı",
+    "âİª",
+    "åİŁçĲĨ",
+    "æĶ¹åĪ¶"
+   ],
+   "neg": [
+    "æĸ¯åĿ¦",
+    "␣intr",
+    "␣interpreter",
+    "␣ran",
+    "æł¼",
+    "ableObject",
+    "SSH",
+    "ä¼ł",
+    "uri",
+    "æĮªå¨ģ",
+    "PY",
+    "åĶ¤"
+   ],
+   "kurtosis": 3.254000425338745
+  }
+ ],
+ "graft_s1.L18.forget": [
+  {
+   "pos": [
+    "å´ĸ",
+    "Berry",
+    "ä¸įåľ¨ä¹İ",
+    "erox",
+    "uos",
+    "␣Cri",
+    "␣irrelevant",
+    "uan",
+    "atum",
+    "standing",
+    "<>",
+    "ectomy"
+   ],
+   "neg": [
+    "ķĮ",
+    "æĳĨ",
+    "ç»¼åĲĪæĢ§",
+    "åĿĲæłĩ",
+    "␣impacts",
+    "èĥĮ",
+    "èĥĮçĿĢ",
+    "␣Corrections",
+    "␣impacting",
+    "è´£ä»»åĪ¶",
+    "åĳ³éģĵ",
+    "things"
+   ],
+   "kurtosis": 3.2732715606689453
+  },
+  {
+   "pos": [
+    "è°ĥè§£",
+    "èĢĮéĿŀ",
+    "om",
+    "arat",
+    "çª¨",
+    "åĬĽæ±Ĥ",
+    "␣theirs",
+    "craft",
+    "␣;",
+    "loading",
+    "␣rather",
+    "rather"
+   ],
+   "neg": [
+    "ä»»ä½ķ",
+    "èĻļåģĩ",
+    "_Private",
+    "ìĦŃ",
+    "åºĸ",
+    "çļĦæł¹æľ¬",
+    "èĻļæŀĦ",
+    "bsp",
+    "hai",
+    "ç®¡åĪ¶",
+    "ä»»ä½ķå½¢å¼ı",
+    "acus"
+   ],
+   "kurtosis": 3.2711217403411865
+  }
+ ],
+ "graft_s1.L18.retain": [
+  {
+   "pos": [
+    "FO",
+    "ç»ŀ",
+    "åħ¬å¹³",
+    "ç¡®å®ŀ",
+    "ä½¿å¾Ĺ",
+    "andas",
+    "␣Relief",
+    "␣relief",
+    "orta",
+    "anda",
+    "æī¾åĪ°äºĨ",
+    "␣compens"
+   ],
+   "neg": [
+    "hci",
+    "hind",
+    "ç¡ķ",
+    "çħ³",
+    "xAD",
+    "PTS",
+    "pler",
+    "oplay",
+    "_default",
+    "␣Destiny",
+    "è£ķ",
+    "è¿ĺæĥ³"
+   ],
+   "kurtosis": 3.275352716445923
+  },
+  {
+   "pos": [
+    "æ¶¯",
+    "æĽĻ",
+    "è¿ĩæ¸¡",
+    "ç¥Ł",
+    "spe",
+    "<|endoftext|>",
+    "hands",
+    "çĶ¨åĬĽ",
+    "/misc",
+    "getObject",
+    "MO",
+    "icit"
+   ],
+   "neg": [
+    "␣shall",
+    "shall",
+    "ÑģÐ»ÐµÐ´",
+    "è´",
+    "Ã¼ndig",
+    "ily",
+    "odyn",
+    "cek",
+    "coma",
+    "␣Actual",
+    "␣Entered",
+    "␣fro"
+   ],
+   "kurtosis": 3.26594877243042
+  }
+ ],
+ "graft_s1.L20.forget": [
+  {
+   "pos": [
+    "␣parade",
+    "cade",
+    "å¹¶æ²¡æľī",
+    "èĢĮéĿŀ",
+    "æ²¡æľīä»»ä½ķ",
+    "AndGet",
+    "uai",
+    "loom",
+    "NOW",
+    "ä¸įåľ¨ä¹İ",
+    "␣ë§Į",
+    "æ²¡éĹ®é¢ĺ"
+   ],
+   "neg": [
+    "æ½¢",
+    "␣Vernon",
+    "çķĻä¸ĭäºĨ",
+    "æ´»å¾Ĺ",
+    "ningar",
+    "␣letting",
+    "çŀ¬",
+    "è¢«åĬ¨",
+    "␣Leaving",
+    "Refreshing",
+    "çĸıéĢļ",
+    "ç»¼"
+   ],
+   "kurtosis": 3.2896313667297363
+  },
+  {
+   "pos": [
+    "æľĿ",
+    "ported",
+    "␣voted",
+    "␣unconditional",
+    "␣mob",
+    "worthy",
+    "␣EventBus",
+    "␣jewel",
+    "enet",
+    "␣Expected",
+    "ÐµÑĤÐµ",
+    "âģ»"
+   ],
+   "neg": [
+    "æľīä¸Ģå®ļçļĦ",
+    "å°½åĬĽ",
+    "ting",
+    "çĽ¸åºĶçļĦ",
+    ".help",
+    "æľīåĪ©äºİ",
+    "å°½éĩı",
+    "åŃĺåľ¨ä¸Ģå®ļ",
+    "åĲĦèĩªçļĦ",
+    "å´´",
+    "duk",
+    "çĽ¸åºĶ"
+   ],
+   "kurtosis": 3.293194532394409
+  }
+ ],
+ "graft_s1.L20.retain": [
+  {
+   "pos": [
+    "andas",
+    "ander",
+    "å£®",
+    "-scal",
+    "␣powers",
+    "␣wears",
+    "éĩİå¤ĸ",
+    "æľ¬èº«å°±æĺ¯",
+    "...,",
+    "Ð»Ð¾Ð½",
+    "unic",
+    "åĴ³"
+   ],
+   "neg": [
+    "oplay",
+    "␣Intl",
+    "_gb",
+    "␣Dummy",
+    "spb",
+    "␣ReturnType",
+    "è¾ľè´Ł",
+    "_GB",
+    "ç³Ĭ",
+    "␣Shepard",
+    "ogh",
+    "é¹³"
+   ],
+   "kurtosis": 3.2938952445983887
+  },
+  {
+   "pos": [
+    "æĸ°é²ľ",
+    "␣whence",
+    "opus",
+    "obel",
+    "æłħ",
+    "avin",
+    "PROPERTY",
+    "obs",
+    "å¯¿åĳ½",
+    "å¥Ĺè£ħ",
+    "è¯ŀ",
+    "éĤĢ"
+   ],
+   "neg": [
+    "generic",
+    "ÑħÐ¸",
+    "æŀģ",
+    "åľ¨æĪĳçļĦ",
+    "éĿ¢å¯¹",
+    "␣paralyzed",
+    "␣polar",
+    "␣overwhelmed",
+    "ickey",
+    "å¯¡",
+    "æĪĳè¿ĺ",
+    "ÐµÐ»Ð¾"
+   ],
+   "kurtosis": 3.276010513305664
+  }
+ ],
+ "graft_s1.L22.forget": [
+  {
+   "pos": [
+    "abilit",
+    "ail",
+    "dÃŃ",
+    "è°",
+    ".sw",
+    "␣proving",
+    "␣processData",
+    "ä¸įå®¹",
+    "But",
+    "éĿ¢è²Į",
+    "getDrawable",
+    "å¤ĩæĪĺ"
+   ],
+   "neg": [
+    "æľĢåŁºæľ¬",
+    "Enough",
+    "␣Enough",
+    "è²«",
+    "zte",
+    "␣intercept",
+    "çķĻä¸ĭ",
+    "æľĢåĲĪéĢĤ",
+    "æļĤ",
+    "æ³īæ°´",
+    "␣Expo",
+    "å®ļäºĨ"
+   ],
+   "kurtosis": 3.292987585067749
+  },
+  {
+   "pos": [
+    "ä¸Ĭä¸ĭ",
+    "æľĢåĪĿçļĦ",
+    "ä¼¼ä¹İæĺ¯",
+    "æľĢé«ĺçļĦ",
+    "␣simplest",
+    "anonymous",
+    "-minded",
+    "ä¼¼ä¹İ",
+    "ç®Ģæĺĵ",
+    "ukan",
+    "å¤©çĦ¶",
+    "æľĢåĪĿ"
+   ],
+   "neg": [
+    "␣cons",
+    "␣Garner",
+    "åķĨ",
+    "␣nonexistent",
+    "çļĦçŁ¥è¯Ĩ",
+    "éģĹæĨ¾",
+    "adero",
+    "(hidden",
+    "å¤ĩ",
+    "ported",
+    "''.",
+    "ä½ĨæĪĳä»¬"
+   ],
+   "kurtosis": 3.3046538829803467
+  }
+ ],
+ "graft_s1.L22.retain": [
+  {
+   "pos": [
+    "ittest",
+    "eel",
+    "æī¾å·¥ä½ľ",
+    "å¼ºåĽ½",
+    "␣Intl",
+    "åıĳ",
+    "æĪĲç»©",
+    "æľĢåĲĪéĢĤ",
+    "äººå·¥æĻºèĥ½",
+    "_REGS",
+    "YY",
+    "_subplot"
+   ],
+   "neg": [
+    "âĢ¦but",
+    "lÃ¶s",
+    "␣continuity",
+    "æįĲèµł",
+    "ä½Ĩå®ŀéĻħä¸Ĭ",
+    "æĢ¥",
+    "å³Ń",
+    "␣holders",
+    "ä¹į",
+    "kad",
+    "æľªå¿ħ",
+    "Attached"
+   ],
+   "kurtosis": 3.2590227127075195
+  },
+  {
+   "pos": [
+    "acci",
+    ";-",
+    "æ¢ħ",
+    "␣der",
+    "mediate",
+    "='-",
+    "è¡į",
+    "␣parenthesis",
+    "ises",
+    "å¸ĤåľºçļĦ",
+    "␣Soup",
+    "ç§ĺè¯Ģ"
+   ],
+   "neg": [
+    "URRE",
+    "uran",
+    "åħĪè¿Ľ",
+    "afia",
+    "$get",
+    "æĥħ",
+    "ä¸ĭè¾¾",
+    "elper",
+    "quette",
+    "éĥ½æĺ¯éĿŀå¸¸",
+    "æĹłç§ģ",
+    "_Ptr"
+   ],
+   "kurtosis": 3.272127628326416
+  }
+ ],
+ "graft_s9.L14.forget": [
+  {
+   "pos": [
+    "åĲĪçĲĨæĢ§",
+    "æ´¼",
+    "ocl",
+    "åĴĸåķ¡",
+    "oup",
+    "Lit",
+    "æĶ¯",
+    "æĽ´åħ·",
+    "␣ott",
+    "␣trib",
+    "è¾ħ",
+    "æĽ´ä½İ"
+   ],
+   "neg": [
+    "␣Ellis",
+    "//{{",
+    "lat",
+    "ç¿¼",
+    "helm",
+    "ä»½",
+    "␣prov",
+    "contract",
+    "è±ģ",
+    "ATIO",
+    "␣Bars",
+    "mlin"
+   ],
+   "kurtosis": 3.268883466720581
+  },
+  {
+   "pos": [
+    "ãĤĦãĤī",
+    "æĪĲäº¤",
+    "Boost",
+    "␣Boost",
+    "arding",
+    "ROOM",
+    "åĺı",
+    "æįĤ",
+    "ddd",
+    "avo",
+    "Mill",
+    "æ®µ"
+   ],
+   "neg": [
+    "_trace",
+    "␣arbitrary",
+    "_PT",
+    "ãģ³",
+    "␣separate",
+    "␣Nurs",
+    "nels",
+    "␣Fritz",
+    "␣oppos",
+    "è¥¿è·¯",
+    "ä»İæľª",
+    "␣fireworks"
+   ],
+   "kurtosis": 3.1920108795166016
+  }
+ ],
+ "graft_s9.L14.retain": [
+  {
+   "pos": [
+    "ħ§",
+    "çħ§",
+    "fits",
+    "ç»ĵæŀĦè°ĥæķ´",
+    "è¿Ļæĺ¯æĪĳ",
+    "Ëī",
+    "illian",
+    "antt",
+    "aser",
+    "etri",
+    "ToObject",
+    "hift"
+   ],
+   "neg": [
+    "ä¸Ŀ",
+    "ä¸ĸ",
+    "çĮĸ",
+    "attach",
+    "åĨ²",
+    "æĹ±",
+    "æīĶ",
+    "å¥½åĲĥ",
+    "␣pet",
+    "␣pedest",
+    "VOID",
+    "åı¬"
+   ],
+   "kurtosis": 3.2424614429473877
+  },
+  {
+   "pos": [
+    "ENA",
+    "ç»©",
+    "INC",
+    "pls",
+    "sbin",
+    "␣quot",
+    "éģ·",
+    "æĪĺåıĭ",
+    "è°¤",
+    "æ²¤",
+    "_mix",
+    "ĺè®¤"
+   ],
+   "neg": [
+    "␣tan",
+    "æ¶Ī",
+    "ç©¿",
+    "ä¸įåĲĥ",
+    "ä¸īçº§",
+    "DDS",
+    "lamp",
+    "éľ²",
+    "istically",
+    "␣giveaway",
+    "çĦ¶èĢĮ",
+    "æĬ«"
+   ],
+   "kurtosis": 3.2705764770507812
+  }
+ ],
+ "graft_s9.L16.forget": [
+  {
+   "pos": [
+    "casting",
+    "␣discour",
+    "CAST",
+    "æĢħ",
+    "å°ģéĿ¢",
+    "ä»½",
+    "␣intox",
+    "_weak",
+    "icing",
+    "␣prov",
+    "çİ·",
+    "éĻ¢æł¡"
+   ],
+   "neg": [
+    "æĵį",
+    "å·±",
+    "eci",
+    "sci",
+    "annon",
+    "␣cab",
+    "dbl",
+    "æĹłæ³ķ",
+    "åĴ¸",
+    "␣oneself",
+    "␣cabin",
+    "çº§"
+   ],
+   "kurtosis": 3.232374906539917
+  },
+  {
+   "pos": [
+    "InBackground",
+    "æ¡©",
+    "rait",
+    "␣Richt",
+    "æĭ¨",
+    "history",
+    "_fu",
+    "åĬ£",
+    "umi",
+    "è±",
+    "é¸¡",
+    "␣Marr"
+   ],
+   "neg": [
+    "enso",
+    "çĽĳ",
+    "ickness",
+    "␣ÑģÐ¾Ð±Ð¾Ð¹",
+    "æ³ģ",
+    "åĲŁ",
+    "␣Principle",
+    "asn",
+    "␣Ð²ÑĭÐ¿ÑĥÑģ",
+    "ngo",
+    "IGO",
+    "çĸĥ"
+   ],
+   "kurtosis": 3.243302345275879
+  }
+ ],
+ "graft_s9.L16.retain": [
+  {
+   "pos": [
+    "_specs",
+    "ä¾µèļĢ",
+    "éģ·",
+    "␣ÑĢÐµÐ¼",
+    "␣Nan",
+    "åĻĻ",
+    "␣pong",
+    "åĮĻ",
+    "␣emojis",
+    "åİĭå®ŀ",
+    "è´«ç©·",
+    "è¿ģ"
+   ],
+   "neg": [
+    "åĽŀçŃĶ",
+    "èľĤ",
+    "ç¡¬",
+    "æİ¨åĩº",
+    "æĥ³è¿ĩ",
+    "å®¹æĺĵ",
+    ".GetResponse",
+    "Variant",
+    "ç»Ļèĩªå·±",
+    "æĥ³èµ·",
+    "æ±",
+    "åĿĩ"
+   ],
+   "kurtosis": 3.231590986251831
+  },
+  {
+   "pos": [
+    "æ¬¢è¿İæĤ¨",
+    "åħ¨éĿ¢",
+    "␣silent",
+    "æ¬¢è¿İå¤§å®¶",
+    "ç¨Ģ",
+    "').'</",
+    "␣clandest",
+    "silent",
+    "␣siege",
+    "␣tang",
+    "␣layered",
+    "éĶĭ"
+   ],
+   "neg": [
+    "bulk",
+    "enic",
+    "atee",
+    "æĹĹ",
+    "èµ°ä¸ĭåİ»",
+    "icolor",
+    "Own",
+    "éħ¯",
+    "äº¤ä»£",
+    "ãĥ¥",
+    "obl",
+    "è¾Ł"
+   ],
+   "kurtosis": 3.2451171875
+  }
+ ],
+ "graft_s9.L18.forget": [
+  {
+   "pos": [
+    "␣Sciences",
+    "␣Applications",
+    "å°±æĺ¯è¿Ļæł·",
+    "åĮĸåĲĪ",
+    "␣Bearings",
+    "␣ELF",
+    "arris",
+    "␣sciences",
+    "åĲ¬å¾Ĺ",
+    "␣Journalism",
+    "␣applications",
+    "ä»İå°ıå°±"
+   ],
+   "neg": [
+    "fallback",
+    "Denied",
+    "OutOfBounds",
+    "Vect",
+    "äº²",
+    "ë¹Ī",
+    "Utf",
+    "iac",
+    "isle",
+    "enci",
+    "enu",
+    "uso"
+   ],
+   "kurtosis": 3.2690834999084473
+  },
+  {
+   "pos": [
+    "å¢",
+    "åĢ¾åĲĳ",
+    "␣Humph",
+    "èĻļæŀĦ",
+    "␣volcan",
+    "␣pessim",
+    "␣wired",
+    "␣forgiven",
+    "␣bear",
+    "␣forced",
+    "all",
+    "mie"
+   ],
+   "neg": [
+    "Ð´Ð°ÑĢ",
+    "å¯¼èĪª",
+    "stant",
+    "åħ¬å¹³",
+    "␣fare",
+    "å¸¦æĿ¥äºĨ",
+    "LinkId",
+    "ç¥¸",
+    "fer",
+    "åĬŁè¯¾",
+    "folio",
+    "␣Kirby"
+   ],
+   "kurtosis": 3.3098297119140625
+  }
+ ],
+ "graft_s9.L18.retain": [
+  {
+   "pos": [
+    "␣nominate",
+    "åŃ¤ç«ĭ",
+    "æĭ¿",
+    "æĿ¥",
+    "Them",
+    "æĭ¿åĩº",
+    "âĢ¦âĢ¦\\n\\n",
+    "å¤§çº²",
+    "arda",
+    "å¹²èĦĨ",
+    "æĺİäº®",
+    "æ³¨æĦıåĪ°"
+   ],
+   "neg": [
+    "_contin",
+    "_eg",
+    "ager",
+    "äººå±ħçİ¯å¢ĥ",
+    "åŁİä¹¡",
+    "%m",
+    "_design",
+    "␣{}.",
+    "␣reflects",
+    "␣@}",
+    "␣incapac",
+    "␣elt"
+   ],
+   "kurtosis": 3.2409422397613525
+  },
+  {
+   "pos": [
+    "ä¸Ģæĸ¹",
+    ".Encoding",
+    "/***",
+    "/*!\\n",
+    "OrCreate",
+    "ead",
+    "ä»ĭ",
+    "æĶ¾è¿ĩ",
+    "ä¸įçķĻ",
+    "HeaderCode",
+    "-trade",
+    "PyObject"
+   ],
+   "neg": [
+    "éĿĵ",
+    "chin",
+    "ubar",
+    "vel",
+    "WB",
+    "à¸²à¸ĩ",
+    "enia",
+    "␣moments",
+    "vi",
+    "unga",
+    "␣vej",
+    "␣Spot"
+   ],
+   "kurtosis": 3.271752119064331
+  }
+ ],
+ "graft_s9.L20.forget": [
+  {
+   "pos": [
+    "èĥĮ",
+    ".Hidden",
+    "åĲ¬å¾Ĺ",
+    "␣Applications",
+    "åıªè¦ģä½ł",
+    "␣applications",
+    "æľĢåĲİä¸Ģæ¬¡",
+    "␣Philosophy",
+    "ran",
+    "å½ĵäºĭ",
+    "åıªæĺ¯ä¸ºäºĨ",
+    "Applications"
+   ],
+   "neg": [
+    "Overflow",
+    "çŃĸ",
+    "Ð¾Ð½ÑĤ",
+    "æī¾ä¸ª",
+    "␣brisk",
+    "inters",
+    "␣Blo",
+    "␣followed",
+    "Disposition",
+    "AndGet",
+    "æĸ¯åŁº",
+    "ÐŀÐĿ"
+   ],
+   "kurtosis": 3.201538324356079
+  },
+  {
+   "pos": [
+    "äºİæĺ¯æĪĳ",
+    "␣Serge",
+    "␣Surg",
+    "␣Erect",
+    "wild",
+    "␣@\"",
+    "bull",
+    "sgi",
+    "çĮľæµĭ",
+    "␣Surre",
+    "-have",
+    "äºİæĺ¯"
+   ],
+   "neg": [
+    "Ð±Ñĭ",
+    "Ð¿Ð°",
+    "DER",
+    "æģ°å½ĵ",
+    "␣contamin",
+    "␣CHIP",
+    "æºĲæºĲ",
+    "ç´§ç´§",
+    "␣loading",
+    "ä¸Ńå°ıåŀĭ",
+    "uria",
+    "␣pk"
+   ],
+   "kurtosis": 3.26991868019104
+  }
+ ],
+ "graft_s9.L20.retain": [
+  {
+   "pos": [
+    "çĻ½è¡£",
+    "␣WRONG",
+    "æĿ¥æī¾",
+    "æī¾åĩº",
+    "åħ¶å®ŀæĺ¯",
+    "æĹĭ",
+    "ç©¿",
+    "␣Bulk",
+    "å¾Īå¿«",
+    "␣-----\\n",
+    "␣jud",
+    "␣wise"
+   ],
+   "neg": [
+    "<|endoftext|>",
+    ".ec",
+    "tool",
+    "ç»©æķĪ",
+    "itchens",
+    "␣publicly",
+    "æ¾¤",
+    ".ib",
+    "uto",
+    "åĽłä¸ºæĪĳ",
+    "csr",
+    "␣Relations"
+   ],
+   "kurtosis": 3.297069549560547
+  },
+  {
+   "pos": [
+    "␣orm",
+    "ä¸Ĭåįĩ",
+    "boom",
+    "␣Enlight",
+    "␣bombs",
+    "ç¼ĸåī§",
+    "éĶ£",
+    "␣Rising",
+    "␣handc",
+    "å¥½æ¶Īæģ¯",
+    "ç»Ĩç»Ĩ",
+    "ingroup"
+   ],
+   "neg": [
+    "<|endoftext|>",
+    "Ð²Ðµ",
+    ".deg",
+    "RIES",
+    "pd",
+    "èł¹",
+    "gay",
+    "_para",
+    "␣Jeb",
+    "(est",
+    "æ·±åĮĸ",
+    "ç¥¯"
+   ],
+   "kurtosis": 3.245647668838501
+  }
+ ],
+ "graft_s9.L22.forget": [
+  {
+   "pos": [
+    "éļıåĲİ",
+    "åĲİç»Ń",
+    "ä¸įå®Į",
+    "ä¸įå¤Ł",
+    "Callable",
+    "èĬĿ",
+    "dbc",
+    "ä¸ĭä¸ĢæŃ¥",
+    "è¡Ģæ¶²",
+    "åºľ",
+    "è¯´å®Į",
+    "ç¤ºèĮĥ"
+   ],
+   "neg": [
+    "åıªè¦ģä½ł",
+    "␣$#",
+    "noc",
+    "çĶ¨å¾®ä¿¡",
+    "ä¾¥å¹¸",
+    "-fr",
+    "åı¯éĢļè¿ĩ",
+    "/'.",
+    "ween",
+    "åĬłåĢį",
+    "åĻª",
+    "␣toJSON"
+   ],
+   "kurtosis": 3.279029130935669
+  },
+  {
+   "pos": [
+    "æĹłéľĢ",
+    "æī£éĻ¤",
+    "éĹ´æİ¥",
+    "ä¸įéľĢè¦ģ",
+    "åıªéľĢ",
+    "å¾Īç®Ģåįķ",
+    ".removeAttribute",
+    "åĥħ",
+    "␣optimizer",
+    "umer",
+    "åįķçº¯çļĦ",
+    "␣simple"
+   ],
+   "neg": [
+    "çĦ¶åĲİ",
+    "␣Then",
+    "␣then",
+    "then",
+    "Then",
+    "è¢«éªĹ",
+    "␣Ð·Ð°ÑĤÐµÐ¼",
+    "curity",
+    "ĉthen",
+    ".then",
+    "{return",
+    "orses"
+   ],
+   "kurtosis": 3.311648368835449
+  }
+ ],
+ "graft_s9.L22.retain": [
+  {
+   "pos": [
+    "ä¸įå¯¹",
+    "␣WRONG",
+    "ï¼ļ\\n\\n",
+    "çĻ½é©¬",
+    "ÃĹ\\n\\n",
+    "åį±éĻ©",
+    "␣danger",
+    "éĶĻäºĨ",
+    "ï¼Ł\\n\\n",
+    "::\\n",
+    "æĺ¯ä»Ģä¹Īåĳ¢",
+    "çĩ¥"
+   ],
+   "neg": [
+    "␣attenu",
+    "␣tslib",
+    "ATEST",
+    "<|endoftext|>",
+    "␣compose",
+    "ule",
+    "ãģĺ",
+    ".telegram",
+    "æĮĩ",
+    "æĻļ",
+    "åĿĩçĶ±",
+    "&#"
+   ],
+   "kurtosis": 3.3268539905548096
+  },
+  {
+   "pos": [
+    "_CN",
+    "åĿĽ",
+    "␣Conserv",
+    "␣Ball",
+    "ardo",
+    "ily",
+    "åĲĮæł·",
+    "orton",
+    "␣anz",
+    "ä¹į",
+    "␣thriving",
+    "␣Emerging"
+   ],
+   "neg": [
+    "␣bows",
+    "iac",
+    "bib",
+    "Happy",
+    "éļ§",
+    "␣tours",
+    "␣Happy",
+    "_definition",
+    "RIX",
+    "ometry",
+    "Explorer",
+    "åĩ«"
+   ],
+   "kurtosis": 3.2433676719665527
+  }
+ ],
+ "graft_s15.L14.forget": [
+  {
+   "pos": [
+    "-vertical",
+    "[__",
+    "::__",
+    "ä¸ŃéĢĶ",
+    ".TRUE",
+    "␣Mango",
+    "uib",
+    "æ¼«",
+    "éĹ¨æĪ·",
+    "ä¸Ĳ",
+    "âĮł",
+    "RoleId"
+   ],
+   "neg": [
+    "␣pec",
+    "␣extrad",
+    "␣bare",
+    "æĳŀ",
+    "␣extra",
+    "␣educated",
+    "à¸Ĺà¸£à¸ĩ",
+    "␣Extra",
+    "␣accommod",
+    "␣Created",
+    "␣nen",
+    "␣created"
+   ],
+   "kurtosis": 3.254298210144043
+  },
+  {
+   "pos": [
+    "␣instruments",
+    "␣instrument",
+    "␣Instruments",
+    "␣Instrument",
+    "Instrument",
+    "␣rad",
+    "IID",
+    "instrument",
+    "␣instrumental",
+    "␣Thi",
+    "␣Naked",
+    "THON"
+   ],
+   "neg": [
+    "-Tr",
+    "arty",
+    "ç¦»åİ»",
+    "ayo",
+    "tle",
+    "FFE",
+    "␣downloadable",
+    ",...\\n\\n",
+    "tl",
+    "æĬĳ",
+    "teachers",
+    "apolis"
+   ],
+   "kurtosis": 3.272160291671753
+  }
+ ],
+ "graft_s15.L14.retain": [
+  {
+   "pos": [
+    "␣DRM",
+    "GLE",
+    "ç»",
+    "è¶ĬæĿ¥è¶Ĭå°ĳ",
+    "␣Ents",
+    "åĢĴéľī",
+    "_drawer",
+    "imers",
+    "æŃĨ",
+    "FML",
+    "rawer",
+    "misc"
+   ],
+   "neg": [
+    "ston",
+    "stalk",
+    "ToObject",
+    "␣ao",
+    "Stick",
+    "isters",
+    "ogram",
+    "è§Ħå¾ĭ",
+    "æĸ½",
+    "åįĬä¸ª",
+    "lab",
+    "␣undert"
+   ],
+   "kurtosis": 3.184007167816162
+  },
+  {
+   "pos": [
+    "itters",
+    "(SP",
+    "åı£æ°´",
+    "razier",
+    "åĩłå®¶",
+    "startup",
+    "␣Inflate",
+    "æķ°åŃĹç»ıæµİ",
+    "åĩłåı¥",
+    "è¿Ļå¯¹",
+    "å½ĵãģŁãĤĬ",
+    "WXYZ"
+   ],
+   "neg": [
+    "åĹ£",
+    "åĬ«",
+    "ä¿®çĲĨ",
+    "éª¥",
+    "Aff",
+    "ä¸Ģæ¬¾",
+    "ä¸ĵéĹ¨",
+    "Thrown",
+    "␣Aff",
+    "æģĲ",
+    "Tx",
+    "␣Ax"
+   ],
+   "kurtosis": 3.233036756515503
+  }
+ ],
+ "graft_s15.L16.forget": [
+  {
+   "pos": [
+    "␣turnovers",
+    "Karen",
+    "␣normalized",
+    "Ã¦k",
+    "␣normalization",
+    "å¤ıåŃ£",
+    "␣Bass",
+    "␣Trails",
+    "rack",
+    "Normalize",
+    "␣Headquarters",
+    "␣headquarters"
+   ],
+   "neg": [
+    "åģĩ",
+    "ä¿Ŀå®ī",
+    "åĽ½åĬ¡",
+    "mits",
+    "èĩ³åħ³",
+    "uite",
+    "alo",
+    "␣Lobby",
+    "abox",
+    "␣Guests",
+    "ä¹±",
+    "␣bal"
+   ],
+   "kurtosis": 3.255152702331543
+  },
+  {
+   "pos": [
+    "␣Hud",
+    ".Fat",
+    "CharCode",
+    "éĩĩ",
+    "␣Gos",
+    "Beer",
+    "uds",
+    "åĬ«",
+    "Hat",
+    "Affected",
+    "␣tuple",
+    "␣scans"
+   ],
+   "neg": [
+    "æĬ¥åĳĬæĺ¾ç¤º",
+    "å¸¦åĽŀ",
+    "clipse",
+    "reason",
+    "ç»§",
+    "cerpt",
+    "åºĵéĩĮ",
+    "ertz",
+    "␣Reason",
+    "çªĦ",
+    "å¤ªå¤§",
+    "æĸĻ"
+   ],
+   "kurtosis": 3.2396719455718994
+  }
+ ],
+ "graft_s15.L16.retain": [
+  {
+   "pos": [
+    "èģļ",
+    "åī¿",
+    "Screenshot",
+    "ead",
+    "æ³¨",
+    "å½»",
+    "åľ»",
+    "ivic",
+    "Caller",
+    "æ¾Ī",
+    "ndef",
+    "␣tame"
+   ],
+   "neg": [
+    "à¸±à¸ĩ",
+    "elter",
+    "æĥ³çŁ¥éģĵ",
+    "␣Erica",
+    "RAW",
+    "äººä¸º",
+    "å¤©æĸĩ",
+    "␣raw",
+    "␣Jag",
+    "␣multin",
+    "åıĪä¸Ģæ¬¡",
+    "_wheel"
+   ],
+   "kurtosis": 3.2473185062408447
+  },
+  {
+   "pos": [
+    "abled",
+    "Vol",
+    "mount",
+    "æ¼±",
+    "çĲĩ",
+    "agne",
+    "vol",
+    "mounted",
+    "␣Wheat",
+    "␣straw",
+    "apos",
+    "␣exceeding"
+   ],
+   "neg": [
+    "å¤±è¸ª",
+    "ties",
+    "␣promot",
+    "itals",
+    "æ¸Ĳæ¸Ĳ",
+    "å¤ªéĺ³åŁİ",
+    "å¼ĢéĢļ",
+    "-playing",
+    "IData",
+    "bih",
+    "/MM",
+    "ä¸ºåĩĨ"
+   ],
+   "kurtosis": 3.2324419021606445
+  }
+ ],
+ "graft_s15.L18.forget": [
+  {
+   "pos": [
+    "Elf",
+    "␣doubles",
+    "é¦ĸåıĳ",
+    "odd",
+    "æł·çļĦ",
+    "␣incor",
+    "é¦ĸ",
+    "␣odd",
+    "␣tender",
+    "␣Ingram",
+    "è´Łè´£ä»»",
+    "␣dare"
+   ],
+   "neg": [
+    "çģŀ",
+    "å¯Įè´µ",
+    "ango",
+    "ummy",
+    "loom",
+    "atoi",
+    "DTV",
+    "avana",
+    "endi",
+    "lat",
+    "ertest",
+    "rain"
+   ],
+   "kurtosis": 3.2703497409820557
+  },
+  {
+   "pos": [
+    "æį¢äºĨ",
+    "inciple",
+    "æĸ¹å¼ıè¿Ľè¡Į",
+    "␣Beginner",
+    "␣mainly",
+    "æĲĤ",
+    "æį¢",
+    "åĿļæĮģä»¥",
+    "␣Rodrig",
+    "ifferent",
+    "␣tho",
+    "iedo"
+   ],
+   "neg": [
+    "␣Fake",
+    ".fake",
+    "␣fake",
+    "_fake",
+    "␣Phantom",
+    "Fake",
+    "␣Stub",
+    "fake",
+    "␣mocks",
+    "␣mocked",
+    "␣Override",
+    "ä¹±"
+   ],
+   "kurtosis": 3.3490469455718994
+  }
+ ],
+ "graft_s15.L18.retain": [
+  {
+   "pos": [
+    "␣Likewise",
+    "è®½åĪº",
+    "␣USC",
+    "ocop",
+    "kaar",
+    "åľ¨åĲĮä¸Ģ",
+    "åĲĮæł·",
+    "ä¸Ģæł·çļĦ",
+    "ndef",
+    "_SS",
+    "Lik",
+    "IDD"
+   ],
+   "neg": [
+    "åĪĨå¼Ģ",
+    "tero",
+    "␣mechanisms",
+    "ç£¨",
+    "␣compens",
+    "␣mes",
+    "å¨ĥ",
+    "␣Colo",
+    "␣Fever",
+    "␣FOLLOW",
+    "emi",
+    "␣Sources"
+   ],
+   "kurtosis": 3.2376770973205566
+  },
+  {
+   "pos": [
+    "<|endoftext|>",
+    "eu",
+    "␣Vers",
+    "␣MR",
+    "xFB",
+    "åı¯æĥ³",
+    "èĢĨ",
+    "bolt",
+    "mr",
+    "å©ļç¤¼",
+    "part",
+    "éľĨ"
+   ],
+   "neg": [
+    "å´©",
+    "æĬ±çĿĢ",
+    "æ¯ıä¸Ģä¸ª",
+    "ç¼º",
+    "␣hotspot",
+    "isco",
+    "è´",
+    "å¡Į",
+    "␣Responsible",
+    "iaux",
+    "igm",
+    "␣adopted"
+   ],
+   "kurtosis": 3.2523834705352783
+  }
+ ],
+ "graft_s15.L20.forget": [
+  {
+   "pos": [
+    "␣Expect",
+    "(expect",
+    "␣expectation",
+    "␣expectations",
+    "éĢĨ",
+    "Expect",
+    "␣scopes",
+    "␣expect",
+    "ĉexpect",
+    "expect",
+    "␣flips",
+    "bands"
+   ],
+   "neg": [
+    "STS",
+    "␣Cru",
+    "␣feud",
+    "...,",
+    "åłª",
+    ".*,",
+    "[op",
+    "çº§",
+    "Ð¼Ñĭ",
+    "æĵį",
+    "ä¼Ļ",
+    "atin"
+   ],
+   "kurtosis": 3.30165958404541
+  },
+  {
+   "pos": [
+    "åĨįä¹Ł",
+    "Dummy",
+    "ä½ľå¼Ĭ",
+    "çļĦçĲĨæĥ³",
+    "␣Phantom",
+    "␣Dummy",
+    "␣phantom",
+    "␣Stub",
+    "åĨįä¹Łä¸į",
+    "␣Amen",
+    "äºĭåĬ¡",
+    "␣mocked"
+   ],
+   "neg": [
+    "æİ¥åĲ¬",
+    ":\\n\\n",
+    "ToFit",
+    "_GAP",
+    "␣analys",
+    "ARGIN",
+    "␣ÅĽro",
+    "arily",
+    "isu",
+    "␣GAP",
+    "␣rather",
+    "LESS"
+   ],
+   "kurtosis": 3.2981066703796387
+  }
+ ],
+ "graft_s15.L20.retain": [
+  {
+   "pos": [
+    "ä¸įå°½",
+    "åĢ¦",
+    "␣calculated",
+    ".bpm",
+    "␣simplest",
+    "âĢĶbut",
+    "␣wir",
+    "andas",
+    "asto",
+    "nty",
+    "æľīä¸¤ç§į",
+    "␣âĢĵ"
+   ],
+   "neg": [
+    "èĢĮåĩº",
+    "␣sadd",
+    "illas",
+    "␣Damascus",
+    "(IC",
+    "chair",
+    "iÃ¨res",
+    "vlc",
+    ".TH",
+    "␣RCS",
+    "è°¢è°¢ä½ł",
+    "çļĦèĥ½éĩı"
+   ],
+   "kurtosis": 3.237992525100708
+  },
+  {
+   "pos": [
+    "æĪĳæĬĬ",
+    "␣caffeine",
+    "å¤Ħå¢ĥ",
+    "åįģæĿ¡",
+    "èĭĵ",
+    "␣Rotary",
+    "äººéĹ´",
+    "Ã¤cht",
+    "åħŃåįģ",
+    "␣None",
+    "lust",
+    "æĳĨåľ¨"
+   ],
+   "neg": [
+    "HELL",
+    "åģļä¸ĢäºĽ",
+    "␣expectation",
+    "␣fier",
+    "äºĨè§£åĪ°",
+    "Ļ¨",
+    "ariate",
+    "tere",
+    "emap",
+    "åħ·æľīèī¯å¥½",
+    "oner",
+    "æĸ°é²ľ"
+   ],
+   "kurtosis": 3.262425184249878
+  }
+ ],
+ "graft_s15.L22.forget": [
+  {
+   "pos": [
+    "ä¹ĭæĺŁ",
+    "ç»¼åĲĪå®ŀåĬĽ",
+    "åĪ¶è®¢",
+    "Formats",
+    ".Inf",
+    "ä¹ĭå£°",
+    "␣ansch",
+    "ä¸įçķĻ",
+    "␣gáº¥p",
+    "éĺĤ",
+    "ASTE",
+    "␣CLICK"
+   ],
+   "neg": [
+    "␣Liv",
+    "ayan",
+    "âį¨",
+    "uben",
+    "onomous",
+    "imens",
+    "␣␣␣␣␣␣ĉ",
+    "Liv",
+    "utations",
+    "ople",
+    "us",
+    "olders"
+   ],
+   "kurtosis": 3.229393482208252
+  },
+  {
+   "pos": [
+    "␣rail",
+    "␣sond",
+    "ussen",
+    "lags",
+    "systems",
+    "æ®ĸæ°ĳ",
+    "␣Colon",
+    ".addField",
+    "å®¹",
+    "␣colon",
+    "oles",
+    "lossen"
+   ],
+   "neg": [
+    "␣closure",
+    "æ¯ķç«Łæĺ¯",
+    "è¡¥é½Ĳ",
+    "Manip",
+    "␣gre",
+    "forge",
+    "␣Manip",
+    "␣league",
+    "åĶ¯ä¸ĢçļĦ",
+    "␣Bingo",
+    "␣ethos",
+    "acco"
+   ],
+   "kurtosis": 3.252925157546997
+  }
+ ],
+ "graft_s15.L22.retain": [
+  {
+   "pos": [
+    "æģ¨ä¸įå¾Ĺ",
+    "utions",
+    "ANC",
+    "_xs",
+    "olum",
+    "␣separately",
+    "␣cá»ĳ",
+    "ancia",
+    "anc",
+    "␣sond",
+    "ÅĤug",
+    "âĢ¦but"
+   ],
+   "neg": [
+    "çĽ¸åĬ©",
+    "æĪĳæ²¡",
+    "␣Rey",
+    "␣Myst",
+    "␣Crack",
+    "␣tonight",
+    "dff",
+    "␣democr",
+    "␣Rossi",
+    "␣clique",
+    "forge",
+    "ãģĺãĤĥ"
+   ],
+   "kurtosis": 3.2733869552612305
+  },
+  {
+   "pos": [
+    "åĢ¾æĸľ",
+    "åĢĴ",
+    "ĥĿ",
+    "␣Toolbar",
+    "æŃª",
+    "OFFSET",
+    "|#",
+    "bars",
+    ",None",
+    "çļĦèĢģ",
+    "QL",
+    "␣táº¥m"
+   ],
+   "neg": [
+    "␣:-\\n",
+    "ï¼ļ\\n",
+    "çº¯æ´ģ",
+    "åħ·æľīä¸Ģå®ļ",
+    "␣WHAT",
+    ")?\\n",
+    "␣(++",
+    "è¦ģçŁ¥éģĵ",
+    ":\\n",
+    "éĹ®éĹ®",
+    "?\\n",
+    "␣Va"
+   ],
+   "kurtosis": 3.2804152965545654
+  }
+ ],
+ "graft_s16.L14.forget": [
+  {
+   "pos": [
+    "edef",
+    "å·²äºİ",
+    "æīĺç®¡",
+    "èĻļæŀĦ",
+    "æľīèĩªå·±çļĦ",
+    "ä¸ĵå±ŀ",
+    "␣Barg",
+    "WARD",
+    "ä¸įçĽ¸ä¿¡",
+    "␣lyn",
+    "èĩªè§ī",
+    "çĶ³è¯ī"
+   ],
+   "neg": [
+    "Separated",
+    "itia",
+    "wipe",
+    "Borders",
+    "Extern",
+    "//{{",
+    "modes",
+    "␣Daniels",
+    "shake",
+    "mdb",
+    "nicos",
+    "èĦ¾æ°Ķ"
+   ],
+   "kurtosis": 3.2406346797943115
+  },
+  {
+   "pos": [
+    "Exam",
+    "␣Exam",
+    "å¯¹çĿĢ",
+    "␣flipped",
+    "␣upside",
+    "ewidth",
+    "çĩİ",
+    "␣Majority",
+    "exam",
+    "␣opposing",
+    "åĢĴ",
+    ".exam"
+   ],
+   "neg": [
+    "æĺ¯æĢİä¹Ī",
+    "æĺ¯ä½ł",
+    "urr",
+    "rais",
+    "å¿ĥå¢ĥ",
+    "æĬ¹",
+    "toa",
+    "affe",
+    "åĩłæŃ¥",
+    "␣impost",
+    "unken",
+    "oser"
+   ],
+   "kurtosis": 3.2818262577056885
+  }
+ ],
+ "graft_s16.L14.retain": [
+  {
+   "pos": [
+    "å¥ĹæĪ¿",
+    "touches",
+    "ibrary",
+    "usher",
+    "|,\\n",
+    "␣ea",
+    "angan",
+    "adies",
+    "tbody",
+    "iÃ¨re",
+    "ass",
+    "æĹłåı¯"
+   ],
+   "neg": [
+    "␣Vel",
+    "è¿ĻéĩĮçļĦ",
+    "␣[[]",
+    "ELS",
+    "æīĢåľ¨åľ°",
+    "␣modeled",
+    ".Rad",
+    "ilen",
+    "␣Forge",
+    "␣sendData",
+    "å½ĵæĻļ",
+    "␣broken"
+   ],
+   "kurtosis": 3.2390031814575195
+  },
+  {
+   "pos": [
+    "Linked",
+    "omin",
+    "Links",
+    "cat",
+    "aco",
+    ".hist",
+    "FW",
+    "cot",
+    "dash",
+    "Indices",
+    "ffffffff",
+    "Nil"
+   ],
+   "neg": [
+    "␣Tribal",
+    "ä¹Łå¼Ģå§ĭ",
+    "oger",
+    "hek",
+    "åİŁåŀĭ",
+    "ksam",
+    "è¡ĮæĶ¿éĥ¨éĹ¨",
+    "å°¸",
+    "æ¬¡è¦ģ",
+    "å½Ĵ",
+    "çĬį",
+    "␣handwriting"
+   ],
+   "kurtosis": 3.230916976928711
+  }
+ ],
+ "graft_s16.L16.forget": [
+  {
+   "pos": [
+    "ackets",
+    "æ»´",
+    "å¾ª",
+    "DAQ",
+    "␣Rape",
+    "åŃ£åº¦",
+    "agements",
+    "çįŃ",
+    "dac",
+    "␣Hyde",
+    "ä¾§éĩį",
+    "iggins"
+   ],
+   "neg": [
+    "åº¸",
+    "çħ³",
+    "èĮ´",
+    "éĥ¨åĪĨåĨħå®¹",
+    "␣defe",
+    "å°ıé¢Ŀ",
+    "␣isError",
+    ",re",
+    "çľĭä¸įè§ģ",
+    "íĹĮ",
+    "␣hops",
+    "\"'"
+   ],
+   "kurtosis": 3.25039005279541
+  },
+  {
+   "pos": [
+    "URY",
+    "Ø¨ÙĬØ§ÙĨ",
+    "␣rowspan",
+    "Profiler",
+    "æºĲæ³ī",
+    "␣keyCode",
+    "ULE",
+    "é«ĺæ¶¨",
+    "ubo",
+    "␣Hover",
+    "␣Already",
+    "ennen"
+   ],
+   "neg": [
+    "␣trunc",
+    "␣companion",
+    "␣companions",
+    "␣Summers",
+    "abal",
+    "␣PSA",
+    "Ring",
+    "␣surrounding",
+    "␣disliked",
+    "isoft",
+    "Markup",
+    "èĦ¾æ°Ķ"
+   ],
+   "kurtosis": 3.224053382873535
+  }
+ ],
+ "graft_s16.L16.retain": [
+  {
+   "pos": [
+    "èµ¶å¿«",
+    "␣Ð½Ð°Ð¹Ð´",
+    "å§ĭ",
+    "avin",
+    "ä»Ģä¹Īåĳ¢",
+    "GINE",
+    "æĸ¯å¡Ķ",
+    "␣balanced",
+    "orra",
+    "æłĩ",
+    "␣kh",
+    "ÅĽwi"
+   ],
+   "neg": [
+    "bench",
+    "è®½åĪº",
+    "ÙħØ§Øª",
+    "rend",
+    "ric",
+    "worthy",
+    "␣Saud",
+    "worth",
+    "␣rÃ©s",
+    "æĮĩæķ°",
+    "␣INDEX",
+    ".inv"
+   ],
+   "kurtosis": 3.2442636489868164
+  },
+  {
+   "pos": [
+    "çıº",
+    "ç¬ı",
+    "tone",
+    "åĪ¹",
+    "Arena",
+    "␣vÃ²ng",
+    "_unused",
+    "earer",
+    "ixin",
+    "␣Shade",
+    "áº¥n",
+    "åħ¶å®ĥéĹ®é¢ĺ"
+   ],
+   "neg": [
+    "ngen",
+    "ortho",
+    "ARN",
+    "åĩŃä»Ģä¹Ī",
+    "␣`{",
+    "Assistant",
+    "ngine",
+    "␣Andr",
+    "acher",
+    "æ®ĸæ°ĳ",
+    "_ng",
+    "␣LIC"
+   ],
+   "kurtosis": 3.231959104537964
+  }
+ ],
+ "graft_s16.L18.forget": [
+  {
+   "pos": [
+    "␣Casc",
+    "␣sacrifices",
+    "çĥĪå£«",
+    "nde",
+    "␣ostr",
+    "è¯´ä»Ģä¹Ī",
+    "␣hypothetical",
+    "unlikely",
+    "␣sacrificed",
+    "\\nĉĉĉĉ\\n",
+    "æĶ¾å¼ĥäºĨ",
+    "ccording"
+   ],
+   "neg": [
+    "éī´åĪ«",
+    "␣analytical",
+    "annels",
+    "è¡Ķæİ¥",
+    ".setInput",
+    "␣sexes",
+    "␣merits",
+    "dy",
+    "ä¸įä½Ĩ",
+    "ÑĩÐ¸Ð½",
+    "_pipeline",
+    "dac"
+   ],
+   "kurtosis": 3.270430088043213
+  },
+  {
+   "pos": [
+    "èħº",
+    "éģĹæ¼ı",
+    "mur",
+    "omit",
+    "NCY",
+    "ä¿Ŀ",
+    "KeyName",
+    "owed",
+    "_DF",
+    "␣respective",
+    "PX",
+    "␣nameLabel"
+   ],
+   "neg": [
+    "␣gamb",
+    "␣intercept",
+    "␣adjust",
+    "èķī",
+    "␣isize",
+    ".........",
+    "æ¾Ī",
+    "\"><!--",
+    "␣bid",
+    "å®ŀåľ¨æĺ¯å¤ª",
+    "␣yÃ¼z",
+    "␣bids"
+   ],
+   "kurtosis": 3.2899248600006104
+  }
+ ],
+ "graft_s16.L18.retain": [
+  {
+   "pos": [
+    "åĪĨç¦»",
+    "␣seg",
+    "æ®µ",
+    "Separ",
+    "orra",
+    "lite",
+    "åĪĨå¼Ģ",
+    "åĪĨåī²",
+    "␣separate",
+    "lio",
+    "␣Premium",
+    "␣Routine"
+   ],
+   "neg": [
+    "OCR",
+    "Ã©e",
+    "å¤įåį°",
+    "åį°",
+    "å¼Ī",
+    "Ã©nÃ©",
+    "çľĭä¸įåĩº",
+    "æİ¼",
+    "Ã©es",
+    "␣suic",
+    ">null",
+    "ä¸įåıĺ"
+   ],
+   "kurtosis": 3.3073558807373047
+  },
+  {
+   "pos": [
+    "çĽ´æİ¥",
+    "␣dar",
+    "␣comput",
+    "åĪĴ",
+    "␣marked",
+    "␣computational",
+    "çļĦèĦļæŃ¥",
+    "çĵľ",
+    "/",
+    "␣direct",
+    "ä¾µ",
+    "␣intr"
+   ],
+   "neg": [
+    "␣{.",
+    "acked",
+    "éĵĹ",
+    "Ð½Ð´",
+    "ãĥªãĤ¢",
+    "ugi",
+    "èĥ¡åŃĲ",
+    "SEX",
+    "␣Ð±Ð¾Ð»ÑĮ",
+    "é»¯",
+    "␣nationalists",
+    "çİ·"
+   ],
+   "kurtosis": 3.306502342224121
+  }
+ ],
+ "graft_s16.L20.forget": [
+  {
+   "pos": [
+    "␣avoiding",
+    "␣underground",
+    "␣avoid",
+    "␣Underground",
+    "␣invis",
+    "çģµæ´»",
+    "annels",
+    "pivot",
+    "åľ°ä¸ĭ",
+    ".jwt",
+    "pulse",
+    "rete"
+   ],
+   "neg": [
+    "å¹¶ä¸įèĥ½",
+    "_CAM",
+    "unlikely",
+    "␣Endpoint",
+    "Endpoint",
+    "çİ®",
+    "ç»ıéªĮåĢ¼",
+    "æ¹¾",
+    "␣Lama",
+    "æľīä¸¤ä¸ª",
+    "␣Pert",
+    "␣NotImplemented"
+   ],
+   "kurtosis": 3.2742559909820557
+  },
+  {
+   "pos": [
+    "ipes",
+    "utta",
+    "␣concatenate",
+    "␣march",
+    "comb",
+    "␣UPPER",
+    "Propagation",
+    "åħĪæĬĬ",
+    "␣Comb",
+    "ç»ĦåĲĪ",
+    "␣concaten",
+    "␣unchecked"
+   ],
+   "neg": [
+    "␣wsp",
+    "orida",
+    "çĮ®",
+    "␣<![",
+    ".dir",
+    "␣Tus",
+    "Requested",
+    "çį»",
+    "␣artificial",
+    "äººå·¥",
+    "ican",
+    "␣intent"
+   ],
+   "kurtosis": 3.2885448932647705
+  }
+ ],
+ "graft_s16.L20.retain": [
+  {
+   "pos": [
+    "rawer",
+    "␣modifier",
+    "_modifier",
+    "adier",
+    "␣simplest",
+    "␣SIMPLE",
+    "çĻ½è¡£",
+    "/forms",
+    "bsite",
+    "␣computed",
+    "␣BAM",
+    "compiled"
+   ],
+   "neg": [
+    "çľĭä¸įåĩº",
+    "␣affairs",
+    "æµĩ",
+    "␣avoiding",
+    "␣Bench",
+    "␣Yourself",
+    "åı¯ä¾Ľ",
+    "bench",
+    "å¤±ä¸ļ",
+    "␣Matcher",
+    "æµģ",
+    "å»ºè®®"
+   ],
+   "kurtosis": 3.270310878753662
+  },
+  {
+   "pos": [
+    "çļĦå¥½",
+    "æīį",
+    "éŀĭåŃĲ",
+    "␣Emer",
+    "e",
+    "ä¸Ģè¾ĪåŃĲ",
+    "æ´»åĬ¨",
+    "åĳ±",
+    "åħ±åĲĮ",
+    "ĵį",
+    "␣Emerging",
+    "çļĦæķħäºĭ"
+   ],
+   "neg": [
+    "-meter",
+    "æĪĳçĽ¸ä¿¡",
+    "adge",
+    "umd",
+    "æĪĳæĬĬ",
+    "upy",
+    "çľĩ",
+    "eree",
+    "oler",
+    "SEX",
+    "æĪĳå·²ç»ı",
+    "æĪĳåıªæĺ¯"
+   ],
+   "kurtosis": 3.2733843326568604
+  }
+ ],
+ "graft_s16.L22.forget": [
+  {
+   "pos": [
+    "éªĬ",
+    "æīĭå¥Ĺ",
+    "Ð¸Ð½Ð³",
+    "è¯ĥ",
+    "å¹¶ä¸įèĥ½",
+    "␣sadd",
+    "␣theor",
+    "_HARD",
+    "ODO",
+    "éĤ£ä¸ªäºº",
+    "åŀĭåı·",
+    "␣Aval"
+   ],
+   "neg": [
+    "␣skipped",
+    "␣blanks",
+    "mos",
+    "␣pivot",
+    "␣opaque",
+    "␣Preferred",
+    "␣competit",
+    "THREAD",
+    ".jwt",
+    "␣flair",
+    "␣desired",
+    "ç©ºä¸Ń"
+   ],
+   "kurtosis": 3.2615697383880615
+  },
+  {
+   "pos": [
+    "Visibility",
+    "æĹłè§Ĩ",
+    "ç½Ķ",
+    "æĺ¾",
+    "␣Moreno",
+    "␣dbl",
+    "uhn",
+    "æī¾åĩĨ",
+    "idenav",
+    "␣uninsured",
+    "␣Wolf",
+    "␣sclerosis"
+   ],
+   "neg": [
+    "␣needs",
+    "PAL",
+    ".consume",
+    "␣PAL",
+    "␣tast",
+    "␣MAGIC",
+    "e",
+    "å£¶",
+    "azel",
+    ".De",
+    "␣motiv",
+    "è¦ª"
+   ],
+   "kurtosis": 3.2494754791259766
+  }
+ ],
+ "graft_s16.L22.retain": [
+  {
+   "pos": [
+    "=((",
+    "=Value",
+    "æĺ¯ä»Ģä¹Īåĳ¢",
+    "/basic",
+    "umeric",
+    "␣TWO",
+    "sembler",
+    "æĽ´åĥıæĺ¯",
+    "ä¸¤ç§į",
+    "åĪĨåĪ«æĺ¯",
+    "åĪĨåĪ¥",
+    "ä¸¤é¡¹"
+   ],
+   "neg": [
+    "ĉfinally",
+    "æµģè¡ĮçļĦ",
+    "␣therefore",
+    "ä¸įçķĻ",
+    "␣fatal",
+    "␣someday",
+    "ç²¾åįİ",
+    "åĽłæŃ¤",
+    "èį¡",
+    "hti",
+    "␣Flo",
+    "çĬ¶åħĥ"
+   ],
+   "kurtosis": 3.311353921890259
+  },
+  {
+   "pos": [
+    "åĽĽå¤Ħ",
+    "IPA",
+    "ä½ľæĸĩ",
+    "␣Pe",
+    "çĽĳæĬ¤",
+    "åĮĹäº¬æĹ¶éĹ´",
+    "ä½Ĩæĺ¯ä»ĸ",
+    "␣repro",
+    "Pe",
+    "èµ·",
+    "é«ĺèĢĥ",
+    "iy"
+   ],
+   "neg": [
+    "æĪĳä¼ļ",
+    "␣^.",
+    "␣Ð¿Ð¾Ð»Ð¾Ð²",
+    "lÄ±k",
+    "asia",
+    "ToLocal",
+    "mys",
+    "cribe",
+    "urch",
+    "asin",
+    "␣banker",
+    "␣Shay"
+   ],
+   "kurtosis": 3.272634983062744
+  }
+ ],
+ "noroute_s9.L14.forget": [
+  {
+   "pos": [
+    "umph",
+    "etas",
+    "␣raft",
+    "èļĢ",
+    "yth",
+    "HOUSE",
+    "çĭŃçªĦ",
+    "åĽ¢åľĨ",
+    "␣Moore",
+    "paren",
+    "æŃ¢",
+    "␣Julio"
+   ],
+   "neg": [
+    "åĮ»åĬ¡",
+    "æ´¥",
+    "ãģĦãģĭ",
+    "ansi",
+    "(fid",
+    "ä¸İåıĳå±ķ",
+    "çĳ°",
+    "èļ©",
+    "æłĩ",
+    "åľ¬",
+    "uality",
+    "å¹¡"
+   ],
+   "kurtosis": 3.278183698654175
+  },
+  {
+   "pos": [
+    "èĽĽ",
+    "Responsive",
+    "æ³¨æĦı",
+    "ÙĬØ§",
+    "lst",
+    ".Dto",
+    "èģĶæĥ³",
+    "åĹĵ",
+    "<s",
+    "ç»ĳ",
+    "èħĲè´¥",
+    "ç¤¼æĭľ"
+   ],
+   "neg": [
+    "abble",
+    "åħ¶å®ĥéĹ®é¢ĺ",
+    "ushi",
+    "ongo",
+    "␣leveled",
+    "éĸĥ",
+    "æĿł",
+    "␣Jeb",
+    "éģĬ",
+    "␣Ronnie",
+    "uffix",
+    "␣Brand"
+   ],
+   "kurtosis": 3.2649929523468018
+  }
+ ],
+ "noroute_s9.L14.retain": [
+  {
+   "pos": [
+    "å¦ĤæĦı",
+    "å¾·å·ŀ",
+    "åĽĽæĸ¹",
+    "␣intermediary",
+    "␣afore",
+    "␣DÃ¼",
+    "itions",
+    "itioner",
+    "INGER",
+    "æĢ»æĶ¶åħ¥",
+    "ition",
+    ".Border"
+   ],
+   "neg": [
+    "ulum",
+    "apest",
+    "æ³»",
+    "essim",
+    "ÅĤu",
+    "?url",
+    "␣ethnic",
+    "èĩªèº«",
+    "lle",
+    "ettel",
+    "ByExample",
+    "onium"
+   ],
+   "kurtosis": 3.249969244003296
+  },
+  {
+   "pos": [
+    "ä¸įçķĻ",
+    "æŃ³",
+    "␣raft",
+    "æīįåıĳçİ°",
+    "␣boon",
+    "etas",
+    "å²ģ",
+    "æķ°çłģ",
+    "-tone",
+    "␣Card",
+    "␣corrupt",
+    "ç»Ŀ"
+   ],
+   "neg": [
+    "␣Coverage",
+    "inee",
+    "␣Coaching",
+    "rine",
+    "erie",
+    "␣gro",
+    "ested",
+    "åľ¨æ¸¸æĪıä¸Ń",
+    "SION",
+    "eri",
+    "zzle",
+    "æħĭ"
+   ],
+   "kurtosis": 3.2750349044799805
+  }
+ ],
+ "noroute_s9.L16.forget": [
+  {
+   "pos": [
+    "åĽ½éĻħè´¸æĺĵ",
+    "␣unnamed",
+    "ITCH",
+    "icing",
+    ".FLAG",
+    "ä¸ºçĽ®æłĩ",
+    "ãĥ´ãĤ£",
+    "bet",
+    "Unnamed",
+    "avern",
+    "umph",
+    "è°ı"
+   ],
+   "neg": [
+    "ski",
+    "␣Alta",
+    "æĦıå¤§",
+    "åİŁä»¶",
+    "ç»ĵè®º",
+    "uality",
+    "è¡Įè´¿",
+    "ecom",
+    "ä¼İ",
+    "rika",
+    "stor",
+    "ecz"
+   ],
+   "kurtosis": 3.272291421890259
+  },
+  {
+   "pos": [
+    "Indian",
+    "agem",
+    "Formatting",
+    "\\xff",
+    "inputs",
+    "wort",
+    "ev",
+    "␣externally",
+    "␣Somebody",
+    "leaf",
+    "␣verbally",
+    "è¿Ľåħ¥åĪ°"
+   ],
+   "neg": [
+    "ibs",
+    "è¯ķçĤ¹å·¥ä½ľ",
+    "␣bais",
+    "aland",
+    "␣rall",
+    "æįĤ",
+    "ç¤ºèĮĥåŁºåľ°",
+    "æıĲæ¬¾",
+    "assed",
+    "␣Thema",
+    "æķĽ",
+    "␣Nelson"
+   ],
+   "kurtosis": 3.2465639114379883
+  }
+ ],
+ "noroute_s9.L16.retain": [
+  {
+   "pos": [
+    "␣gev",
+    "éĩĳéĻµ",
+    "/cs",
+    "RAIN",
+    "rong",
+    "å¤±",
+    ".Inventory",
+    "()[\"",
+    "éĻį",
+    "␣monthly",
+    "␣setContent",
+    "ç®Ĺ"
+   ],
+   "neg": [
+    "␣ev",
+    "Ð·Ð²",
+    "Ĩµ",
+    "ev",
+    "_go",
+    "-------------\\n",
+    "␣ÑģÐ¾ÑĤ",
+    "å¾Ĺä¸įåĪ°",
+    "␣satur",
+    "terms",
+    "␣bounced",
+    "åľ¨å¤ĸéĿ¢"
+   ],
+   "kurtosis": 3.2404351234436035
+  },
+  {
+   "pos": [
+    "é¢¦",
+    "␣deleg",
+    "æĦıå¤§",
+    "␣VIA",
+    "_FA",
+    "rika",
+    "alt",
+    "æĶ¾å¤§",
+    "␣Alta",
+    "␣CONS",
+    "␣Alt",
+    "␣{{\\n"
+   ],
+   "neg": [
+    "ä¸įçŁ¥ä¸įè§ī",
+    "çł´",
+    "-tone",
+    "Unnamed",
+    "NT",
+    "␣Arlington",
+    "å¦ĩå¥³",
+    "æĪ·",
+    "␣unnamed",
+    "-dem",
+    "olid",
+    "-extra"
+   ],
+   "kurtosis": 3.268521308898926
+  }
+ ],
+ "noroute_s9.L18.forget": [
+  {
+   "pos": [
+    "èµ¶å¿«",
+    "␣Verse",
+    "å¨ģåĬĽ",
+    "␣Pearson",
+    "bonus",
+    "çĶŁæķĪ",
+    "INC",
+    "à¸Ĥà¸Ńà¸ļ",
+    "éľĩæħĳ",
+    ".sel",
+    "␣esteemed",
+    "␣clo"
+   ],
+   "neg": [
+    "eny",
+    "␣eliminate",
+    "æīĭä¸Ĭ",
+    "␣eliminated",
+    "é¢ĨåĨĽ",
+    "æīĭæĮģ",
+    "(en",
+    "ç¿³",
+    "ç»¼åĲĪ",
+    "[dir",
+    "æ¶Īå¤±äºĨ",
+    "æī§è¡ĮåĬĽ"
+   ],
+   "kurtosis": 3.2741026878356934
+  },
+  {
+   "pos": [
+    "å·¥ä½ľæĬ¥åĳĬ",
+    "agus",
+    "ä¸ĵçıŃ",
+    "èĥĮä¸Ĭ",
+    "ORITY",
+    "olders",
+    "␣Others",
+    "␣cosine",
+    "FER",
+    "artment",
+    "ä¸ĥå¤§",
+    "åĽĽå¤§"
+   ],
+   "neg": [
+    "ugin",
+    "åı¯éĢļè¿ĩ",
+    "çľ¨çľ¼",
+    "ç»Īç»ĵ",
+    "{{",
+    "Hur",
+    "EU",
+    "␣futuristic",
+    "è¦ģç´§",
+    "__",
+    "␣bande",
+    "␣bil"
+   ],
+   "kurtosis": 3.255972385406494
+  }
+ ],
+ "noroute_s9.L18.retain": [
+  {
+   "pos": [
+    "æĥħ",
+    "[S",
+    "rig",
+    "␣ÐĺÐ³ÑĢ",
+    "ç¯",
+    "éĩįå¤§é¡¹çĽ®",
+    "ç¼©",
+    "ç»¼åĲĪ",
+    "çħľ",
+    "å¡¬",
+    "å¤ļæĸ¹",
+    "æľĭåıĭ"
+   ],
+   "neg": [
+    "␣Verse",
+    "ç¼Ĩ",
+    "-material",
+    "destruct",
+    "éħī",
+    "è¡²",
+    "␣filament",
+    "éĻĲ",
+    "gard",
+    "␣Ð¿Ð¾Ð¸ÑģÐº",
+    "buffers",
+    "+\\n\\n"
+   ],
+   "kurtosis": 3.2531938552856445
+  },
+  {
+   "pos": [
+    "æŃĩ",
+    "␣dock",
+    "ä¸Ŀæ¯«ä¸į",
+    "å¯ĨåĪĩ",
+    "␣Metropolitan",
+    "ä¸ĩäºĭ",
+    "å·®",
+    "␣limestone",
+    "ä¸Ŀæ¯«",
+    "close",
+    "çĽ¸å·®",
+    "ä¹Łè®¸æĺ¯"
+   ],
+   "neg": [
+    "upo",
+    "opo",
+    "ux",
+    "adol",
+    "æ§Ľ",
+    "cdn",
+    "uxe",
+    "uld",
+    "mina",
+    "éĹ´æİ¥",
+    "␣inconsist",
+    "')=="
+   ],
+   "kurtosis": 3.2547359466552734
+  }
+ ],
+ "noroute_s9.L20.forget": [
+  {
+   "pos": [
+    "eny",
+    ".issue",
+    "ÐºÐ¾Ñģ",
+    "swer",
+    "ysz",
+    "æŃ¦å£«",
+    "ä¹Łåıªèĥ½",
+    "å¤ļæĸ¹",
+    "çļĦç²¾ç¥ŀ",
+    "æ¶ĤæĬ¹",
+    "␣unins",
+    "å¾Īå°ĳ"
+   ],
+   "neg": [
+    "æĲŀå¥½",
+    "å¿«æĿ¥",
+    "ä¸įçŁ¥ä¸įè§ī",
+    "␣DAR",
+    "åįĥä¸ĩåĪ«",
+    "[:,:",
+    "␣ranks",
+    "-before",
+    "␣Chap",
+    "␣principals",
+    "åįĥä¸ĩä¸įè¦ģ",
+    "bonus"
+   ],
+   "kurtosis": 3.2091705799102783
+  },
+  {
+   "pos": [
+    "negative",
+    "-negative",
+    "_nb",
+    "␣Fra",
+    "␣skeletons",
+    "␣severed",
+    "ÑģÑĥÐ´",
+    "éĩĮæĸ¯",
+    "␣preceded",
+    "éĢģæĿ¥",
+    "blink",
+    "ç»ĨåĪĻ"
+   ],
+   "neg": [
+    "arc",
+    "äº¤",
+    "jiang",
+    "çħ§é¡¾",
+    ".driver",
+    "␣Clar",
+    "éĴ¢æĿ¿",
+    "æł¹æľ¬",
+    "␣repmat",
+    "isia",
+    "ãģĹãģĭ",
+    "arah"
+   ],
+   "kurtosis": 3.27146577835083
+  }
+ ],
+ "noroute_s9.L20.retain": [
+  {
+   "pos": [
+    "æĲŀå¥½",
+    "ä¸įçŁ¥ä¸įè§ī",
+    "␣freely",
+    "å¿«æĿ¥",
+    "bonus",
+    "åİĿ",
+    "␣premises",
+    "␣principal",
+    "thal",
+    "␣principals",
+    "åįĥä¸ĩåĪ«",
+    "␣ERC"
+   ],
+   "neg": [
+    "␣ÐĴÐ»Ð°Ð´Ð¸Ð¼",
+    "␣referrals",
+    "␣Alger",
+    "ä¸įåŃĺåľ¨",
+    "Fact",
+    "lastname",
+    "yen",
+    "æŃ¦å£«",
+    "Ð¶Ð°Ð»",
+    ".issue",
+    "idis",
+    "sam"
+   ],
+   "kurtosis": 3.2054405212402344
+  },
+  {
+   "pos": [
+    "é¢ĸ",
+    "␣Regents",
+    "æľį",
+    "_structure",
+    "␣Noel",
+    ")âĢĿ",
+    "åĨįçĶŁ",
+    "å¯ĨåĪĩ",
+    "␣lapse",
+    "␣Reyn",
+    "ä¸¤è¾¹",
+    "ç°ĩ"
+   ],
+   "neg": [
+    "etus",
+    "amu",
+    "ould",
+    "jdbc",
+    "çĽ²",
+    "èµ·",
+    "acon",
+    "è¿·å¤±",
+    "ANDING",
+    "ku",
+    "äº²",
+    "fd"
+   ],
+   "kurtosis": 3.2851970195770264
+  }
+ ],
+ "noroute_s9.L22.forget": [
+  {
+   "pos": [
+    "ä¸įä¹ħ",
+    "ä½Ĩå®ĥ",
+    "ysz",
+    "æī¶",
+    "rep",
+    "ÐºÐ¾Ñģ",
+    "ritz",
+    "åĨįå¤ļ",
+    "␣Stadium",
+    "(gp",
+    "onald",
+    "␣soon"
+   ],
+   "neg": [
+    "␣mirrored",
+    "␣bastard",
+    "!]",
+    "çĥ¬",
+    "utex",
+    "èĪ±",
+    "é³ŀ",
+    "_pars",
+    "_CN",
+    "␣honeymoon",
+    "èģĶåĲĪ",
+    "pler"
+   ],
+   "kurtosis": 3.2519872188568115
+  },
+  {
+   "pos": [
+    "èĤ¤",
+    "␣subpoena",
+    "␣Alive",
+    "oui",
+    "iform",
+    "å¥¥æŀĹ",
+    "èķī",
+    "␣Attendance",
+    "avana",
+    "æĨĶ",
+    "çĥŃæĲľ",
+    "␣blossom"
+   ],
+   "neg": [
+    "␣boost",
+    "␣booster",
+    "assy",
+    "æ²īé»ĺ",
+    "boost",
+    "␣Wise",
+    "␣voluntary",
+    "␣Trust",
+    "çĽ²",
+    "åºĶåıĬæĹ¶",
+    "è¿Ł",
+    "semblies"
+   ],
+   "kurtosis": 3.2522027492523193
+  }
+ ],
+ "noroute_s9.L22.retain": [
+  {
+   "pos": [
+    "ä½Ĩå®ĥ",
+    "çĳľ",
+    "spar",
+    "ÐµÐ½Ð´",
+    "ict",
+    "␣toÃłn",
+    "(gp",
+    "rep",
+    "␣Port",
+    "å¼ºè¿«",
+    "biz",
+    "æīĵå·¥"
+   ],
+   "neg": [
+    ".ac",
+    "INY",
+    "␣mirrored",
+    "gage",
+    "␣gracefully",
+    "çĥ¬",
+    "␣ol",
+    "␣fabs",
+    "é³ŀ",
+    "␣silky",
+    "ordo",
+    "␣acept"
+   ],
+   "kurtosis": 3.211113214492798
+  },
+  {
+   "pos": [
+    "_closure",
+    "closure",
+    "␣tumblr",
+    "åļ",
+    "ear",
+    "cop",
+    "é¢ĸ",
+    "åŀĭ",
+    "␣Miranda",
+    "çĲ®",
+    "idy",
+    "_fun"
+   ],
+   "neg": [
+    "osit",
+    "jay",
+    "Schedulers",
+    "ACEMENT",
+    "␣Rosenstein",
+    "(:,:,",
+    "RAY",
+    "à¦¯",
+    "æ³¡æ²«",
+    "ä¸ľè¥¿",
+    "ipp",
+    "ENER"
+   ],
+   "kurtosis": 3.246497869491577
+  }
+ ]
+}
