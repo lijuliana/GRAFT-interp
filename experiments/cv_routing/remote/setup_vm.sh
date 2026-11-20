@@ -8,6 +8,15 @@ export DEBIAN_FRONTEND=noninteractive
 sudo apt-get update -qq
 sudo apt-get install -y -qq nvidia-driver-580-server git build-essential tmux >/dev/null
 echo "=== driver packages installed $(date -u +%FT%TZ)"
+# vLLM's FlashInfer backend compiles a kernel at start-up and needs nvcc, which the driver package lacks.
+if [ ! -x /usr/local/cuda-12.8/bin/nvcc ]; then
+  wget -q -O /tmp/cuda-keyring.deb https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
+  sudo dpkg -i /tmp/cuda-keyring.deb >/dev/null
+  sudo apt-get update -qq
+  sudo apt-get install -y -qq cuda-toolkit-12-8 >/dev/null
+fi
+grep -q CUDA_HOME "$HOME/.bashrc" || echo 'export CUDA_HOME=/usr/local/cuda-12.8 PATH=/usr/local/cuda-12.8/bin:$PATH' >> "$HOME/.bashrc"
+export CUDA_HOME=/usr/local/cuda-12.8 PATH=/usr/local/cuda-12.8/bin:$PATH
 command -v uv >/dev/null || curl -LsSf https://astral.sh/uv/install.sh | sh
 export PATH="$HOME/.local/bin:$PATH"
 cd "$HOME"
