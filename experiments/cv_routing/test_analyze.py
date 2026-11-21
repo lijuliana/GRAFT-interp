@@ -90,13 +90,16 @@ def test_fold_configs():
     two = [p for p in M.plan() if p[0] == "object_qa" and len(p[1]) == 2]
     assert len(two) == 6                                   # every 2-vs-2 split, both directions
     assert {(tuple(h), tuple(r)) for _, r, h in two} == {(tuple(r), tuple(h)) for _, r, h in two}
-    with tempfile.TemporaryDirectory() as d:               # the folds sweep's filename filter
-        for env, r, h in M.plan():
-            open(os.path.join(d, M.stem(env, r, h) + ".yaml"), "w").close()
-        stems = sorted(f[:-5] for f in os.listdir(d) if f.startswith("object_qa__") and f.endswith(".yaml")
-                       and len(f.split("__")[1].split("-")) - 1 == len(f[:-5].split("__")[2].split("-")) - 1)
-        assert len(stems) == 6, stems
-
+    # the folds sweep's config selection (pure-python copy of its rule; the sweep file itself imports upstream)
+    names = [M.stem(env, r, h) + ".yaml" for env, r, h in M.plan(True)]
+    n_routed = lambda st: len(st.split("__")[1].split("-")) - 1
+    def select(sizes, shard=0, nshard=1, skip=("object_qa__r-actually-exactly-quite__h-indeed",)):
+        st = sorted(f[:-5] for f in names if f.startswith("object_qa__"))
+        st = [x for x in st if n_routed(x) in sizes and x not in skip]
+        return [x for i, x in enumerate(st) if i % nshard == shard]
+    assert len(select({2})) == 6 and len(select({1, 2, 3})) == 13
+    shards = [select({1, 2, 3}, i, 3) for i in range(3)]
+    assert sorted(sum(shards, [])) == select({1, 2, 3}) and all(len(x) in (4, 5) for x in shards)
 
 if __name__ == "__main__":
     for name, fn in list(globals().items()):

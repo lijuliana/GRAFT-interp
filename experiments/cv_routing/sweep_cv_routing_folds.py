@@ -1,9 +1,15 @@
-"""Stage 2: the six 2-vs-2 splits of object_qa's hack words. NOT YET EXECUTED.
+"""Stage 2 and the coverage sweep: GRAFT with the monitor flagging 1, 2 or 3 of an
+environment's hack words. Same recipe as the pilot. Only the GRAFT arm is trained here:
+the no-routing and baseline arms do not depend on the split and come from the pilot.
 
-Same recipe as the pilot. The no-routing control does not depend on the split
-(its monitor is never consulted), so stage 1's control runs are reused and only
-the GRAFT arm is trained here.
-    python -u sweep.py --name cvr_folds --config sweeps/sweep_cv_routing_folds.py --no_baseline --no_wandb
+    CVR_ROUTED_SIZES=1,2,3 CVR_SHARD=0/3 python -u sweep.py --name cvr_folds_0 \
+        --config sweeps/sweep_cv_routing_folds.py --no_wandb
+
+Needs configs from `make_fold_configs.py --all-splits`.
+  CVR_ENV           environment (default object_qa)
+  CVR_ROUTED_SIZES  how many words the monitor flags (default 2: the six 2-vs-2 splits)
+  CVR_SKIP          config stems to leave out (default: the pilot's split)
+  CVR_SHARD         i/n, take every n-th config starting at i, to spread a sweep over machines
 """
 import os
 
@@ -13,10 +19,23 @@ CONFIG_DIR = os.environ.get("CVR_CONFIG_DIR", "configs/cv_routing")
 # Sampler precision. Upstream default is bfloat16, which a T4 cannot run; set CVR_VLLM_DTYPE=float32 there.
 VLLM_DTYPE = os.environ.get("CVR_VLLM_DTYPE", "bfloat16")
 ENV = os.environ.get("CVR_ENV", "object_qa")
+SIZES = {int(x) for x in os.environ.get("CVR_ROUTED_SIZES", "2").split(",")}
+SKIP = set(os.environ.get("CVR_SKIP", "object_qa__r-actually-exactly-quite__h-indeed").split(","))
+SHARD, NSHARD = (int(x) for x in os.environ.get("CVR_SHARD", "0/1").split("/"))
 STEPS = {"object_qa": 1000, "persona_qa": 1000, "cities_qa": 2000, "addition_v2": 2000}
-STEMS = sorted(f[:-5] for f in os.listdir(CONFIG_DIR)
-               if f.startswith(ENV + "__") and f.endswith(".yaml")
-               and len(f.split("__")[1].split("-")) - 1 == len(f[:-5].split("__")[2].split("-")) - 1)
+
+
+def n_routed(stem):
+    return len(stem.split("__")[1].split("-")) - 1
+
+
+def select(names, env=ENV, sizes=SIZES, skip=SKIP, shard=SHARD, nshard=NSHARD):
+    stems = sorted(f[:-5] for f in names if f.startswith(env + "__") and f.endswith(".yaml"))
+    stems = [s for s in stems if n_routed(s) in sizes and s not in skip]
+    return [s for i, s in enumerate(stems) if i % nshard == shard]
+
+
+STEMS = select(os.listdir(CONFIG_DIR)) if os.path.isdir(CONFIG_DIR) else []
 SEEDS = [1, 2, 3]
 
 runs = [{
