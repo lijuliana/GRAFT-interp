@@ -1,7 +1,8 @@
 """Stage 1 pilot.
 
 Copy into the upstream checkout's rl/sweeps/ and launch from rl/:
-    python -u sweep.py --name cvr_pilot --config sweeps/sweep_cv_routing_pilot.py --no_wandb
+    CVR_ARMS=graft   python -u sweep.py --name cvr_pilot --config sweeps/sweep_cv_routing_pilot.py --no_wandb
+    CVR_ARMS=noroute python -u sweep.py --name cvr_pilot_noroute --config sweeps/sweep_cv_routing_pilot.py --no_wandb
 
 Hyperparameters are upstream's canonical toy recipe, imported from
 sweeps/respmon_repro_coh128_lam1_3seed.py so they cannot drift from it.
@@ -17,7 +18,11 @@ CONFIG_DIR = os.environ.get("CVR_CONFIG_DIR", "configs/cv_routing")
 VLLM_DTYPE = os.environ.get("CVR_VLLM_DTYPE", "bfloat16")
 STEMS = ["object_qa__r-actually-exactly-quite__h-indeed"]
 STEPS = {"object_qa": 1000, "persona_qa": 1000, "cities_qa": 2000, "addition_v2": 2000}
-ARMS = {"graft": 1.0, "noroute": 0.0}
+# CVR_ARMS picks the arms. Launch the two arms as separate sweeps: with only the GRAFT arm present,
+# upstream's sweep.py adds one no-intervention, one reward-penalty and one filtering run per seed.
+# With the no-routing arm present it would add redundant copies, so that sweep sets no_baseline.
+_ALL = {"graft": 1.0, "noroute": 0.0}
+ARMS = {a: _ALL[a] for a in os.environ.get("CVR_ARMS", "graft").split(",")}
 SEEDS = [1, 2, 3]
 
 runs = []
@@ -40,6 +45,4 @@ for stem in STEMS:
 
 assert len(runs) == len(STEMS) * len(ARMS) * len(SEEDS)
 per_gpu = 2
-# False: upstream's sweep.py adds one no-intervention run per seed (routing_mode none),
-# the ordinary-RL baseline for the hack-substitution comparison.
-no_baseline = False
+no_baseline = "noroute" in ARMS
