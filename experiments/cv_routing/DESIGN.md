@@ -1,6 +1,6 @@
 # Cross-validated routing: design
 
-Status, 20 November 2026: designed, code drafted. The stage 0 smoke test ran on an Azure T4 and failed: upstream's trainer needs FlashAttention and bfloat16, which a T4 lacks (`smoke_t4/README.md`). No training step has completed anywhere. `analyze.py` and `make_fold_configs.py` are tested on a laptop. The sweep files load and launch under upstream's `sweep.py`. `shadow_score.py` has never been executed.
+Status, 20 November 2026: designed, and the whole pipeline has run once. The stage 0 smoke test failed on an Azure T4 (`smoke_t4/README.md`) and passed on an AWS A10G with stock settings: about 4 s per step, so a 1,000-step run is about 70 minutes (`smoke_a10g/README.md`). `shadow_score.py` and `analyze.py` ran end to end on the 50-step checkpoint. No full training run exists yet.
 
 ## Design note
 
@@ -64,13 +64,12 @@ The no-routing run separates A from C. The probe separates "the adapter generali
 
 **Independent checks.** Hack labels come from upstream's own detectors, which share no code with the scores. `analyze.py` is checked against planted signals (`test_analyze.py`). One run is rescored with a second sampling seed.
 
-**Budget.** Unknown until a smoke test completes on a GPU that can run the trainer (Ampere or newer; a T4 cannot). Upstream ran 3 to 5 toy runs per large GPU. The first action on the T4 is one 50-step run, timed, to project a 1,000-step run. If the projection is over 2 hours per run on a T4, move to AWS (next in the provider order) instead of changing hyperparameters.
-
+**Budget.** Measured on an A10G: about 70 minutes per 1,000-step run, so about 7 GPU-hours for the 6-run pilot and about 21 for the 18-run fold stage, one run at a time. A T4 cannot run the trainer.
 ## Stages
 
 | Stage | Runs | Purpose |
 |---|---|---|
-| 0. Smoke test | 1 run, 50 steps | Done on a T4: the stack does not run there. Repeat on an Ampere or newer GPU to time a step |
+| 0. Smoke test | 1 run, 50 steps | Done. Fails on a T4, passes on an A10G at about 4 s per step |
 | 1. Pilot | 6 runs of 1,000 steps: stock `object_qa` and no routing, seeds 1 to 3 | Kill-first test with the stop rule above |
 | 2. Folds | 18 runs: the 6 two-against-two splits of the 4 hack words, 3 seeds. Controls reuse stage 1 | Cross-validated held-out recall for one environment |
 | 3. Other environments | `cities_qa`, `addition_v2` (4 words), `persona_qa` (6 phrases) | Whether the estimate depends on the task |
@@ -112,7 +111,7 @@ Tests that run without a GPU: `python test_analyze.py` (planted signal recovered
 
 ## Known gaps
 
-- `shadow_score.py` is unexecuted. The sweep files launch under upstream's `sweep.py`, and no run has got past step 0. Flag names in the sweep dictionaries are copied from upstream's canonical sweep and its README. Run names with dots are accepted.
+- `shadow_score.py` has run once, on a 50-step checkpoint. The pilot and fold sweep files have been loaded by upstream's `sweep.py` in a dry run only. Flag names in the sweep dictionaries are copied from upstream's canonical sweep and its README. Run names with dots are accepted.
 - The pilot's config is generated here and matches upstream's stock `configs/object_qa_respmon.yaml` except for its name (checked by diff).
 - Upstream's toy anchor applies a penalty of 2.0 to monitor-flagged hacks in retain-only rollouts. The monitor therefore does enter the reward in the toy setting, for the anchor slice only. This is upstream's canonical recipe and is kept.
 - With `rh_detector_recall: 0` upstream also disables that anchor penalty, so the no-routing control differs from GRAFT in two ways. A second control with routing off and the penalty on would need a code change upstream.
