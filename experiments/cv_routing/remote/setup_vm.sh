@@ -1,12 +1,17 @@
 #!/usr/bin/env bash
 # One-time setup of a fresh Ubuntu 22.04 GPU machine for the GRAFT toy runs.
-# Usage: bash setup_vm.sh   (then reboot once so the NVIDIA driver loads)
+# Usage: bash setup_vm.sh   (reboot once afterwards if it had to install the NVIDIA driver)
 set -euo pipefail
 exec > >(tee -a "$HOME/setup.log") 2>&1
 echo "=== setup start $(date -u +%FT%TZ)"
 export DEBIAN_FRONTEND=noninteractive
 sudo apt-get update -qq
-sudo apt-get install -y -qq nvidia-driver-580-server git build-essential tmux >/dev/null
+sudo apt-get install -y -qq git build-essential tmux >/dev/null
+# Images with a working driver (e.g. AWS deep-learning AMIs) skip this; a plain image needs a reboot afterwards.
+if ! nvidia-smi >/dev/null 2>&1; then
+  sudo apt-get install -y -qq nvidia-driver-580-server >/dev/null
+  echo "=== driver installed: REBOOT before training"
+fi
 echo "=== driver packages installed $(date -u +%FT%TZ)"
 # vLLM's FlashInfer backend compiles a kernel at start-up and needs nvcc, which the driver package lacks.
 if [ ! -x /usr/local/cuda-12.8/bin/nvcc ]; then

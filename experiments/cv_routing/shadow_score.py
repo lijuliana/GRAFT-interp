@@ -1,6 +1,6 @@
 """Score a trained toy GRAFT run with its forget adapter in shadow mode.
 
-NOT YET EXECUTED: written without a GPU. Run from the rl/ directory of a
+Run from the rl/ directory of a
 jnward/GRAFT checkout (commit 6da923d) so its modules import by bare name:
 
     python /path/to/shadow_score.py --checkpoint output/<sweep>/<run>/checkpoint-1000 \
@@ -68,30 +68,40 @@ def score(model, tok, rows, probe_layer, bs, device):
             ids[j, :len(s)] = torch.tensor(s); att[j, :len(s)] = 1
         ids, att = ids.to(device), att.to(device)
 
+        # (row, position) of every completion token in this batch
+        rr, cc, owner = [], [], []
+        for j, i in enumerate(idx):
+            p, c = len(prompt_ids[i]), len(rows[i]["completion_ids"])
+            rr += [j] * c; cc += list(range(p, p + c)); owner.append((i, c))
+        if not rr:
+            continue
+        rr_t, cc_t = torch.tensor(rr, device=device), torch.tensor(cc, device=device)
+        tgt = ids[rr_t, cc_t]
+
+        def tok_logp(logits):  # log p of each completion token, read at the position before it
+            return torch.log_softmax(logits[rr_t, cc_t - 1].float(), -1).gather(1, tgt[:, None])[:, 0]
+
         set_scales(model, 1.0, 0.0)
         out0 = model(input_ids=ids, attention_mask=att, output_hidden_states=True)
-        fsum = sum(m._forget_core(cache[i]).float().norm(dim=-1) for i, m in enumerate(adapters))
-        rsum = sum(m._retain_core(cache[i]).float().norm(dim=-1) for i, m in enumerate(adapters))
-        lp0 = torch.log_softmax(out0.logits.float(), -1)
-        hs = out0.hidden_states[probe_layer].float()
+        # adapter activity while reading up to and including each completion token
+        fsum = sum(m._forget_core(cache[k]).float().norm(dim=-1) for k, m in enumerate(adapters))[rr_t, cc_t]
+        rsum = sum(m._retain_core(cache[k]).float().norm(dim=-1) for k, m in enumerate(adapters))[rr_t, cc_t]
+        lp0 = tok_logp(out0.logits)
+        hs = out0.hidden_states[probe_layer].float()[rr_t, cc_t]
+        del out0
         set_scales(model, 1.0, 1.0)
-        lp1 = torch.log_softmax(model(input_ids=ids, attention_mask=att).logits.float(), -1)
+        lp1 = tok_logp(model(input_ids=ids, attention_mask=att).logits)
         set_scales(model, 1.0, 0.0)
 
         if resid is None:
             resid = np.zeros((n, hs.shape[-1]), np.float32)
-        for j, i in enumerate(idx):
-            p, c = len(prompt_ids[i]), len(rows[i]["completion_ids"])
-            if c == 0:
-                continue
-            pos = torch.arange(p, p + c, device=device)          # positions of completion tokens
-            tgt = ids[j, pos]
-            # token at position t is predicted from position t - 1
-            llr[i, :c] = (lp1[j, pos - 1, tgt] - lp0[j, pos - 1, tgt]).cpu().numpy()
-            # adapter activity while reading up to and including each completion token
-            f_norm[i, :c] = fsum[j, pos].cpu().numpy(); r_norm[i, :c] = rsum[j, pos].cpu().numpy()
-            mask[i, :c] = True
-            resid[i] = hs[j, pos].mean(0).cpu().numpy()
+        fsum, rsum, dl, hs = fsum.cpu().numpy(), rsum.cpu().numpy(), (lp1 - lp0).cpu().numpy(), hs.cpu().numpy()
+        o = 0
+        for i, c in owner:
+            if c:
+                f_norm[i, :c] = fsum[o:o + c]; r_norm[i, :c] = rsum[o:o + c]; llr[i, :c] = dl[o:o + c]
+                mask[i, :c] = True; resid[i] = hs[o:o + c].mean(0)
+            o += c
     for h in hooks:
         h.remove()
     return f_norm, r_norm, llr, mask, resid
@@ -105,7 +115,8 @@ def main():
     ap.add_argument("--n_prompts", type=int, default=256)   # upstream's eval set size
     ap.add_argument("--reps", type=int, default=32)         # samples per prompt and policy
     ap.add_argument("--probe_layer", type=int, default=15)  # of 30 blocks in SmolLM2-135M
-    ap.add_argument("--batch_size", type=int, default=512)
+    ap.add_argument("--batch_size", type=int, default=512)        # generation
+    ap.add_argument("--score_batch_size", type=int, default=64)   # teacher-forced scoring
     ap.add_argument("--seed", type=int, default=0)
     a = ap.parse_args()
 
@@ -135,7 +146,7 @@ def main():
     hit_r = np.array([any(w in t for w in routed) for t in text])
     hit_h = np.array([any(w in t for w in heldout) for t in text])
     first = np.array([first_hit_token(tok, r["completion_ids"], routed + heldout) for r in rows])
-    f_norm, r_norm, llr, mask, resid = score(model, tok, rows, a.probe_layer, a.batch_size, device)
+    f_norm, r_norm, llr, mask, resid = score(model, tok, rows, a.probe_layer, a.score_batch_size, device)
 
     os.makedirs(os.path.dirname(os.path.abspath(a.out)), exist_ok=True)
     np.savez_compressed(
