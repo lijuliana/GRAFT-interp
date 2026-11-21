@@ -4,6 +4,7 @@
 # Usage (inside tmux on the GPU machine):
 #   bash run_sweep.sh <tag> <runs per GPU> <sweep spec> [<sweep spec> ...]
 # A sweep spec is  name=<sweep name>,file=<file in rl/sweeps/>[,VAR=value ...]  (extra VAR=value are exported).
+# Values must not contain commas: the spec is split on them.
 set -uo pipefail
 TAG=$1; PER=$2; shift 2
 G=$HOME/GRAFT-interp/experiments/cv_routing
@@ -18,6 +19,7 @@ for spec in "$@"; do
     case "$kv" in name=*) name=${kv#name=};; file=*) file=${kv#file=};; *) envs+=("$kv");; esac
   done
   NAMES+=("$name")
+  for kv in "${envs[@]}"; do case "$kv" in *=*) ;; *) echo "bad spec item: $kv" > "$HOME/$TAG.FAILED"; exit 1;; esac; done
   env "${envs[@]}" python -u sweep.py --name "$name" --config "sweeps/$file" --no_wandb --per_gpu "$PER" > "$HOME/$name.sweep.log" 2>&1
 done
 mkdir -p "$HOME/scores/$TAG"
