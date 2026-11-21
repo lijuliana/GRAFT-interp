@@ -1,7 +1,7 @@
-"""Stage 1 pilot. NOT YET EXECUTED.
+"""Stage 1 pilot.
 
 Copy into the upstream checkout's rl/sweeps/ and launch from rl/:
-    python -u sweep.py --name cvr_pilot --config sweeps/sweep_cv_routing_pilot.py --no_baseline --no_wandb
+    python -u sweep.py --name cvr_pilot --config sweeps/sweep_cv_routing_pilot.py --no_wandb
 
 Hyperparameters are upstream's canonical toy recipe, imported from
 sweeps/respmon_repro_coh128_lam1_3seed.py so they cannot drift from it.
@@ -40,4 +40,6 @@ for stem in STEMS:
 
 assert len(runs) == len(STEMS) * len(ARMS) * len(SEEDS)
 per_gpu = 2
-no_baseline = True
+# False: upstream's sweep.py adds one no-intervention run per seed (routing_mode none),
+# the ordinary-RL baseline for the hack-substitution comparison.
+no_baseline = False
