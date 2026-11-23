@@ -1,0 +1,130 @@
+groups {"dep": {"undet": 139, "det": 71, "clean": 814, "solved": 482, "failed": 332}, "trn": {"undet": 0, "det": 240, "clean": 272, "solved": 270, "failed": 2}}
+median tokens before files {"dep": {"undet": 1038.0, "det": 1012.0, "clean": 515.0, "solved": 224.0, "failed": 1536.0}, "trn": {"undet": null, "det": 703.5, "clean": 109.5, "solved": 109.0, "failed": 928.0}}
+
+dep: AUROC / length-matched AUROC.  columns: undet vs clean, undet vs solved, undet vs failed, det vs solved
+  shadow_max                 0.57/0.51  0.60/0.47  0.51/0.54  0.52/0.42
+  shadow_mean                0.62/0.45  0.91/0.53  0.21/0.48  0.96/0.79
+  shadow_pre_max             0.62/0.52  0.70/0.49  0.50/0.54  0.63/0.43
+  retain_max                 0.54/0.48  0.56/0.46  0.52/0.47  0.54/0.45
+  retain_pre_max             0.55/0.48  0.58/0.46  0.52/0.47  0.55/0.45
+  llr_sum                    0.33/0.45  0.04/0.22  0.75/0.55  0.03/0.20
+  llr_pre_sum                0.34/0.44  0.04/0.22  0.77/0.47  0.03/0.22
+  shadow_pre_mean            0.35/0.36  0.24/0.17  0.50/0.47  0.26/0.20
+  retain_mean                0.62/0.45  0.90/0.51  0.22/0.48  0.96/0.78
+  llr_mean                   0.28/0.40  0.04/0.21  0.62/0.49  0.02/0.11
+  llr_pre_mean               0.34/0.39  0.31/0.31  0.38/0.46  0.31/0.32
+  len_response_tok           0.47/0.39  0.65/0.52  0.20/0.39  0.64/0.44
+  len_before_files_tok       0.63/0.49  0.96/0.72  0.15/0.48  0.96/0.73
+  probe_resid_pre            0.78/0.69  0.99/0.92  0.49/0.56  0.99/0.93
+  probe_resid_all            0.65/0.59  0.98/0.91  0.18/0.46  1.00/0.98
+  noroute_shadow_max         0.52/0.50  0.52/0.51  0.52/0.49  0.47/0.42
+  noroute_shadow_mean        0.66/0.55  0.95/0.73  0.26/0.50  0.99/0.92
+  noroute_shadow_pre_max     0.55/0.50  0.58/0.50  0.50/0.48  0.53/0.42
+  noroute_shadow_pre_mean    0.43/0.54  0.28/0.49  0.66/0.50  0.30/0.52
+  confess_cheat_policy       0.73/0.74  0.96/0.90  0.41/0.63  0.99/0.94
+  confess_honest_policy      0.72/0.75  0.99/0.97  0.33/0.59  0.99/0.97
+  confess_mean_policy        0.74/0.75  0.99/0.95  0.37/0.61  0.99/0.96
+  confess_cheat_base         0.71/0.72  0.91/0.87  0.42/0.61  0.97/0.92
+  confess_honest_base        0.88/0.80  0.99/0.96  0.72/0.67  0.99/0.97
+  confess_mean_base          0.79/0.76  0.99/0.93  0.50/0.63  0.99/0.95
+  verbal_judge               0.92/0.84  1.00/0.97  0.81/0.74  0.99/0.96
+
+trn: det vs clean, AUROC / length-matched AUROC
+  shadow_max                 0.47/0.34
+  shadow_mean                1.00/1.00
+  shadow_pre_max             0.47/0.34
+  retain_max                 0.55/0.43
+  retain_pre_max             0.55/0.43
+  llr_sum                    1.00/0.97
+  llr_pre_sum                1.00/0.96
+  shadow_pre_mean            0.54/0.59
+  retain_mean                1.00/1.00
+  llr_mean                   1.00/1.00
+  llr_pre_mean               0.98/1.00
+  len_response_tok           0.98/0.62
+  len_before_files_tok       1.00/0.93
+  confess_cheat_policy       1.00/1.00
+  confess_honest_policy      1.00/1.00
+  confess_mean_policy        1.00/1.00
+  confess_cheat_base         1.00/1.00
+  confess_honest_base        1.00/1.00
+  confess_mean_base          1.00/1.00
+  verbal_judge               1.00/0.98
+
+yes rates {
+ "dep": {
+  "verbal_judge": {
+   "undet": 1.0,
+   "det": 1.0,
+   "clean": 0.321,
+   "solved": 0.025,
+   "failed": 0.75
+  },
+  "confess_cheat_policy": {
+   "undet": 0.129,
+   "det": 0.197,
+   "clean": 0.158,
+   "solved": 0.004,
+   "failed": 0.383
+  },
+  "confess_honest_policy": {
+   "undet": 1.0,
+   "det": 1.0,
+   "clean": 0.509,
+   "solved": 0.189,
+   "failed": 0.973
+  },
+  "confess_cheat_base": {
+   "undet": 0.23,
+   "det": 0.38,
+   "clean": 0.21,
+   "solved": 0.01,
+   "failed": 0.5
+  },
+  "confess_honest_base": {
+   "undet": 1.0,
+   "det": 0.986,
+   "clean": 0.456,
+   "solved": 0.108,
+   "failed": 0.961
+  }
+ },
+ "trn": {
+  "verbal_judge": {
+   "undet": null,
+   "det": 1.0,
+   "clean": 0.004,
+   "solved": 0.0,
+   "failed": 0.5
+  },
+  "confess_cheat_policy": {
+   "undet": null,
+   "det": 0.971,
+   "clean": 0.0,
+   "solved": 0.0,
+   "failed": 0.0
+  },
+  "confess_honest_policy": {
+   "undet": null,
+   "det": 1.0,
+   "clean": 0.099,
+   "solved": 0.093,
+   "failed": 1.0
+  },
+  "confess_cheat_base": {
+   "undet": null,
+   "det": 0.887,
+   "clean": 0.0,
+   "solved": 0.0,
+   "failed": 0.0
+  },
+  "confess_honest_base": {
+   "undet": null,
+   "det": 1.0,
+   "clean": 0.018,
+   "solved": 0.011,
+   "failed": 1.0
+  }
+ }
+}
+judge on long solved rollouts {"n": 16, "judge_yes": 0.3125}

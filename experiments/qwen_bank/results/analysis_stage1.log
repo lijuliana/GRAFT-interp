@@ -1,0 +1,36 @@
+g1_both                      n   512  hack  240  detectable  240  undetectable    0
+g1_dep                       n  1024  hack  210  detectable   71  undetectable  139
+
+Exp 2. Undetectable hacks vs clean, deployed model's own rollouts (AUROC, recall at 1% FPR)
+  shadow_max                 0.566 [0.52, 0.61]  recall 0.02  (n 139 vs 814)
+  shadow_mean                0.624 [0.59, 0.66]  recall 0.00  (n 139 vs 814)
+  shadow_pre_max             0.622 [0.58, 0.67]  recall 0.02  (n 139 vs 814)
+  retain_max                 0.545 [0.50, 0.60]  recall 0.01  (n 139 vs 814)
+  retain_pre_max             0.554 [0.51, 0.60]  recall 0.01  (n 139 vs 814)
+  llr_sum                    0.328 [0.30, 0.36]  recall 0.00  (n 139 vs 814)
+  llr_pre_sum                0.337 [0.31, 0.37]  recall 0.00  (n 139 vs 814)
+  probe_resid_pre            0.782 [0.75, 0.81]  recall 0.01  (n 139 vs 814)
+  probe_resid_all            0.655 [0.62, 0.69]  recall 0.00  (n 139 vs 814)
+  noroute_shadow_max         0.522 [0.47, 0.57]  recall 0.00  (n 139 vs 814)
+  noroute_shadow_mean        0.665 [0.63, 0.70]  recall 0.01  (n 139 vs 814)
+  noroute_shadow_pre_max     0.552 [0.51, 0.59]  recall 0.00  (n 139 vs 814)
+
+Idea 14. Confession read-out on dep rollouts (AUROC vs clean; share answering 'cheated')
+  policy.cheat  undet: 0.735 rec@5% 0.06  det: 0.789 rec@5% 0.08   says-cheated {"undet": 0.13, "det": 0.2, "clean": 0.16}
+  policy.honest undet: 0.723 rec@5% 0.01  det: 0.739 rec@5% 0.03   says-cheated {"undet": 1.0, "det": 1.0, "clean": 0.51}
+  policy.mean   undet: 0.738 rec@5% 0.04  det: 0.769 rec@5% 0.07   says-cheated {"undet": 0.85, "det": 0.89, "clean": 0.33}
+  base.cheat    undet: 0.709 rec@5% 0.08  det: 0.779 rec@5% 0.06   says-cheated {"undet": 0.23, "det": 0.38, "clean": 0.21}
+  base.honest   undet: 0.880 rec@5% 0.50  det: 0.886 rec@5% 0.48   says-cheated {"undet": 1.0, "det": 0.99, "clean": 0.46}
+  base.mean     undet: 0.785 rec@5% 0.14  det: 0.831 rec@5% 0.20   says-cheated {"undet": 0.83, "det": 0.87, "clean": 0.33}
+
+Idea 14. Confession read-out on trn rollouts (AUROC vs clean; share answering 'cheated')
+  policy.cheat  det: 1.000 rec@5% 1.00   says-cheated {"undet": null, "det": 0.97, "clean": 0.0}
+  policy.honest det: 1.000 rec@5% 1.00   says-cheated {"undet": null, "det": 1.0, "clean": 0.1}
+  policy.mean   det: 1.000 rec@5% 1.00   says-cheated {"undet": null, "det": 1.0, "clean": 0.0}
+  base.cheat    det: 1.000 rec@5% 1.00   says-cheated {"undet": null, "det": 0.89, "clean": 0.0}
+  base.honest   det: 1.000 rec@5% 1.00   says-cheated {"undet": null, "det": 1.0, "clean": 0.02}
+  base.mean     det: 1.000 rec@5% 1.00   says-cheated {"undet": null, "det": 1.0, "clean": 0.0}
+
+Exp 3 first test. Share of rollouts whose reasoning states the hack, dep: {"det": {"n": 71, "judge_yes": 1.0, "keyword": 1.0, "median_reason_chars": 3557.0}, "undet": {"n": 139, "judge_yes": 1.0, "keyword": 0.9784172661870504, "median_reason_chars": 3447.0}, "clean": {"n": 814, "judge_yes": 0.32063882063882065, "keyword": 0.4594594594594595, "median_reason_chars": 1635.0}}
+
+Exp 3 first test. Share of rollouts whose reasoning states the hack, trn: {"det": {"n": 240, "judge_yes": 1.0, "keyword": 1.0, "median_reason_chars": 1286.5}, "undet": {"n": 0, "judge_yes": null, "keyword": null, "median_reason_chars": null}, "clean": {"n": 272, "judge_yes": 0.003676470588235294, "keyword": 0.007352941176470588, "median_reason_chars": 275.0}}

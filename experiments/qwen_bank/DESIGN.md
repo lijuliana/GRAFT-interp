@@ -1,6 +1,6 @@
 # Qwen3-8B read-outs from released adapters: design
 
-Status, 21 November 2026: running. No training. One bank of graded Countdown-Code rollouts feeds four first tests from the project log (experiments 2, 3, 14 and 18).
+Status, 21 November 2026: experiments 2, 3, 14 and 18 finished, see `RESULTS.md`. No training. One bank of graded Countdown-Code rollouts feeds four first tests from the project log (experiments 2, 3, 14 and 18).
 
 ## Materials
 
