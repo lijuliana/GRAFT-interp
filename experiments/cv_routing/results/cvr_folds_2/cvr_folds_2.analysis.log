@@ -1,0 +1,32 @@
+object_qa|routed=actually|heldout=indeed-exactly-quite
+  graft    s1  held-out hacks     0  shadow.all nan  shadow.before nan  llr.all nan  retain.all nan  probe.all nan
+  graft    s2  held-out hacks    18  shadow.all 0.691  shadow.before 0.709  llr.all 0.773  retain.all 0.705  probe.all 0.575
+  graft    s3  held-out hacks     9  shadow.all 0.726  shadow.before 0.779  llr.all 0.661  retain.all 0.775  probe.all 0.610
+  noroute  s1  held-out hacks  2687  shadow.all 0.781  shadow.before 0.827  llr.all 0.581  retain.all 0.881  probe.all 0.567
+  noroute  s2  held-out hacks  2004  shadow.all 0.826  shadow.before 0.876  llr.all 0.675  retain.all 0.843  probe.all 0.555
+  noroute  s3  held-out hacks  1514  shadow.all 0.851  shadow.before 0.890  llr.all 0.641  retain.all 0.851  probe.all 0.585
+  verdict: {"seeds_paired": [1, 2, 3], "valid_n": false, "in_fold_ok": true, "graft_minus_noroute_auroc": [NaN, -0.13563280061907168, -0.12448319464590596], "routing_specific": false, "stop": false, "graft_minus_probe_auroc": [NaN, 0.11583476062311393, 0.11614927075694614], "beats_probe": true}
+object_qa|routed=indeed-actually-exactly|heldout=quite
+  graft    s1  held-out hacks     0  shadow.all nan  shadow.before nan  llr.all nan  retain.all nan  probe.all nan
+  graft    s2  held-out hacks     2  shadow.all 0.322  shadow.before 0.346  llr.all 0.598  retain.all 0.144  probe.all 0.917
+  graft    s3  held-out hacks     1  shadow.all 0.755  shadow.before 0.796  llr.all 0.957  retain.all 0.172  probe.all 0.809
+  noroute  s1  held-out hacks     1  shadow.all 0.351  shadow.before 0.012  llr.all 0.716  retain.all 0.431  probe.all 0.982
+  noroute  s2  held-out hacks     2  shadow.all 0.260  shadow.before 0.273  llr.all 0.510  retain.all 0.291  probe.all 0.850
+  noroute  s3  held-out hacks     3  shadow.all 0.373  shadow.before 0.523  llr.all 0.343  retain.all 0.291  probe.all 0.841
+  verdict: {"seeds_paired": [1, 2, 3], "valid_n": false, "in_fold_ok": false, "graft_minus_noroute_auroc": [NaN, 0.062076307530853025, 0.382280598914268], "routing_specific": false, "stop": false, "graft_minus_probe_auroc": [NaN, -0.5948717948717948, -0.05422569614069361], "beats_probe": false}
+object_qa|routed=indeed-exactly-quite|heldout=actually
+  graft    s1  held-out hacks     0  shadow.all nan  shadow.before nan  llr.all nan  retain.all nan  probe.all nan
+  graft    s2  held-out hacks     0  shadow.all nan  shadow.before nan  llr.all nan  retain.all nan  probe.all nan
+  graft    s3  held-out hacks     4  shadow.all 0.870  shadow.before 0.885  llr.all 0.558  retain.all 0.509  probe.all 0.466
+  noroute  s1  held-out hacks   973  shadow.all 0.824  shadow.before 0.864  llr.all 0.562  retain.all 0.906  probe.all 0.668
+  noroute  s2  held-out hacks   719  shadow.all 0.888  shadow.before 0.919  llr.all 0.605  retain.all 0.883  probe.all 0.674
+  noroute  s3  held-out hacks  1065  shadow.all 0.904  shadow.before 0.926  llr.all 0.467  retain.all 0.883  probe.all 0.666
+  verdict: {"seeds_paired": [1, 2, 3], "valid_n": false, "in_fold_ok": false, "graft_minus_noroute_auroc": [NaN, NaN, -0.034402768073928836], "routing_specific": false, "stop": false, "graft_minus_probe_auroc": [NaN, NaN, 0.40333964800782207], "beats_probe": false}
+object_qa|routed=indeed|heldout=actually-exactly-quite
+  graft    s1  held-out hacks     4  shadow.all 0.758  shadow.before 0.796  llr.all 0.285  retain.all 0.757  probe.all 0.590
+  graft    s2  held-out hacks     4  shadow.all 0.717  shadow.before 0.627  llr.all 0.391  retain.all 0.551  probe.all 0.805
+  graft    s3  held-out hacks   249  shadow.all 0.676  shadow.before 0.743  llr.all 0.828  retain.all 0.846  probe.all 0.551
+  noroute  s1  held-out hacks  1003  shadow.all 0.826  shadow.before 0.867  llr.all 0.556  retain.all 0.906  probe.all 0.654
+  noroute  s2  held-out hacks   720  shadow.all 0.884  shadow.before 0.914  llr.all 0.615  retain.all 0.879  probe.all 0.657
+  noroute  s3  held-out hacks  1079  shadow.all 0.903  shadow.before 0.924  llr.all 0.480  retain.all 0.882  probe.all 0.655
+  verdict: {"seeds_paired": [1, 2, 3], "valid_n": false, "in_fold_ok": false, "graft_minus_noroute_auroc": [-0.06774616586841842, -0.16646206549898057, -0.22764370354243957], "routing_specific": false, "stop": true, "graft_minus_probe_auroc": [0.16832559843673667, -0.08717024914509042, 0.12480442233816513], "beats_probe": true}

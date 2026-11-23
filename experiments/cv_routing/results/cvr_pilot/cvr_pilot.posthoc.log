@@ -1,0 +1,94 @@
+
+graft s1  pos 119 neg 8066  median length pos/neg 15.0/16.0  median hack position 5.0
+  llr_sum              auroc 0.881 [0.84, 0.92]  length-matched 0.890  recall@1% 0.630  @5% 0.697  in-fold 0.998
+  llr_per_token        auroc 0.809 [0.77, 0.84]  length-matched 0.840  recall@1% 0.008  @5% 0.126  in-fold 0.987
+  llr_strictly_before  auroc 0.757 [0.70, 0.81]  length-matched 0.756  recall@1% 0.143  @5% 0.504  in-fold 0.569
+  llr_at_cut_token     auroc 0.991 [0.99, 0.99]  length-matched 0.994  recall@1% 0.689  @5% 0.992  in-fold 0.998
+  llr_after            auroc 0.458 [0.41, 0.52]  length-matched 0.430  recall@1% 0.025  @5% 0.059  in-fold 0.799
+  llr_max_token        auroc 0.939 [0.92, 0.96]  length-matched 0.952  recall@1% 0.403  @5% 0.731  in-fold 0.999
+  shadow_mean          auroc 0.783 [0.76, 0.81]  length-matched 0.745  recall@1% 0.000  @5% 0.025  in-fold 0.929
+  retain_mean          auroc 0.731 [0.69, 0.78]  length-matched 0.737  recall@1% 0.076  @5% 0.286  in-fold 0.807
+  length_tokens        auroc 0.537 [0.50, 0.57]  length-matched 0.654  recall@1% 0.000  @5% 0.000  in-fold 0.540
+  cut_position         auroc 0.587 [0.54, 0.64]  length-matched 0.584  recall@1% 0.025  @5% 0.084  in-fold 0.460
+
+graft s2  pos 40 neg 8147  median length pos/neg 16.0/16.0  median hack position 6.0
+  llr_sum              auroc 0.909 [0.84, 0.96]  length-matched 0.910  recall@1% 0.700  @5% 0.775  in-fold 0.997
+  llr_per_token        auroc 0.832 [0.77, 0.88]  length-matched 0.866  recall@1% 0.000  @5% 0.100  in-fold 0.991
+  llr_strictly_before  auroc 0.736 [0.65, 0.82]  length-matched 0.750  recall@1% 0.150  @5% 0.400  in-fold 0.561
+  llr_at_cut_token     auroc 0.999 [1.00, 1.00]  length-matched 0.999  recall@1% 1.000  @5% 1.000  in-fold 0.999
+  llr_after            auroc 0.583 [0.51, 0.68]  length-matched 0.615  recall@1% 0.000  @5% 0.100  in-fold 0.848
+  llr_max_token        auroc 0.987 [0.98, 0.99]  length-matched 0.989  recall@1% 0.575  @5% 1.000  in-fold 0.998
+  shadow_mean          auroc 0.762 [0.72, 0.80]  length-matched 0.707  recall@1% 0.000  @5% 0.000  in-fold 0.932
+  retain_mean          auroc 0.698 [0.62, 0.77]  length-matched 0.644  recall@1% 0.050  @5% 0.175  in-fold 0.770
+  length_tokens        auroc 0.569 [0.51, 0.62]  length-matched 0.654  recall@1% 0.000  @5% 0.000  in-fold 0.536
+  cut_position         auroc 0.643 [0.55, 0.73]  length-matched 0.643  recall@1% 0.050  @5% 0.200  in-fold 0.458
+
+graft s3  pos 68 neg 8110  median length pos/neg 16.0/16.0  median hack position 5.0
+  llr_sum              auroc 0.834 [0.77, 0.90]  length-matched 0.823  recall@1% 0.500  @5% 0.618  in-fold 0.995
+  llr_per_token        auroc 0.765 [0.71, 0.82]  length-matched 0.803  recall@1% 0.000  @5% 0.044  in-fold 0.924
+  llr_strictly_before  auroc 0.644 [0.57, 0.72]  length-matched 0.650  recall@1% 0.118  @5% 0.250  in-fold 0.567
+  llr_at_cut_token     auroc 0.997 [0.99, 1.00]  length-matched 0.995  recall@1% 0.941  @5% 1.000  in-fold 1.000
+  llr_after            auroc 0.379 [0.31, 0.45]  length-matched 0.378  recall@1% 0.029  @5% 0.059  in-fold 0.759
+  llr_max_token        auroc 0.970 [0.96, 0.98]  length-matched 0.972  recall@1% 0.529  @5% 0.750  in-fold 0.998
+  shadow_mean          auroc 0.743 [0.70, 0.78]  length-matched 0.664  recall@1% 0.000  @5% 0.044  in-fold 0.917
+  retain_mean          auroc 0.529 [0.47, 0.58]  length-matched 0.667  recall@1% 0.015  @5% 0.059  in-fold 0.811
+  length_tokens        auroc 0.599 [0.55, 0.64]  length-matched 0.565  recall@1% 0.000  @5% 0.000  in-fold 0.549
+  cut_position         auroc 0.572 [0.49, 0.64]  length-matched 0.538  recall@1% 0.000  @5% 0.088  in-fold 0.483
+
+noroute s1  pos 2632 neg 4468  median length pos/neg 16.0/16.0  median hack position 5.0
+  llr_sum              auroc 0.586 [0.57, 0.60]  length-matched 0.574  recall@1% 0.015  @5% 0.102  in-fold 0.679
+  llr_per_token        auroc 0.563 [0.55, 0.58]  length-matched 0.566  recall@1% 0.000  @5% 0.032  in-fold 0.647
+  llr_strictly_before  auroc 0.649 [0.64, 0.66]  length-matched 0.622  recall@1% 0.006  @5% 0.068  in-fold 0.431
+  llr_at_cut_token     auroc 0.693 [0.68, 0.71]  length-matched 0.663  recall@1% 0.007  @5% 0.079  in-fold 0.776
+  llr_after            auroc 0.473 [0.46, 0.49]  length-matched 0.470  recall@1% 0.021  @5% 0.092  in-fold 0.648
+  llr_max_token        auroc 0.632 [0.62, 0.64]  length-matched 0.605  recall@1% 0.021  @5% 0.111  in-fold 0.716
+  shadow_mean          auroc 0.751 [0.74, 0.76]  length-matched 0.690  recall@1% 0.068  @5% 0.202  in-fold 0.719
+  retain_mean          auroc 0.870 [0.86, 0.88]  length-matched 0.895  recall@1% 0.166  @5% 0.504  in-fold 0.916
+  length_tokens        auroc 0.540 [0.53, 0.55]  length-matched 0.516  recall@1% 0.000  @5% 0.000  in-fold 0.543
+  cut_position         auroc 0.502 [0.49, 0.51]  length-matched 0.470  recall@1% 0.003  @5% 0.038  in-fold 0.454
+
+noroute s2  pos 1989 neg 5442  median length pos/neg 16.0/16.0  median hack position 5.0
+  llr_sum              auroc 0.683 [0.67, 0.70]  length-matched 0.671  recall@1% 0.092  @5% 0.224  in-fold 0.802
+  llr_per_token        auroc 0.677 [0.66, 0.69]  length-matched 0.667  recall@1% 0.005  @5% 0.160  in-fold 0.779
+  llr_strictly_before  auroc 0.671 [0.66, 0.68]  length-matched 0.636  recall@1% 0.005  @5% 0.075  in-fold 0.517
+  llr_at_cut_token     auroc 0.932 [0.93, 0.94]  length-matched 0.922  recall@1% 0.132  @5% 0.478  in-fold 0.841
+  llr_after            auroc 0.475 [0.46, 0.49]  length-matched 0.471  recall@1% 0.038  @5% 0.087  in-fold 0.703
+  llr_max_token        auroc 0.744 [0.73, 0.76]  length-matched 0.734  recall@1% 0.071  @5% 0.235  in-fold 0.881
+  shadow_mean          auroc 0.850 [0.84, 0.86]  length-matched 0.817  recall@1% 0.060  @5% 0.273  in-fold 0.925
+  retain_mean          auroc 0.851 [0.84, 0.86]  length-matched 0.862  recall@1% 0.087  @5% 0.367  in-fold 0.909
+  length_tokens        auroc 0.550 [0.54, 0.56]  length-matched 0.514  recall@1% 0.000  @5% 0.000  in-fold 0.576
+  cut_position         auroc 0.512 [0.50, 0.53]  length-matched 0.479  recall@1% 0.003  @5% 0.043  in-fold 0.439
+
+noroute s3  pos 1476 neg 5644  median length pos/neg 16.0/16.0  median hack position 5.0
+  llr_sum              auroc 0.638 [0.62, 0.66]  length-matched 0.630  recall@1% 0.166  @5% 0.350  in-fold 0.797
+  llr_per_token        auroc 0.583 [0.57, 0.60]  length-matched 0.630  recall@1% 0.000  @5% 0.005  in-fold 0.730
+  llr_strictly_before  auroc 0.627 [0.61, 0.64]  length-matched 0.646  recall@1% 0.070  @5% 0.224  in-fold 0.483
+  llr_at_cut_token     auroc 0.962 [0.96, 0.97]  length-matched 0.961  recall@1% 0.486  @5% 0.738  in-fold 0.757
+  llr_after            auroc 0.377 [0.36, 0.40]  length-matched 0.381  recall@1% 0.042  @5% 0.081  in-fold 0.738
+  llr_max_token        auroc 0.884 [0.88, 0.89]  length-matched 0.878  recall@1% 0.081  @5% 0.415  in-fold 0.895
+  shadow_mean          auroc 0.875 [0.87, 0.88]  length-matched 0.847  recall@1% 0.081  @5% 0.367  in-fold 0.945
+  retain_mean          auroc 0.843 [0.83, 0.86]  length-matched 0.869  recall@1% 0.130  @5% 0.424  in-fold 0.918
+  length_tokens        auroc 0.586 [0.57, 0.60]  length-matched 0.497  recall@1% 0.000  @5% 0.000  in-fold 0.576
+  cut_position         auroc 0.481 [0.46, 0.50]  length-matched 0.439  recall@1% 0.004  @5% 0.044  in-fold 0.464
+
+pooled over seeds (thresholds within seed)
+  graft.llr_sum                  recall@1% 0.604 of 227   mean auroc 0.875
+  graft.llr_per_token            recall@1% 0.004 of 227   mean auroc 0.802
+  graft.llr_strictly_before      recall@1% 0.137 of 227   mean auroc 0.712
+  graft.llr_at_cut_token         recall@1% 0.819 of 227   mean auroc 0.996
+  graft.llr_after                recall@1% 0.022 of 227   mean auroc 0.473
+  graft.llr_max_token            recall@1% 0.471 of 227   mean auroc 0.965
+  graft.shadow_mean              recall@1% 0.000 of 227   mean auroc 0.763
+  graft.retain_mean              recall@1% 0.053 of 227   mean auroc 0.652
+  graft.length_tokens            recall@1% 0.000 of 227   mean auroc 0.568
+  graft.cut_position             recall@1% 0.022 of 227   mean auroc 0.601
+  noroute.llr_sum                recall@1% 0.077 of 6097   mean auroc 0.635
+  noroute.llr_per_token          recall@1% 0.001 of 6097   mean auroc 0.608
+  noroute.llr_strictly_before    recall@1% 0.021 of 6097   mean auroc 0.649
+  noroute.llr_at_cut_token       recall@1% 0.164 of 6097   mean auroc 0.862
+  noroute.llr_after              recall@1% 0.031 of 6097   mean auroc 0.442
+  noroute.llr_max_token          recall@1% 0.052 of 6097   mean auroc 0.753
+  noroute.shadow_mean            recall@1% 0.069 of 6097   mean auroc 0.825
+  noroute.retain_mean            recall@1% 0.132 of 6097   mean auroc 0.855
+  noroute.length_tokens          recall@1% 0.000 of 6097   mean auroc 0.559
+  noroute.cut_position           recall@1% 0.003 of 6097   mean auroc 0.498

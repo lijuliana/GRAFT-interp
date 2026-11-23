@@ -1,6 +1,6 @@
 # Cross-validated routing: design
 
-Status, 20 November 2026: designed, and the whole pipeline has run once. The stage 0 smoke test failed on an Azure T4 (`smoke_t4/README.md`) and passed on an AWS A10G with stock settings: about 4 s per step, so a 1,000-step run is about 70 minutes (`smoke_a10g/README.md`). `shadow_score.py` and `analyze.py` ran end to end on the 50-step checkpoint. No full training run exists yet.
+Status, 21 November 2026: the pilot and two of three word-split machines have finished, see `RESULTS.md`. Earlier status, 20 November: designed, and the whole pipeline has run once. The stage 0 smoke test failed on an Azure T4 (`smoke_t4/README.md`) and passed on an AWS A10G with stock settings: about 4 s per step, so a 1,000-step run is about 70 minutes (`smoke_a10g/README.md`). `shadow_score.py` and `analyze.py` ran end to end on the 50-step checkpoint. No full training run exists yet.
 
 ## Design note
 
@@ -65,6 +65,17 @@ The no-routing run separates A from C. The probe separates "the adapter generali
 **Independent checks.** Hack labels come from upstream's own detectors, which share no code with the scores. `analyze.py` is checked against planted signals (`test_analyze.py`). One run is rescored with a second sampling seed.
 
 **Budget.** Measured on an A10G: about 70 minutes per 1,000-step run, so about 7 GPU-hours for the 6-run pilot and about 21 for the 18-run fold stage, one run at a time. A T4 cannot run the trainer.
+## Added after the pilot, before any word-split run was scored (21 November 2026, 12:05 UTC)
+
+Written into the project log at 12:05 UTC, when no word-split run had been scored (the first finished at 15:59 UTC). Copied here at 18:45 UTC because the laptop's disk was full in between. The text is unchanged.
+
+The pilot hit the stop rule above on the primary score (`RESULTS.md`). Its secondary score, the log-likelihood ratio written under Scores, separated held-out hacks in the GRAFT runs (AUROC 0.83 to 0.91) and much less in the no-routing runs (0.59 to 0.68). That comparison was read after the fact, so it is a lead and not a result. The word-split runs were already training for idea 15. They are used as the test, with this rule:
+
+- Score: `llr.all` as computed by `analyze.py`, unchanged.
+- A split is valid if every GRAFT seed has at least 100 held-out hacks (responses with an unflagged word and no flagged one).
+- A valid split confirms if GRAFT's held-out AUROC exceeds the no-routing run's by at least 0.10 on average, with the same sign in every seed pair.
+- The lead replicates if at least two thirds of valid splits confirm, and fails if fewer than one third do. Fewer than 3 valid splits means not tested.
+
 ## Stages
 
 | Stage | Runs | Purpose |

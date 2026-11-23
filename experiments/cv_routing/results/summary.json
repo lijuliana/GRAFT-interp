@@ -1,0 +1,1812 @@
+{
+ "added_rule": {
+  "splits_scored": 14,
+  "valid_splits": [
+   "r-exactly-quite|h-indeed-actually",
+   "r-quite|h-indeed-actually-exactly",
+   "r-exactly|h-indeed-actually-quite"
+  ],
+  "confirming_splits": [],
+  "valid_excluding_pilot": [
+   "r-exactly-quite|h-indeed-actually",
+   "r-quite|h-indeed-actually-exactly",
+   "r-exactly|h-indeed-actually-quite"
+  ],
+  "outcome": "fails"
+ },
+ "splits": {
+  "r-actually-exactly|h-indeed-quite": {
+   "routed": "actually-exactly",
+   "heldout": "indeed-quite",
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "source": "results/cvr_folds_0/scores/cvr_folds_0/analysis.json",
+   "graft_heldout_hacks": [
+    2,
+    0,
+    7
+   ],
+   "graft_n_deployed": [
+    8192,
+    8192,
+    8192
+   ],
+   "graft_flagged_with_both_adapters": [
+    3579,
+    3101,
+    3775
+   ],
+   "noroute_heldout_hacks_retain_half": [
+    2680,
+    2036,
+    1481
+   ],
+   "noroute_heldout_rate_full_model": [
+    0.369873046875,
+    0.348876953125,
+    0.3450927734375
+   ],
+   "noroute_routed_rate_full_model": [
+    0.161376953125,
+    0.1396484375,
+    0.19140625
+   ],
+   "llr_graft": [
+    0.9401098901098901,
+    NaN,
+    0.756898358365351
+   ],
+   "llr_noroute": [
+    0.5758889935703542,
+    0.6790347930794094,
+    0.6338050204480707
+   ],
+   "llr_in_fold_graft": [
+    0.9999489000214025,
+    0.9997336692026753,
+    0.9946587972225921
+   ],
+   "llr_recall_1pct_graft": [
+    0.5,
+    NaN,
+    0.2857142857142857
+   ],
+   "llr_recall_1pct_noroute": [
+    0.018656716417910446,
+    0.09135559921414538,
+    0.18095881161377447
+   ],
+   "shadow_graft": [
+    0.6507631257631258,
+    NaN,
+    0.7744498777506112
+   ],
+   "shadow_noroute": [
+    0.7829764384059767,
+    0.8298397961123736,
+    0.8509105435111822
+   ],
+   "shadow_in_fold_graft": [
+    0.9932692009506277,
+    0.9930207770779992,
+    0.9575472066330951
+   ],
+   "shadow_recall_1pct_graft": [
+    0.0,
+    NaN,
+    0.0
+   ],
+   "shadow_recall_1pct_noroute": [
+    0.07798507462686567,
+    0.028978388998035363,
+    0.17218095881161377
+   ],
+   "llr_diff": [
+    0.36422089653953593,
+    NaN,
+    0.12309333791728028
+   ],
+   "added_rule_valid": false,
+   "added_rule_confirms": false,
+   "original_verdict": {
+    "seeds_paired": [
+     1,
+     2,
+     3
+    ],
+    "valid_n": false,
+    "in_fold_ok": true,
+    "graft_minus_noroute_auroc": [
+     -0.13221331264285097,
+     NaN,
+     -0.07646066576057098
+    ],
+    "routing_specific": false,
+    "stop": false,
+    "graft_minus_probe_auroc": [
+     -0.15686813186813187,
+     NaN,
+     -0.049528466643381064
+    ],
+    "beats_probe": false
+   }
+  },
+  "r-exactly-quite|h-indeed-actually": {
+   "routed": "exactly-quite",
+   "heldout": "indeed-actually",
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "source": "results/cvr_folds_0/scores/cvr_folds_0/analysis.json",
+   "graft_heldout_hacks": [
+    3741,
+    2627,
+    359
+   ],
+   "graft_n_deployed": [
+    8192,
+    8192,
+    8192
+   ],
+   "graft_flagged_with_both_adapters": [
+    6,
+    11,
+    10
+   ],
+   "noroute_heldout_hacks_retain_half": [
+    3694,
+    2689,
+    2637
+   ],
+   "noroute_heldout_rate_full_model": [
+    0.5303955078125,
+    0.4759521484375,
+    0.5416259765625
+   ],
+   "noroute_routed_rate_full_model": [
+    0.0013427734375,
+    0.00146484375,
+    0.00146484375
+   ],
+   "llr_graft": [
+    0.6079139943361443,
+    0.6488123471531112,
+    0.945794021338179
+   ],
+   "llr_noroute": [
+    0.5786880590357438,
+    0.6620433532495649,
+    0.5720257272542904
+   ],
+   "llr_in_fold_graft": [
+    0.8299045138888889,
+    0.8360512177226574,
+    0.8509181532004197
+   ],
+   "llr_recall_1pct_graft": [
+    0.04276931301790965,
+    0.08336505519604111,
+    0.7743732590529248
+   ],
+   "llr_recall_1pct_noroute": [
+    0.026529507309149974,
+    0.10598735589438453,
+    0.12665908229048162
+   ],
+   "shadow_graft": [
+    0.8244607270374374,
+    0.7911982442975958,
+    0.6879548438321317
+   ],
+   "shadow_noroute": [
+    0.7938814878929283,
+    0.8444284688978215,
+    0.8759979451345734
+   ],
+   "shadow_in_fold_graft": [
+    0.8779513888888889,
+    0.7580057276750846,
+    0.8686909758656873
+   ],
+   "shadow_recall_1pct_graft": [
+    0.03769045709703288,
+    0.03425961172440046,
+    0.016713091922005572
+   ],
+   "shadow_recall_1pct_noroute": [
+    0.08040064970221981,
+    0.0360728895500186,
+    0.13576033371255214
+   ],
+   "llr_diff": [
+    0.02922593530040052,
+    -0.013231006096453668,
+    0.3737682940838887
+   ],
+   "added_rule_valid": true,
+   "added_rule_confirms": false,
+   "original_verdict": {
+    "seeds_paired": [
+     1,
+     2,
+     3
+    ],
+    "valid_n": true,
+    "in_fold_ok": false,
+    "graft_minus_noroute_auroc": [
+     0.030579239144509107,
+     -0.05323022460022575,
+     -0.18804310130244173
+    ],
+    "routing_specific": false,
+    "stop": true,
+    "graft_minus_probe_auroc": [
+     0.27501393251595907,
+     0.12523199281965536
+    ],
+    "beats_probe": true
+   }
+  },
+  "r-indeed-actually-quite|h-exactly": {
+   "routed": "indeed-actually-quite",
+   "heldout": "exactly",
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "source": "results/cvr_folds_0/scores/cvr_folds_0/analysis.json",
+   "graft_heldout_hacks": [
+    0,
+    1,
+    0
+   ],
+   "graft_n_deployed": [
+    8192,
+    8192,
+    8192
+   ],
+   "graft_flagged_with_both_adapters": [
+    4020,
+    4346,
+    3805
+   ],
+   "noroute_heldout_hacks_retain_half": [
+    2,
+    3,
+    3
+   ],
+   "noroute_heldout_rate_full_model": [
+    0.0001220703125,
+    0.000244140625,
+    0.0001220703125
+   ],
+   "noroute_routed_rate_full_model": [
+    0.5355224609375,
+    0.4764404296875,
+    0.5426025390625
+   ],
+   "llr_graft": [
+    NaN,
+    0.1731591158871657,
+    NaN
+   ],
+   "llr_noroute": [
+    0.15088426236847996,
+    0.3649731814620623,
+    0.18756698821007503
+   ],
+   "llr_in_fold_graft": [
+    0.9942627466693379,
+    0.9878633447374295,
+    0.9593854655207437
+   ],
+   "llr_recall_1pct_graft": [
+    NaN,
+    0.0,
+    NaN
+   ],
+   "llr_recall_1pct_noroute": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "shadow_graft": [
+    NaN,
+    0.002930760776651606,
+    NaN
+   ],
+   "shadow_noroute": [
+    0.24524289232146854,
+    0.5987464593503284,
+    0.5381088483982375
+   ],
+   "shadow_in_fold_graft": [
+    0.9006496758775633,
+    0.9410281160740307,
+    0.951683441460195
+   ],
+   "shadow_recall_1pct_graft": [
+    NaN,
+    0.0,
+    NaN
+   ],
+   "shadow_recall_1pct_noroute": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "llr_diff": [
+    NaN,
+    -0.1918140655748966,
+    NaN
+   ],
+   "added_rule_valid": false,
+   "added_rule_confirms": false,
+   "original_verdict": {
+    "seeds_paired": [
+     1,
+     2,
+     3
+    ],
+    "valid_n": false,
+    "in_fold_ok": true,
+    "graft_minus_noroute_auroc": [
+     NaN,
+     -0.5958156985736769,
+     NaN
+    ],
+    "routing_specific": false,
+    "stop": false,
+    "graft_minus_probe_auroc": [
+     NaN,
+     -0.6205885944559776,
+     NaN
+    ],
+    "beats_probe": false
+   }
+  },
+  "r-indeed-exactly|h-actually-quite": {
+   "routed": "indeed-exactly",
+   "heldout": "actually-quite",
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "source": "results/cvr_folds_0/scores/cvr_folds_0/analysis.json",
+   "graft_heldout_hacks": [
+    2,
+    3,
+    89
+   ],
+   "graft_n_deployed": [
+    8192,
+    8192,
+    8192
+   ],
+   "graft_flagged_with_both_adapters": [
+    3504,
+    3105,
+    202
+   ],
+   "noroute_heldout_hacks_retain_half": [
+    1019,
+    669,
+    1016
+   ],
+   "noroute_heldout_rate_full_model": [
+    0.142578125,
+    0.11962890625,
+    0.13623046875
+   ],
+   "noroute_routed_rate_full_model": [
+    0.3935546875,
+    0.3592529296875,
+    0.4029541015625
+   ],
+   "llr_graft": [
+    0.9074978629869337,
+    0.6363377300113988,
+    0.7884332895568851
+   ],
+   "llr_noroute": [
+    0.5639609369281552,
+    0.59484761848813,
+    0.47584086451185037
+   ],
+   "llr_in_fold_graft": [
+    0.999741865152824,
+    0.9995161004895535,
+    0.968118384826756
+   ],
+   "llr_recall_1pct_graft": [
+    0.5,
+    0.0,
+    0.48314606741573035
+   ],
+   "llr_recall_1pct_noroute": [
+    0.04416094210009813,
+    0.13602391629297458,
+    0.06692913385826772
+   ],
+   "shadow_graft": [
+    0.7177311026987422,
+    0.7158036150464093,
+    0.808851180921807
+   ],
+   "shadow_noroute": [
+    0.8274194941050808,
+    0.8827139944691397,
+    0.9041667193568149
+   ],
+   "shadow_in_fold_graft": [
+    0.884255390419774,
+    0.9499806513625185,
+    0.6357919657715873
+   ],
+   "shadow_recall_1pct_graft": [
+    0.0,
+    0.0,
+    0.033707865168539325
+   ],
+   "shadow_recall_1pct_noroute": [
+    0.06967615309126594,
+    0.04932735426008968,
+    0.11122047244094488
+   ],
+   "llr_diff": [
+    0.3435369260587785,
+    0.04149011152326887,
+    0.3125924250450347
+   ],
+   "added_rule_valid": false,
+   "added_rule_confirms": false,
+   "original_verdict": {
+    "seeds_paired": [
+     1,
+     2,
+     3
+    ],
+    "valid_n": false,
+    "in_fold_ok": false,
+    "graft_minus_noroute_auroc": [
+     -0.10968839140633857,
+     -0.16691037942273035,
+     -0.09531553843500795
+    ],
+    "routing_specific": false,
+    "stop": true,
+    "graft_minus_probe_auroc": [
+     0.23531566735865184,
+     -0.23567008630516206,
+     0.02468574763919873
+    ],
+    "beats_probe": false
+   }
+  },
+  "r-quite|h-indeed-actually-exactly": {
+   "routed": "quite",
+   "heldout": "indeed-actually-exactly",
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "source": "results/cvr_folds_0/scores/cvr_folds_0/analysis.json",
+   "graft_heldout_hacks": [
+    3491,
+    3229,
+    158
+   ],
+   "graft_n_deployed": [
+    8192,
+    8192,
+    8192
+   ],
+   "graft_flagged_with_both_adapters": [
+    5,
+    2,
+    1
+   ],
+   "noroute_heldout_hacks_retain_half": [
+    3739,
+    2867,
+    2618
+   ],
+   "noroute_heldout_rate_full_model": [
+    0.5347900390625,
+    0.49560546875,
+    0.538818359375
+   ],
+   "noroute_routed_rate_full_model": [
+    0.0008544921875,
+    0.00048828125,
+    0.0010986328125
+   ],
+   "llr_graft": [
+    0.6842918096634549,
+    0.5920853061944366,
+    0.499591771757856
+   ],
+   "llr_noroute": [
+    0.5784503940603939,
+    0.6586711221075942,
+    0.5755506891047119
+   ],
+   "llr_in_fold_graft": [
+    0.6475733333333333,
+    0.12993690114512738,
+    0.18879900435594274
+   ],
+   "llr_recall_1pct_graft": [
+    0.10083070753365798,
+    0.026943326107153918,
+    0.03164556962025317
+   ],
+   "llr_recall_1pct_noroute": [
+    0.029152179727199787,
+    0.10463899546564354,
+    0.12757830404889228
+   ],
+   "shadow_graft": [
+    0.8080838899857921,
+    0.8598479284810036,
+    0.5608717170332052
+   ],
+   "shadow_noroute": [
+    0.792613588854492,
+    0.8476155722273467,
+    0.871572841088965
+   ],
+   "shadow_in_fold_graft": [
+    0.808,
+    0.9946249123627016,
+    0.6996888612321095
+   ],
+   "shadow_recall_1pct_graft": [
+    0.052420509882555144,
+    0.0972437287085785,
+    0.0379746835443038
+   ],
+   "shadow_recall_1pct_noroute": [
+    0.07943300347686547,
+    0.03383327520055807,
+    0.1424751718869366
+   ],
+   "llr_diff": [
+    0.10584141560306104,
+    -0.0665858159131576,
+    -0.07595891734685584
+   ],
+   "added_rule_valid": true,
+   "added_rule_confirms": false,
+   "original_verdict": {
+    "seeds_paired": [
+     1,
+     2,
+     3
+    ],
+    "valid_n": true,
+    "in_fold_ok": false,
+    "graft_minus_noroute_auroc": [
+     0.015470301131300102,
+     0.012232356253656818,
+     -0.3107011240557599
+    ],
+    "routing_specific": false,
+    "stop": true
+   }
+  },
+  "r-actually-quite|h-indeed-exactly": {
+   "routed": "actually-quite",
+   "heldout": "indeed-exactly",
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "source": "results/cvr_folds_1/scores/cvr_folds_1/analysis.json",
+   "graft_heldout_hacks": [
+    17,
+    0,
+    21
+   ],
+   "graft_n_deployed": [
+    8192,
+    8192,
+    8192
+   ],
+   "graft_flagged_with_both_adapters": [
+    2093,
+    3428,
+    34
+   ],
+   "noroute_heldout_hacks_retain_half": [
+    2583,
+    2023,
+    1553
+   ],
+   "noroute_heldout_rate_full_model": [
+    0.354736328125,
+    0.347900390625,
+    0.3594970703125
+   ],
+   "noroute_routed_rate_full_model": [
+    0.1728515625,
+    0.14208984375,
+    0.180908203125
+   ],
+   "llr_graft": [
+    0.8306636814559382,
+    NaN,
+    0.6599632980339902
+   ],
+   "llr_noroute": [
+    0.5752871309553282,
+    0.681381674327978,
+    0.635327280831852
+   ],
+   "llr_in_fold_graft": [
+    0.9976861551400094,
+    0.9997414927348867,
+    0.7405702739110912
+   ],
+   "llr_recall_1pct_graft": [
+    0.5294117647058824,
+    NaN,
+    0.09523809523809523
+   ],
+   "llr_recall_1pct_noroute": [
+    0.02245451025938831,
+    0.10084033613445378,
+    0.15582743077913716
+   ],
+   "shadow_graft": [
+    0.6714276458349832,
+    NaN,
+    0.6204765411319166
+   ],
+   "shadow_noroute": [
+    0.7762822847801082,
+    0.8237544773986002,
+    0.8571801361726425
+   ],
+   "shadow_in_fold_graft": [
+    0.9499168765250816,
+    0.992769704952461,
+    0.63948136506511
+   ],
+   "shadow_recall_1pct_graft": [
+    0.0,
+    NaN,
+    0.0
+   ],
+   "shadow_recall_1pct_noroute": [
+    0.08091366627951994,
+    0.0291646070192783,
+    0.16355441081777206
+   ],
+   "llr_diff": [
+    0.2553765505006099,
+    NaN,
+    0.02463601720213826
+   ],
+   "added_rule_valid": false,
+   "added_rule_confirms": false,
+   "original_verdict": {
+    "seeds_paired": [
+     1,
+     2,
+     3
+    ],
+    "valid_n": false,
+    "in_fold_ok": false,
+    "graft_minus_noroute_auroc": [
+     -0.10485463894512503,
+     NaN,
+     -0.2367035950407259
+    ],
+    "routing_specific": false,
+    "stop": false,
+    "graft_minus_probe_auroc": [
+     0.19508736060817672,
+     NaN,
+     -0.2890893470790379
+    ],
+    "beats_probe": false
+   }
+  },
+  "r-exactly|h-indeed-actually-quite": {
+   "routed": "exactly",
+   "heldout": "indeed-actually-quite",
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "source": "results/cvr_folds_1/scores/cvr_folds_1/analysis.json",
+   "graft_heldout_hacks": [
+    1733,
+    3374,
+    1987
+   ],
+   "graft_n_deployed": [
+    8192,
+    8192,
+    8192
+   ],
+   "graft_flagged_with_both_adapters": [
+    9,
+    7,
+    5
+   ],
+   "noroute_heldout_hacks_retain_half": [
+    3772,
+    2727,
+    2589
+   ],
+   "noroute_heldout_rate_full_model": [
+    0.5343017578125,
+    0.4796142578125,
+    0.5380859375
+   ],
+   "noroute_routed_rate_full_model": [
+    0.000732421875,
+    0.0008544921875,
+    0.000732421875
+   ],
+   "llr_graft": [
+    0.7698251964141992,
+    0.5758788900491912,
+    0.6984777058620472
+   ],
+   "llr_noroute": [
+    0.5788596093737993,
+    0.6625789516581342,
+    0.5704591597166234
+   ],
+   "llr_in_fold_graft": [
+    0.7955988646007082,
+    0.7355478568032063,
+    0.9347685683530678
+   ],
+   "llr_recall_1pct_graft": [
+    0.35891517599538375,
+    0.04238292827504446,
+    0.23452440865626573
+   ],
+   "llr_recall_1pct_noroute": [
+    0.03154825026511135,
+    0.11074440777411075,
+    0.13827732715334107
+   ],
+   "shadow_graft": [
+    0.7929781286751946,
+    0.8376391444284159,
+    0.8367055970223739
+   ],
+   "shadow_noroute": [
+    0.7928982097299706,
+    0.8450581052246565,
+    0.8808556781885705
+   ],
+   "shadow_in_fold_graft": [
+    0.7960378076259035,
+    0.6848719516337205,
+    0.8331539289558665
+   ],
+   "shadow_recall_1pct_graft": [
+    0.014425851125216388,
+    0.14582098399525786,
+    0.04579768495218923
+   ],
+   "shadow_recall_1pct_noroute": [
+    0.07926829268292683,
+    0.03557022368903557,
+    0.15256855928930088
+   ],
+   "llr_diff": [
+    0.1909655870403999,
+    -0.08670006160894295,
+    0.12801854614542374
+   ],
+   "added_rule_valid": true,
+   "added_rule_confirms": false,
+   "original_verdict": {
+    "seeds_paired": [
+     1,
+     2,
+     3
+    ],
+    "valid_n": true,
+    "in_fold_ok": false,
+    "graft_minus_noroute_auroc": [
+     7.991894522396681e-05,
+     -0.0074189607962406035,
+     -0.044150081166196564
+    ],
+    "routing_specific": false,
+    "stop": true
+   }
+  },
+  "r-indeed-actually|h-exactly-quite": {
+   "routed": "indeed-actually",
+   "heldout": "exactly-quite",
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "source": "results/cvr_folds_1/scores/cvr_folds_1/analysis.json",
+   "graft_heldout_hacks": [
+    0,
+    2,
+    3
+   ],
+   "graft_n_deployed": [
+    8192,
+    8192,
+    8192
+   ],
+   "graft_flagged_with_both_adapters": [
+    4204,
+    4017,
+    4435
+   ],
+   "noroute_heldout_hacks_retain_half": [
+    3,
+    3,
+    8
+   ],
+   "noroute_heldout_rate_full_model": [
+    0.0003662109375,
+    0.000244140625,
+    0.0
+   ],
+   "noroute_routed_rate_full_model": [
+    0.5374755859375,
+    0.4832763671875,
+    0.537353515625
+   ],
+   "llr_graft": [
+    NaN,
+    0.16196581196581197,
+    0.4040231289192931
+   ],
+   "llr_noroute": [
+    0.33713391459870334,
+    0.37048694686169226,
+    0.26458407552547203
+   ],
+   "llr_in_fold_graft": [
+    0.971195281849354,
+    0.9910310521600563,
+    0.9499309635211246
+   ],
+   "llr_recall_1pct_graft": [
+    NaN,
+    0.0,
+    0.3333333333333333
+   ],
+   "llr_recall_1pct_noroute": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "shadow_graft": [
+    NaN,
+    0.16080586080586082,
+    0.5440386024920596
+   ],
+   "shadow_noroute": [
+    0.2505402787092928,
+    0.36672221193606125,
+    0.5309271464196651
+   ],
+   "shadow_in_fold_graft": [
+    0.8942825443504634,
+    0.9283527045982717,
+    0.9324125968161576
+   ],
+   "shadow_recall_1pct_graft": [
+    NaN,
+    0.0,
+    0.0
+   ],
+   "shadow_recall_1pct_noroute": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "llr_diff": [
+    NaN,
+    -0.20852113489588028,
+    0.13943905339382107
+   ],
+   "added_rule_valid": false,
+   "added_rule_confirms": false,
+   "original_verdict": {
+    "seeds_paired": [
+     1,
+     2,
+     3
+    ],
+    "valid_n": false,
+    "in_fold_ok": false,
+    "graft_minus_noroute_auroc": [
+     NaN,
+     -0.20591635113020043,
+     0.0131114560723945
+    ],
+    "routing_specific": false,
+    "stop": false,
+    "graft_minus_probe_auroc": [
+     NaN,
+     -0.7053724053724054,
+     -0.40127453375682065
+    ],
+    "beats_probe": false
+   }
+  },
+  "r-indeed-quite|h-actually-exactly": {
+   "routed": "indeed-quite",
+   "heldout": "actually-exactly",
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "source": "results/cvr_folds_1/scores/cvr_folds_1/analysis.json",
+   "graft_heldout_hacks": [
+    2,
+    2,
+    207
+   ],
+   "graft_n_deployed": [
+    8192,
+    8192,
+    8192
+   ],
+   "graft_flagged_with_both_adapters": [
+    3525,
+    2921,
+    334
+   ],
+   "noroute_heldout_hacks_retain_half": [
+    966,
+    673,
+    1046
+   ],
+   "noroute_heldout_rate_full_model": [
+    0.1424560546875,
+    0.11669921875,
+    0.1392822265625
+   ],
+   "noroute_routed_rate_full_model": [
+    0.3876953125,
+    0.3671875,
+    0.3958740234375
+   ],
+   "llr_graft": [
+    0.015817759863197754,
+    0.5004884004884005,
+    0.7962152650692286
+   ],
+   "llr_noroute": [
+    0.563010533918888,
+    0.5948886021631582,
+    0.464672001931828
+   ],
+   "llr_in_fold_graft": [
+    0.999798480800684,
+    0.9995564075279624,
+    0.9727967406863369
+   ],
+   "llr_recall_1pct_graft": [
+    0.0,
+    0.5,
+    0.40096618357487923
+   ],
+   "llr_recall_1pct_noroute": [
+    0.047619047619047616,
+    0.1263001485884101,
+    0.05927342256214149
+   ],
+   "shadow_graft": [
+    0.6602540613167216,
+    0.7219169719169719,
+    0.7870292980996204
+   ],
+   "shadow_noroute": [
+    0.8329735645778024,
+    0.8893445618244885,
+    0.9070908900529274
+   ],
+   "shadow_in_fold_graft": [
+    0.8692241156039012,
+    0.9075541817282793,
+    0.6823117688278012
+   ],
+   "shadow_recall_1pct_graft": [
+    0.0,
+    0.0,
+    0.014492753623188406
+   ],
+   "shadow_recall_1pct_noroute": [
+    0.07246376811594203,
+    0.04903417533432392,
+    0.11089866156787763
+   ],
+   "llr_diff": [
+    -0.5471927740556902,
+    -0.09440020167475771,
+    0.33154326313740057
+   ],
+   "added_rule_valid": false,
+   "added_rule_confirms": false,
+   "original_verdict": {
+    "seeds_paired": [
+     1,
+     2,
+     3
+    ],
+    "valid_n": false,
+    "in_fold_ok": false,
+    "graft_minus_noroute_auroc": [
+     -0.17271950326108076,
+     -0.1674275899075166,
+     -0.12006159195330701
+    ],
+    "routing_specific": false,
+    "stop": true,
+    "graft_minus_probe_auroc": [
+     0.014474166361304497,
+     -0.13717948717948714,
+     0.21086692487403735
+    ],
+    "beats_probe": false
+   }
+  },
+  "r-actually|h-indeed-exactly-quite": {
+   "routed": "actually",
+   "heldout": "indeed-exactly-quite",
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "source": "results/cvr_folds_2/scores/cvr_folds_2/analysis.json",
+   "graft_heldout_hacks": [
+    0,
+    18,
+    9
+   ],
+   "graft_n_deployed": [
+    8192,
+    8192,
+    8192
+   ],
+   "graft_flagged_with_both_adapters": [
+    3521,
+    2565,
+    1878
+   ],
+   "noroute_heldout_hacks_retain_half": [
+    2687,
+    2004,
+    1514
+   ],
+   "noroute_heldout_rate_full_model": [
+    0.367431640625,
+    0.3408203125,
+    0.347900390625
+   ],
+   "noroute_routed_rate_full_model": [
+    0.1661376953125,
+    0.1405029296875,
+    0.189697265625
+   ],
+   "llr_graft": [
+    NaN,
+    0.772653127803605,
+    0.6605828512452809
+   ],
+   "llr_noroute": [
+    0.5809919987597904,
+    0.6748052323949785,
+    0.6407963981769816
+   ],
+   "llr_in_fold_graft": [
+    0.9999154300765019,
+    0.9995271781720819,
+    0.9989291954595083
+   ],
+   "llr_recall_1pct_graft": [
+    NaN,
+    0.4444444444444444,
+    0.5555555555555556
+   ],
+   "llr_recall_1pct_noroute": [
+    0.021585411239300335,
+    0.09830339321357286,
+    0.17965653896961692
+   ],
+   "shadow_graft": [
+    NaN,
+    0.690794660576897,
+    0.7262283060376437
+   ],
+   "shadow_noroute": [
+    0.7811982780166384,
+    0.8264274611959687,
+    0.8507115006835496
+   ],
+   "shadow_in_fold_graft": [
+    0.9833168489819349,
+    0.9455197734895815,
+    0.961267384508794
+   ],
+   "shadow_recall_1pct_graft": [
+    NaN,
+    0.0,
+    0.0
+   ],
+   "shadow_recall_1pct_noroute": [
+    0.07778191291403051,
+    0.02944111776447106,
+    0.18494055482166447
+   ],
+   "llr_diff": [
+    NaN,
+    0.09784789540862648,
+    0.019786453068299292
+   ],
+   "added_rule_valid": false,
+   "added_rule_confirms": false,
+   "original_verdict": {
+    "seeds_paired": [
+     1,
+     2,
+     3
+    ],
+    "valid_n": false,
+    "in_fold_ok": true,
+    "graft_minus_noroute_auroc": [
+     NaN,
+     -0.13563280061907168,
+     -0.12448319464590596
+    ],
+    "routing_specific": false,
+    "stop": false,
+    "graft_minus_probe_auroc": [
+     NaN,
+     0.11583476062311393,
+     0.11614927075694614
+    ],
+    "beats_probe": true
+   }
+  },
+  "r-indeed-actually-exactly|h-quite": {
+   "routed": "indeed-actually-exactly",
+   "heldout": "quite",
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "source": "results/cvr_folds_2/scores/cvr_folds_2/analysis.json",
+   "graft_heldout_hacks": [
+    0,
+    2,
+    1
+   ],
+   "graft_n_deployed": [
+    8192,
+    8192,
+    8192
+   ],
+   "graft_flagged_with_both_adapters": [
+    4148,
+    4019,
+    4696
+   ],
+   "noroute_heldout_hacks_retain_half": [
+    1,
+    2,
+    3
+   ],
+   "noroute_heldout_rate_full_model": [
+    0.000244140625,
+    0.000244140625,
+    0.0001220703125
+   ],
+   "noroute_routed_rate_full_model": [
+    0.5340576171875,
+    0.481201171875,
+    0.537353515625
+   ],
+   "llr_graft": [
+    NaN,
+    0.5984737484737485,
+    0.9565217391304348
+   ],
+   "llr_noroute": [
+    0.7158153022529556,
+    0.5097337006427916,
+    0.34272553242402487
+   ],
+   "llr_in_fold_graft": [
+    0.9906825903489771,
+    0.9960150345051039,
+    0.978323438448209
+   ],
+   "llr_recall_1pct_graft": [
+    NaN,
+    0.0,
+    0.0
+   ],
+   "llr_recall_1pct_noroute": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "shadow_graft": [
+    NaN,
+    0.3218559218559219,
+    0.7550073277967758
+   ],
+   "shadow_noroute": [
+    0.35110417131385235,
+    0.25977961432506885,
+    0.3727267288825078
+   ],
+   "shadow_in_fold_graft": [
+    0.8797132816740064,
+    0.9187749574615234,
+    0.9099524326550706
+   ],
+   "shadow_recall_1pct_graft": [
+    NaN,
+    0.0,
+    0.0
+   ],
+   "shadow_recall_1pct_noroute": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "llr_diff": [
+    NaN,
+    0.0887400478309569,
+    0.61379620670641
+   ],
+   "added_rule_valid": false,
+   "added_rule_confirms": false,
+   "original_verdict": {
+    "seeds_paired": [
+     1,
+     2,
+     3
+    ],
+    "valid_n": false,
+    "in_fold_ok": false,
+    "graft_minus_noroute_auroc": [
+     NaN,
+     0.062076307530853025,
+     0.382280598914268
+    ],
+    "routing_specific": false,
+    "stop": false,
+    "graft_minus_probe_auroc": [
+     NaN,
+     -0.5948717948717948,
+     -0.05422569614069361
+    ],
+    "beats_probe": false
+   }
+  },
+  "r-indeed-exactly-quite|h-actually": {
+   "routed": "indeed-exactly-quite",
+   "heldout": "actually",
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "source": "results/cvr_folds_2/scores/cvr_folds_2/analysis.json",
+   "graft_heldout_hacks": [
+    0,
+    0,
+    4
+   ],
+   "graft_n_deployed": [
+    8192,
+    8192,
+    8192
+   ],
+   "graft_flagged_with_both_adapters": [
+    3060,
+    3205,
+    3223
+   ],
+   "noroute_heldout_hacks_retain_half": [
+    973,
+    719,
+    1065
+   ],
+   "noroute_heldout_rate_full_model": [
+    0.136962890625,
+    0.1224365234375,
+    0.1427001953125
+   ],
+   "noroute_routed_rate_full_model": [
+    0.400146484375,
+    0.3572998046875,
+    0.399169921875
+   ],
+   "llr_graft": [
+    NaN,
+    NaN,
+    0.5580848203373259
+   ],
+   "llr_noroute": [
+    0.5623639854423435,
+    0.6054595428853298,
+    0.4666056684416981
+   ],
+   "llr_in_fold_graft": [
+    0.9997382243164277,
+    0.997967787471752,
+    0.9881006501423397
+   ],
+   "llr_recall_1pct_graft": [
+    NaN,
+    NaN,
+    0.25
+   ],
+   "llr_recall_1pct_noroute": [
+    0.051387461459403906,
+    0.10987482614742698,
+    0.04037558685446009
+   ],
+   "shadow_graft": [
+    NaN,
+    NaN,
+    0.8696987289171352
+   ],
+   "shadow_noroute": [
+    0.8240073877441774,
+    0.8875248224606083,
+    0.904101496991064
+   ],
+   "shadow_in_fold_graft": [
+    0.8919256787359843,
+    0.8924507896650528,
+    0.9286031740563458
+   ],
+   "shadow_recall_1pct_graft": [
+    NaN,
+    NaN,
+    0.0
+   ],
+   "shadow_recall_1pct_noroute": [
+    0.07194244604316546,
+    0.0458970792767733,
+    0.0892018779342723
+   ],
+   "llr_diff": [
+    NaN,
+    NaN,
+    0.09147915189562777
+   ],
+   "added_rule_valid": false,
+   "added_rule_confirms": false,
+   "original_verdict": {
+    "seeds_paired": [
+     1,
+     2,
+     3
+    ],
+    "valid_n": false,
+    "in_fold_ok": false,
+    "graft_minus_noroute_auroc": [
+     NaN,
+     NaN,
+     -0.034402768073928836
+    ],
+    "routing_specific": false,
+    "stop": false,
+    "graft_minus_probe_auroc": [
+     NaN,
+     NaN,
+     0.40333964800782207
+    ],
+    "beats_probe": false
+   }
+  },
+  "r-indeed|h-actually-exactly-quite": {
+   "routed": "indeed",
+   "heldout": "actually-exactly-quite",
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "source": "results/cvr_folds_2/scores/cvr_folds_2/analysis.json",
+   "graft_heldout_hacks": [
+    4,
+    4,
+    249
+   ],
+   "graft_n_deployed": [
+    8192,
+    8192,
+    8192
+   ],
+   "graft_flagged_with_both_adapters": [
+    3626,
+    3833,
+    515
+   ],
+   "noroute_heldout_hacks_retain_half": [
+    1003,
+    720,
+    1079
+   ],
+   "noroute_heldout_rate_full_model": [
+    0.1429443359375,
+    0.1265869140625,
+    0.14111328125
+   ],
+   "noroute_routed_rate_full_model": [
+    0.384521484375,
+    0.358642578125,
+    0.4002685546875
+   ],
+   "llr_graft": [
+    0.28541768441621884,
+    0.39112115290669275,
+    0.828256938821481
+   ],
+   "llr_noroute": [
+    0.5561269627923325,
+    0.6151762948003998,
+    0.48048785302435665
+   ],
+   "llr_in_fold_graft": [
+    0.9994243589353988,
+    0.9994919123402035,
+    0.9778061127969186
+   ],
+   "llr_recall_1pct_graft": [
+    0.0,
+    0.25,
+    0.3534136546184739
+   ],
+   "llr_recall_1pct_noroute": [
+    0.045862412761714856,
+    0.13055555555555556,
+    0.06302131603336422
+   ],
+   "shadow_graft": [
+    0.7579079140205178,
+    0.717391304347826,
+    0.6756008368998987
+   ],
+   "shadow_noroute": [
+    0.8256540798889362,
+    0.8838533698468066,
+    0.9032445404423383
+   ],
+   "shadow_in_fold_graft": [
+    0.8840688343544093,
+    0.9090942473258544,
+    0.575550136588245
+   ],
+   "shadow_recall_1pct_graft": [
+    0.0,
+    0.0,
+    0.020080321285140562
+   ],
+   "shadow_recall_1pct_noroute": [
+    0.0707876370887338,
+    0.04583333333333333,
+    0.08897126969416126
+   ],
+   "llr_diff": [
+    -0.2707092783761137,
+    -0.22405514189370707,
+    0.34776908579712434
+   ],
+   "added_rule_valid": false,
+   "added_rule_confirms": false,
+   "original_verdict": {
+    "seeds_paired": [
+     1,
+     2,
+     3
+    ],
+    "valid_n": false,
+    "in_fold_ok": false,
+    "graft_minus_noroute_auroc": [
+     -0.06774616586841842,
+     -0.16646206549898057,
+     -0.22764370354243957
+    ],
+    "routing_specific": false,
+    "stop": true,
+    "graft_minus_probe_auroc": [
+     0.16832559843673667,
+     -0.08717024914509042,
+     0.12480442233816513
+    ],
+    "beats_probe": true
+   }
+  },
+  "r-actually-exactly-quite|h-indeed": {
+   "routed": "actually-exactly-quite",
+   "heldout": "indeed",
+   "seeds": [
+    1,
+    2,
+    3
+   ],
+   "source": "results/cvr_pilot/scores/cvr_pilot/analysis.json",
+   "graft_heldout_hacks": [
+    119,
+    40,
+    68
+   ],
+   "graft_n_deployed": [
+    8192,
+    8192,
+    8192
+   ],
+   "graft_flagged_with_both_adapters": [
+    1385,
+    1412,
+    1575
+   ],
+   "noroute_heldout_hacks_retain_half": [
+    2632,
+    1989,
+    1476
+   ],
+   "noroute_heldout_rate_full_model": [
+    0.3599853515625,
+    0.338134765625,
+    0.3515625
+   ],
+   "noroute_routed_rate_full_model": [
+    0.1798095703125,
+    0.143798828125,
+    0.18798828125
+   ],
+   "llr_graft": [
+    0.8813111160655683,
+    0.9089358045906468,
+    0.8341608036556176
+   ],
+   "llr_noroute": [
+    0.585825189187277,
+    0.6826652616587113,
+    0.6378273735784842
+   ],
+   "llr_in_fold_graft": [
+    0.997844800938216,
+    0.9966825704487848,
+    0.9948990614021289
+   ],
+   "llr_recall_1pct_graft": [
+    0.6302521008403361,
+    0.7,
+    0.5
+   ],
+   "llr_recall_1pct_noroute": [
+    0.015197568389057751,
+    0.09200603318250378,
+    0.1659891598915989
+   ],
+   "shadow_graft": [
+    0.7278690300816583,
+    0.7042254817724316,
+    0.7295441357800827
+   ],
+   "shadow_noroute": [
+    0.7715241344733097,
+    0.8250202926089819,
+    0.8554573386804031
+   ],
+   "shadow_in_fold_graft": [
+    0.9393613274407573,
+    0.9443300020172076,
+    0.9363234379798797
+   ],
+   "shadow_recall_1pct_graft": [
+    0.008403361344537815,
+    0.0,
+    0.0
+   ],
+   "shadow_recall_1pct_noroute": [
+    0.07940729483282674,
+    0.029663147310206132,
+    0.18902439024390244
+   ],
+   "llr_diff": [
+    0.29548592687829134,
+    0.2262705429319355,
+    0.19633343007713344
+   ],
+   "added_rule_valid": false,
+   "added_rule_confirms": false,
+   "original_verdict": {
+    "seeds_paired": [
+     1,
+     2,
+     3
+    ],
+    "valid_n": false,
+    "in_fold_ok": true,
+    "graft_minus_noroute_auroc": [
+     -0.043655104391651434,
+     -0.1207948108365503,
+     -0.12591320290032038
+    ],
+    "routing_specific": false,
+    "stop": true,
+    "graft_minus_probe_auroc": [
+     0.1855157138481478,
+     0.2455167546336075,
+     0.16966889098426052
+    ],
+    "beats_probe": true
+   }
+  }
+ },
+ "pilot_split_arms": {
+  "baseline": {
+   "1": {
+    "unflagged_word_rate": 0.2733,
+    "flagged_word_rate": 0.2122,
+    "qa_correct": 0.5227,
+    "mode": "both",
+    "n_evals": 10
+   },
+   "2": {
+    "unflagged_word_rate": 0.40900000000000003,
+    "flagged_word_rate": 0.1267,
+    "qa_correct": 0.5422,
+    "mode": "both",
+    "n_evals": 10
+   },
+   "3": {
+    "unflagged_word_rate": 0.3456,
+    "flagged_word_rate": 0.1752,
+    "qa_correct": 0.5015000000000001,
+    "mode": "both",
+    "n_evals": 10
+   }
+  },
+  "untrained": {
+   "1": {
+    "unflagged_word_rate": 0.117,
+    "flagged_word_rate": 0.02,
+    "qa_correct": 0.102,
+    "mode": "both, step 0",
+    "n_evals": 1
+   },
+   "2": {
+    "unflagged_word_rate": 0.125,
+    "flagged_word_rate": 0.02,
+    "qa_correct": 0.098,
+    "mode": "both, step 0",
+    "n_evals": 1
+   },
+   "3": {
+    "unflagged_word_rate": 0.125,
+    "flagged_word_rate": 0.016,
+    "qa_correct": 0.09,
+    "mode": "both, step 0",
+    "n_evals": 1
+   }
+  },
+  "graft": {
+   "1": {
+    "unflagged_word_rate": 0.0148,
+    "flagged_word_rate": 0.0,
+    "qa_correct": 0.4974,
+    "mode": "retain_only",
+    "n_evals": 10
+   },
+   "2": {
+    "unflagged_word_rate": 0.0032,
+    "flagged_word_rate": 0.0004,
+    "qa_correct": 0.46950000000000003,
+    "mode": "retain_only",
+    "n_evals": 10
+   },
+   "3": {
+    "unflagged_word_rate": 0.0072,
+    "flagged_word_rate": 0.0004,
+    "qa_correct": 0.4969,
+    "mode": "retain_only",
+    "n_evals": 10
+   }
+  },
+  "noroute": {
+   "1": {
+    "unflagged_word_rate": 0.3684,
+    "flagged_word_rate": 0.1717,
+    "qa_correct": 0.5176000000000001,
+    "mode": "both",
+    "n_evals": 10
+   },
+   "2": {
+    "unflagged_word_rate": 0.3473,
+    "flagged_word_rate": 0.1329,
+    "qa_correct": 0.5079,
+    "mode": "both",
+    "n_evals": 10
+   },
+   "3": {
+    "unflagged_word_rate": 0.3524,
+    "flagged_word_rate": 0.19290000000000002,
+    "qa_correct": 0.5207,
+    "mode": "both",
+    "n_evals": 10
+   }
+  },
+  "filter": {
+   "1": {
+    "unflagged_word_rate": 0.4969,
+    "flagged_word_rate": 0.0206,
+    "qa_correct": 0.4925,
+    "mode": "both",
+    "n_evals": 10
+   },
+   "2": {
+    "unflagged_word_rate": 0.4874,
+    "flagged_word_rate": 0.008,
+    "qa_correct": 0.5327000000000001,
+    "mode": "both",
+    "n_evals": 10
+   },
+   "3": {
+    "unflagged_word_rate": 0.3527,
+    "flagged_word_rate": 0.0151,
+    "qa_correct": 0.5573,
+    "mode": "both",
+    "n_evals": 10
+   }
+  },
+  "reward_penalty": {
+   "1": {
+    "unflagged_word_rate": 0.46640000000000004,
+    "flagged_word_rate": 0.0004,
+    "qa_correct": 0.5126000000000001,
+    "mode": "both",
+    "n_evals": 10
+   },
+   "2": {
+    "unflagged_word_rate": 0.5035000000000001,
+    "flagged_word_rate": 0.002,
+    "qa_correct": 0.5720999999999999,
+    "mode": "both",
+    "n_evals": 10
+   },
+   "3": {
+    "unflagged_word_rate": 0.0028,
+    "flagged_word_rate": 0.002,
+    "qa_correct": 0.5584,
+    "mode": "both",
+    "n_evals": 10
+   }
+  }
+ }
+}

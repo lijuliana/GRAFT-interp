@@ -1,0 +1,2656 @@
+{
+ "object_qa|routed=actually-quite|heldout=indeed-exactly": {
+  "runs": [
+   {
+    "n_heldout_hacks": 17,
+    "n_clean": 8171,
+    "n_routed_hacks_deployed": 4,
+    "n_flagged_training_like": 2093,
+    "valid_n": false,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.6714276458349832,
+      "auroc_ci": [
+       0.5999170308191811,
+       0.7367535473374273
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9499168765250816,
+      "shuffled_label_auroc": 0.5746542650838331,
+      "split_half_auroc": [
+       0.6709631805079675,
+       0.6733476132190942
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.6862973068311892,
+      "auroc_ci": [
+       0.5904282181603518,
+       0.7709078736132808
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.8938110580166139,
+      "shuffled_label_auroc": 0.547438214056887,
+      "split_half_auroc": [
+       0.6917251318866591,
+       0.6787637698898409
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.8306636814559382,
+      "auroc_ci": [
+       0.6957368959087734,
+       0.947664984486023
+      ],
+      "recall_at_1pct_fpr": 0.5294117647058824,
+      "in_fold_auroc": 0.9976861551400094,
+      "shuffled_label_auroc": 0.5518764353128353,
+      "split_half_auroc": [
+       0.8457605917224126,
+       0.8138310893512852
+      ]
+     },
+     "probe.all": {
+      "auroc": 0.47634028522680644,
+      "auroc_ci": [
+       0.33827398907182504,
+       0.6173855529238986
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9999091605640941,
+      "shuffled_label_auroc": 0.4375337455995738,
+      "split_half_auroc": [
+       0.5115026921194322,
+       0.4357405140758874
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.7123507094674855,
+      "auroc_ci": [
+       0.6366239642350637,
+       0.7785310495511385
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.953977695818623,
+      "shuffled_label_auroc": 0.4916238922444513,
+      "split_half_auroc": [
+       0.7547180072877576,
+       0.6634944920440636
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.7157306687207988,
+      "auroc_ci": [
+       0.614244512515568,
+       0.8031046851490565
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9055629046246573,
+      "shuffled_label_auroc": 0.4422059363459005,
+      "split_half_auroc": [
+       0.7626448033937021,
+       0.661765605875153
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.9822543140374496,
+      "auroc_ci": [
+       0.9555879113363618,
+       0.9984073876766469
+      ],
+      "recall_at_1pct_fpr": 0.8235294117647058,
+      "in_fold_auroc": 0.9981576037257647,
+      "shuffled_label_auroc": 0.5225942537093163,
+      "split_half_auroc": [
+       0.9689998368412466,
+       0.9968176254589963
+      ]
+     }
+    },
+    "arm": "graft",
+    "seed": 1,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-actually-quite__h-indeed-exactly.graft.s1.npz"
+   },
+   {
+    "n_heldout_hacks": 0,
+    "n_clean": 8190,
+    "n_routed_hacks_deployed": 2,
+    "n_flagged_training_like": 3428,
+    "valid_n": false,
+    "detectors": {
+     "shadow.all": {
+      "auroc": NaN,
+      "auroc_ci": [
+       NaN,
+       NaN
+      ],
+      "recall_at_1pct_fpr": NaN,
+      "in_fold_auroc": 0.992769704952461,
+      "shuffled_label_auroc": NaN,
+      "split_half_auroc": [
+       NaN,
+       NaN
+      ]
+     },
+     "retain.all": {
+      "auroc": NaN,
+      "auroc_ci": [
+       NaN,
+       NaN
+      ],
+      "recall_at_1pct_fpr": NaN,
+      "in_fold_auroc": 0.9416736899722083,
+      "shuffled_label_auroc": NaN,
+      "split_half_auroc": [
+       NaN,
+       NaN
+      ]
+     },
+     "llr.all": {
+      "auroc": NaN,
+      "auroc_ci": [
+       NaN,
+       NaN
+      ],
+      "recall_at_1pct_fpr": NaN,
+      "in_fold_auroc": 0.9997414927348867,
+      "shuffled_label_auroc": NaN,
+      "split_half_auroc": [
+       NaN,
+       NaN
+      ]
+     },
+     "probe.all": {
+      "auroc": NaN,
+      "auroc_ci": [
+       NaN,
+       NaN
+      ],
+      "recall_at_1pct_fpr": NaN,
+      "in_fold_auroc": 0.9999979960677123,
+      "shuffled_label_auroc": NaN,
+      "split_half_auroc": [
+       NaN,
+       NaN
+      ]
+     },
+     "shadow.before": {
+      "auroc": NaN,
+      "auroc_ci": [
+       NaN,
+       NaN
+      ],
+      "recall_at_1pct_fpr": NaN,
+      "in_fold_auroc": 0.9702798949481439,
+      "shuffled_label_auroc": NaN,
+      "split_half_auroc": [
+       NaN,
+       NaN
+      ]
+     },
+     "retain.before": {
+      "auroc": NaN,
+      "auroc_ci": [
+       NaN,
+       NaN
+      ],
+      "recall_at_1pct_fpr": NaN,
+      "in_fold_auroc": 0.9408020152115637,
+      "shuffled_label_auroc": NaN,
+      "split_half_auroc": [
+       NaN,
+       NaN
+      ]
+     },
+     "llr.before": {
+      "auroc": NaN,
+      "auroc_ci": [
+       NaN,
+       NaN
+      ],
+      "recall_at_1pct_fpr": NaN,
+      "in_fold_auroc": 0.9997879410225551,
+      "shuffled_label_auroc": NaN,
+      "split_half_auroc": [
+       NaN,
+       NaN
+      ]
+     }
+    },
+    "arm": "graft",
+    "seed": 2,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-actually-quite__h-indeed-exactly.graft.s2.npz"
+   },
+   {
+    "n_heldout_hacks": 21,
+    "n_clean": 8148,
+    "n_routed_hacks_deployed": 23,
+    "n_flagged_training_like": 34,
+    "valid_n": false,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.6204765411319166,
+      "auroc_ci": [
+       0.5208036737031583,
+       0.7099805386071955
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.63948136506511,
+      "shuffled_label_auroc": 0.48659618486569883,
+      "split_half_auroc": [
+       0.6125317980988084,
+       0.628325969563083
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.6843806251022746,
+      "auroc_ci": [
+       0.560987066647965,
+       0.8025709639525912
+      ],
+      "recall_at_1pct_fpr": 0.047619047619047616,
+      "in_fold_auroc": 0.5612624389819951,
+      "shuffled_label_auroc": 0.5798033990228394,
+      "split_half_auroc": [
+       0.6932097112509483,
+       0.67346588119784
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.6599632980339902,
+      "auroc_ci": [
+       0.49291032564228443,
+       0.7935312784907778
+      ],
+      "recall_at_1pct_fpr": 0.09523809523809523,
+      "in_fold_auroc": 0.7405702739110912,
+      "shuffled_label_auroc": 0.43116043668326437,
+      "split_half_auroc": [
+       0.6365421520060696,
+       0.685640648011782
+      ]
+     },
+     "probe.all": {
+      "auroc": 0.9095658882109545,
+      "auroc_ci": [
+       0.8237767959417444,
+       0.9762327009841737
+      ],
+      "recall_at_1pct_fpr": 0.5714285714285714,
+      "in_fold_auroc": 1.0,
+      "shuffled_label_auroc": 0.6330504710475255,
+      "split_half_auroc": [
+       0.9659035122952648,
+       0.8480117820324006
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.6396574093554948,
+      "auroc_ci": [
+       0.5243433240993992,
+       0.7201829400144938
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.6557932702753596,
+      "shuffled_label_auroc": 0.4707757673516142,
+      "split_half_auroc": [
+       0.5830432454143795,
+       0.7030436917034855
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.6883518012015802,
+      "auroc_ci": [
+       0.5574773680950044,
+       0.7973461936320919
+      ],
+      "recall_at_1pct_fpr": 0.047619047619047616,
+      "in_fold_auroc": 0.5657220041427061,
+      "shuffled_label_auroc": 0.49910875002922134,
+      "split_half_auroc": [
+       0.5423974650778774,
+       0.8518286696121747
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.6503436426116839,
+      "auroc_ci": [
+       0.5073316268087992,
+       0.8004858042873506
+      ],
+      "recall_at_1pct_fpr": 0.047619047619047616,
+      "in_fold_auroc": 0.7840053159899764,
+      "shuffled_label_auroc": 0.47721906632068634,
+      "split_half_auroc": [
+       0.7101352255991431,
+       0.5831369661266569
+      ]
+     }
+    },
+    "arm": "graft",
+    "seed": 3,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-actually-quite__h-indeed-exactly.graft.s3.npz"
+   },
+   {
+    "n_heldout_hacks": 2583,
+    "n_clean": 4499,
+    "n_routed_hacks_deployed": 1110,
+    "n_flagged_training_like": 1416,
+    "valid_n": true,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.7762822847801082,
+      "auroc_ci": [
+       0.7657636806974871,
+       0.7862306681563942
+      ],
+      "recall_at_1pct_fpr": 0.08091366627951994,
+      "in_fold_auroc": 0.825741342939313,
+      "shuffled_label_auroc": 0.5022470257725788,
+      "split_half_auroc": [
+       0.7789704162366701,
+       0.7733975234367009
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.8754356906602121,
+      "auroc_ci": [
+       0.8677640284325239,
+       0.8843727381840865
+      ],
+      "recall_at_1pct_fpr": 0.08013937282229965,
+      "in_fold_auroc": 0.9312343063402385,
+      "shuffled_label_auroc": 0.5092196682929583,
+      "split_half_auroc": [
+       0.8757882696938425,
+       0.8751137866937332
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.5752871309553282,
+      "auroc_ci": [
+       0.5602705277044833,
+       0.5883749707531686
+      ],
+      "recall_at_1pct_fpr": 0.02245451025938831,
+      "in_fold_auroc": 0.6756056657761427,
+      "shuffled_label_auroc": 0.4943163693536405,
+      "split_half_auroc": [
+       0.5753095975232199,
+       0.5752569607492305
+      ]
+     },
+     "probe.all": {
+      "auroc": 0.5763737061369597,
+      "auroc_ci": [
+       0.561185804011852,
+       0.5905374679123859
+      ],
+      "recall_at_1pct_fpr": 0.006581494386372435,
+      "in_fold_auroc": 0.9999552913181214,
+      "shuffled_label_auroc": 0.48675207817076743,
+      "split_half_auroc": [
+       0.5808524251805985,
+       0.5716057984631434
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.8221139949627039,
+      "auroc_ci": [
+       0.8124814214317166,
+       0.8312032077589058
+      ],
+      "recall_at_1pct_fpr": 0.07742934572202866,
+      "in_fold_auroc": 0.8630016496591191,
+      "shuffled_label_auroc": 0.4929420371903525,
+      "split_half_auroc": [
+       0.8259141726866185,
+       0.818224572828478
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.9089356717718576,
+      "auroc_ci": [
+       0.9014315651682221,
+       0.9161037990805717
+      ],
+      "recall_at_1pct_fpr": 0.0975609756097561,
+      "in_fold_auroc": 0.9465449313128659,
+      "shuffled_label_auroc": 0.4968468064955631,
+      "split_half_auroc": [
+       0.9035825593395252,
+       0.9142579592134761
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.6941263327153959,
+      "auroc_ci": [
+       0.6818888614814133,
+       0.7057522891696069
+      ],
+      "recall_at_1pct_fpr": 0.003097173828881146,
+      "in_fold_auroc": 0.6124321157973109,
+      "shuffled_label_auroc": 0.5074550915388175,
+      "split_half_auroc": [
+       0.7015331957344342,
+       0.6867909965320674
+      ]
+     }
+    },
+    "arm": "noroute",
+    "seed": 1,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-actually-quite__h-indeed-exactly.noroute.s1.npz"
+   },
+   {
+    "n_heldout_hacks": 2023,
+    "n_clean": 5426,
+    "n_routed_hacks_deployed": 743,
+    "n_flagged_training_like": 1164,
+    "valid_n": true,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.8237544773986002,
+      "auroc_ci": [
+       0.8143491640276154,
+       0.83271572228987
+      ],
+      "recall_at_1pct_fpr": 0.0291646070192783,
+      "in_fold_auroc": 0.9338225799022535,
+      "shuffled_label_auroc": 0.5072701529170893,
+      "split_half_auroc": [
+       0.821215629912484,
+       0.8265181419425027
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.8390491471192236,
+      "auroc_ci": [
+       0.8291971495239322,
+       0.8478824801640696
+      ],
+      "recall_at_1pct_fpr": 0.04201680672268908,
+      "in_fold_auroc": 0.9282873265131214,
+      "shuffled_label_auroc": 0.4983414562243015,
+      "split_half_auroc": [
+       0.8366416492688549,
+       0.841508062984283
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.681381674327978,
+      "auroc_ci": [
+       0.6681443645952125,
+       0.6960199140040656
+      ],
+      "recall_at_1pct_fpr": 0.10084033613445378,
+      "in_fold_auroc": 0.8018778612894576,
+      "shuffled_label_auroc": 0.49918755906777185,
+      "split_half_auroc": [
+       0.673200619473797,
+       0.6895294408028458
+      ]
+     },
+     "probe.all": {
+      "auroc": 0.5319324451447499,
+      "auroc_ci": [
+       0.5170826114318583,
+       0.5464898962338561
+      ],
+      "recall_at_1pct_fpr": 0.010874938210578349,
+      "in_fold_auroc": 0.9999738854645261,
+      "shuffled_label_auroc": 0.4928291929941682,
+      "split_half_auroc": [
+       0.5378473431246713,
+       0.525715835722278
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.8724250459924652,
+      "auroc_ci": [
+       0.8637790285017544,
+       0.8801929146368549
+      ],
+      "recall_at_1pct_fpr": 0.03559070687098369,
+      "in_fold_auroc": 0.9474889126318681,
+      "shuffled_label_auroc": 0.5030839594570292,
+      "split_half_auroc": [
+       0.8696061926983095,
+       0.8751381322226609
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.8835798472377828,
+      "auroc_ci": [
+       0.876254430025951,
+       0.8908715159921864
+      ],
+      "recall_at_1pct_fpr": 0.04794859120118636,
+      "in_fold_auroc": 0.9431130829298946,
+      "shuffled_label_auroc": 0.4949364104176828,
+      "split_half_auroc": [
+       0.8788986638771892,
+       0.888134683611129
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.8647570994747285,
+      "auroc_ci": [
+       0.8554795761022477,
+       0.8732341389538187
+      ],
+      "recall_at_1pct_fpr": 0.07563025210084033,
+      "in_fold_auroc": 0.755324178029574,
+      "shuffled_label_auroc": 0.48951852808077545,
+      "split_half_auroc": [
+       0.8718452655855499,
+       0.8573450977689937
+      ]
+     }
+    },
+    "arm": "noroute",
+    "seed": 2,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-actually-quite__h-indeed-exactly.noroute.s2.npz"
+   },
+   {
+    "n_heldout_hacks": 1553,
+    "n_clean": 5589,
+    "n_routed_hacks_deployed": 1050,
+    "n_flagged_training_like": 1482,
+    "valid_n": true,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.8571801361726425,
+      "auroc_ci": [
+       0.8479853303396874,
+       0.866549481106354
+      ],
+      "recall_at_1pct_fpr": 0.16355441081777206,
+      "in_fold_auroc": 0.9488762897129431,
+      "shuffled_label_auroc": 0.4934664920526787,
+      "split_half_auroc": [
+       0.8607586630842444,
+       0.8538591071441749
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.855939254701507,
+      "auroc_ci": [
+       0.8469191262226637,
+       0.8646363513349571
+      ],
+      "recall_at_1pct_fpr": 0.0334835801674179,
+      "in_fold_auroc": 0.933677077564685,
+      "shuffled_label_auroc": 0.5002688451708737,
+      "split_half_auroc": [
+       0.8534743278929325,
+       0.858326983816573
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.635327280831852,
+      "auroc_ci": [
+       0.6174219274660683,
+       0.653482786362735
+      ],
+      "recall_at_1pct_fpr": 0.15582743077913716,
+      "in_fold_auroc": 0.7877264670512731,
+      "shuffled_label_auroc": 0.5004348644085976,
+      "split_half_auroc": [
+       0.6458015899876365,
+       0.6248464124154115
+      ]
+     },
+     "probe.all": {
+      "auroc": 0.5758317926725031,
+      "auroc_ci": [
+       0.5600245952719426,
+       0.593401633947282
+      ],
+      "recall_at_1pct_fpr": 0.0103026400515132,
+      "in_fold_auroc": 0.9999516105618014,
+      "shuffled_label_auroc": 0.5087774175125755,
+      "split_half_auroc": [
+       0.5786979414886392,
+       0.5730869351851169
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.8947635043861453,
+      "auroc_ci": [
+       0.888159001900638,
+       0.9015889918991599
+      ],
+      "recall_at_1pct_fpr": 0.06825499034127495,
+      "in_fold_auroc": 0.9589995394042364,
+      "shuffled_label_auroc": 0.5057012803528042,
+      "split_half_auroc": [
+       0.8969784248854016,
+       0.8925463437852836
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.8989774666616435,
+      "auroc_ci": [
+       0.8908963405719335,
+       0.9069571407109241
+      ],
+      "recall_at_1pct_fpr": 0.06374758531873792,
+      "in_fold_auroc": 0.9475159192290666,
+      "shuffled_label_auroc": 0.5000933210149594,
+      "split_half_auroc": [
+       0.9067448997681555,
+       0.891126926993779
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.8508293530768342,
+      "auroc_ci": [
+       0.8390801710470513,
+       0.8634619394848934
+      ],
+      "recall_at_1pct_fpr": 0.14230521571152607,
+      "in_fold_auroc": 0.6692301419602741,
+      "shuffled_label_auroc": 0.49241415359509993,
+      "split_half_auroc": [
+       0.856230674835326,
+       0.8454918123519471
+      ]
+     }
+    },
+    "arm": "noroute",
+    "seed": 3,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-actually-quite__h-indeed-exactly.noroute.s3.npz"
+   }
+  ],
+  "verdict": {
+   "seeds_paired": [
+    1,
+    2,
+    3
+   ],
+   "valid_n": false,
+   "in_fold_ok": false,
+   "graft_minus_noroute_auroc": [
+    -0.10485463894512503,
+    NaN,
+    -0.2367035950407259
+   ],
+   "routing_specific": false,
+   "stop": false,
+   "graft_minus_probe_auroc": [
+    0.19508736060817672,
+    NaN,
+    -0.2890893470790379
+   ],
+   "beats_probe": false
+  }
+ },
+ "object_qa|routed=exactly|heldout=indeed-actually-quite": {
+  "runs": [
+   {
+    "n_heldout_hacks": 1733,
+    "n_clean": 6454,
+    "n_routed_hacks_deployed": 5,
+    "n_flagged_training_like": 9,
+    "valid_n": true,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.7929781286751946,
+      "auroc_ci": [
+       0.7828197769075874,
+       0.8022551098894909
+      ],
+      "recall_at_1pct_fpr": 0.014425851125216388,
+      "in_fold_auroc": 0.7960378076259035,
+      "shuffled_label_auroc": 0.4975366082235666,
+      "split_half_auroc": [
+       0.7894241529711284,
+       0.7963591692782678
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.6781914032834971,
+      "auroc_ci": [
+       0.6666635366697357,
+       0.6916119598933622
+      ],
+      "recall_at_1pct_fpr": 0.012694748990190421,
+      "in_fold_auroc": 0.5215374711029175,
+      "shuffled_label_auroc": 0.506549926498344,
+      "split_half_auroc": [
+       0.6718694878742616,
+       0.6843808841536946
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.7698251964141992,
+      "auroc_ci": [
+       0.7561383382349339,
+       0.7847261484399071
+      ],
+      "recall_at_1pct_fpr": 0.35891517599538375,
+      "in_fold_auroc": 0.7955988646007082,
+      "shuffled_label_auroc": 0.4936861979071206,
+      "split_half_auroc": [
+       0.7637279742827334,
+       0.7760366308807543
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.8494976477860722,
+      "auroc_ci": [
+       0.8408737906112073,
+       0.8582556369896168
+      ],
+      "recall_at_1pct_fpr": 0.014425851125216388,
+      "in_fold_auroc": 0.8502033769350071,
+      "shuffled_label_auroc": 0.5012490185325025,
+      "split_half_auroc": [
+       0.8464991713158404,
+       0.8525539776610599
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.7432689792255227,
+      "auroc_ci": [
+       0.732853716996898,
+       0.7542507768591288
+      ],
+      "recall_at_1pct_fpr": 0.012694748990190421,
+      "in_fold_auroc": 0.5829894946302636,
+      "shuffled_label_auroc": 0.49732511550068653,
+      "split_half_auroc": [
+       0.7498210206629545,
+       0.7368418604285005
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.8662787526837805,
+      "auroc_ci": [
+       0.8539970157666015,
+       0.8754198427828097
+      ],
+      "recall_at_1pct_fpr": 0.4171956145412579,
+      "in_fold_auroc": 0.8653322798700729,
+      "shuffled_label_auroc": 0.4961654594608996,
+      "split_half_auroc": [
+       0.8649904264372585,
+       0.8676170532838184
+      ]
+     }
+    },
+    "arm": "graft",
+    "seed": 1,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-exactly__h-indeed-actually-quite.graft.s1.npz"
+   },
+   {
+    "n_heldout_hacks": 3374,
+    "n_clean": 4813,
+    "n_routed_hacks_deployed": 5,
+    "n_flagged_training_like": 7,
+    "valid_n": true,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.8376391444284159,
+      "auroc_ci": [
+       0.8286580060781835,
+       0.8462101397851675
+      ],
+      "recall_at_1pct_fpr": 0.14582098399525786,
+      "in_fold_auroc": 0.6848719516337205,
+      "shuffled_label_auroc": 0.5128402120762886,
+      "split_half_auroc": [
+       0.8345001944289637,
+       0.8408491220082573
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.9004704520495088,
+      "auroc_ci": [
+       0.8930758716236197,
+       0.906722747440708
+      ],
+      "recall_at_1pct_fpr": 0.12951985773562538,
+      "in_fold_auroc": 0.7656069560491814,
+      "shuffled_label_auroc": 0.4989972019319835,
+      "split_half_auroc": [
+       0.9073338506613171,
+       0.893738534517293
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.5758788900491912,
+      "auroc_ci": [
+       0.561113800784799,
+       0.5900508508434785
+      ],
+      "recall_at_1pct_fpr": 0.04238292827504446,
+      "in_fold_auroc": 0.7355478568032063,
+      "shuffled_label_auroc": 0.4854805653183663,
+      "split_half_auroc": [
+       0.5825507947206934,
+       0.5691553077393455
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.8734421667951018,
+      "auroc_ci": [
+       0.8660900826661048,
+       0.8803208453480872
+      ],
+      "recall_at_1pct_fpr": 0.18109069353882631,
+      "in_fold_auroc": 0.7607159839684804,
+      "shuffled_label_auroc": 0.5027895391987542,
+      "split_half_auroc": [
+       0.8766771191217869,
+       0.8701587515108692
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.933073689847357,
+      "auroc_ci": [
+       0.9273196244339729,
+       0.938040907935446
+      ],
+      "recall_at_1pct_fpr": 0.1757557794902193,
+      "in_fold_auroc": 0.8300387201956388,
+      "shuffled_label_auroc": 0.5014353353660451,
+      "split_half_auroc": [
+       0.9348426553750927,
+       0.9312965363709872
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.6327010143812494,
+      "auroc_ci": [
+       0.6200801422520587,
+       0.6442641938001099
+      ],
+      "recall_at_1pct_fpr": 0.005631298162418494,
+      "in_fold_auroc": 0.5988723592147273,
+      "shuffled_label_auroc": 0.5012676840571211,
+      "split_half_auroc": [
+       0.6368967068732794,
+       0.6285252586770576
+      ]
+     }
+    },
+    "arm": "graft",
+    "seed": 2,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-exactly__h-indeed-actually-quite.graft.s2.npz"
+   },
+   {
+    "n_heldout_hacks": 1987,
+    "n_clean": 6202,
+    "n_routed_hacks_deployed": 3,
+    "n_flagged_training_like": 5,
+    "valid_n": true,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.8367055970223739,
+      "auroc_ci": [
+       0.8289658021009506,
+       0.84562151059442
+      ],
+      "recall_at_1pct_fpr": 0.04579768495218923,
+      "in_fold_auroc": 0.8331539289558665,
+      "shuffled_label_auroc": 0.4913996361710681,
+      "split_half_auroc": [
+       0.8324266787438594,
+       0.8408407384422333
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.842810702653348,
+      "auroc_ci": [
+       0.8335298585841832,
+       0.8509028848349486
+      ],
+      "recall_at_1pct_fpr": 0.017614494212380472,
+      "in_fold_auroc": 0.8191065662002153,
+      "shuffled_label_auroc": 0.49845269647744195,
+      "split_half_auroc": [
+       0.8421308242878749,
+       0.8436020865828617
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.6984777058620472,
+      "auroc_ci": [
+       0.6848145280667454,
+       0.7127591437215165
+      ],
+      "recall_at_1pct_fpr": 0.23452440865626573,
+      "in_fold_auroc": 0.9347685683530678,
+      "shuffled_label_auroc": 0.49658125282897364,
+      "split_half_auroc": [
+       0.6828847966872502,
+       0.7137544234991604
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.8756515869760992,
+      "auroc_ci": [
+       0.8678688543413516,
+       0.8835686233331878
+      ],
+      "recall_at_1pct_fpr": 0.05988928032209361,
+      "in_fold_auroc": 0.8764262648008612,
+      "shuffled_label_auroc": 0.5142447595926245,
+      "split_half_auroc": [
+       0.8762473259421086,
+       0.8750364125791212
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.8832910938189492,
+      "auroc_ci": [
+       0.8752967490883584,
+       0.890538926271328
+      ],
+      "recall_at_1pct_fpr": 0.014091595369904378,
+      "in_fold_auroc": 0.8498923573735199,
+      "shuffled_label_auroc": 0.4975271788391718,
+      "split_half_auroc": [
+       0.8845150879478743,
+       0.8820537701348978
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.7942377631320773,
+      "auroc_ci": [
+       0.7807747760475338,
+       0.8071228545039695
+      ],
+      "recall_at_1pct_fpr": 0.29290387518872674,
+      "in_fold_auroc": 0.9761571582346609,
+      "shuffled_label_auroc": 0.5144447454081975,
+      "split_half_auroc": [
+       0.8016723365020825,
+       0.7869130998576621
+      ]
+     }
+    },
+    "arm": "graft",
+    "seed": 3,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-exactly__h-indeed-actually-quite.graft.s3.npz"
+   },
+   {
+    "n_heldout_hacks": 3772,
+    "n_clean": 4416,
+    "n_routed_hacks_deployed": 4,
+    "n_flagged_training_like": 6,
+    "valid_n": true,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.7928982097299706,
+      "auroc_ci": [
+       0.7845357807865354,
+       0.801422404022008
+      ],
+      "recall_at_1pct_fpr": 0.07926829268292683,
+      "in_fold_auroc": 0.6354248709197514,
+      "shuffled_label_auroc": 0.5017575933749059,
+      "split_half_auroc": [
+       0.7876845933806692,
+       0.7981022205956937
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.8895757510047336,
+      "auroc_ci": [
+       0.882348469594322,
+       0.8962621311254169
+      ],
+      "recall_at_1pct_fpr": 0.08669141039236479,
+      "in_fold_auroc": 0.8156996587030717,
+      "shuffled_label_auroc": 0.5102624986552323,
+      "split_half_auroc": [
+       0.8887416048073524,
+       0.8905637650421873
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.5788596093737993,
+      "auroc_ci": [
+       0.5668841025464617,
+       0.591538292380354
+      ],
+      "recall_at_1pct_fpr": 0.03154825026511135,
+      "in_fold_auroc": 0.7135293602870395,
+      "shuffled_label_auroc": 0.4969689596396791,
+      "split_half_auroc": [
+       0.5762004212965097,
+       0.5813694922157161
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.8350457509182843,
+      "auroc_ci": [
+       0.8267012166905843,
+       0.8441332145195048
+      ],
+      "recall_at_1pct_fpr": 0.08934252386002121,
+      "in_fold_auroc": 0.7101382690119892,
+      "shuffled_label_auroc": 0.49304493949505895,
+      "split_half_auroc": [
+       0.8374579279819263,
+       0.8326597487973935
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.9163793426391258,
+      "auroc_ci": [
+       0.9096897221685917,
+       0.922346386855328
+      ],
+      "recall_at_1pct_fpr": 0.10577942735949099,
+      "in_fold_auroc": 0.8539642950905749,
+      "shuffled_label_auroc": 0.4951516321637697,
+      "split_half_auroc": [
+       0.9172409545161142,
+       0.9155288971367974
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.6935737573866169,
+      "auroc_ci": [
+       0.6822024197173683,
+       0.7038167298947624
+      ],
+      "recall_at_1pct_fpr": 0.003976670201484623,
+      "in_fold_auroc": 0.6203728012601732,
+      "shuffled_label_auroc": 0.49553903332334365,
+      "split_half_auroc": [
+       0.6951440438317427,
+       0.6922996200070697
+      ]
+     }
+    },
+    "arm": "noroute",
+    "seed": 1,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-exactly__h-indeed-actually-quite.noroute.s1.npz"
+   },
+   {
+    "n_heldout_hacks": 2727,
+    "n_clean": 5462,
+    "n_routed_hacks_deployed": 3,
+    "n_flagged_training_like": 7,
+    "valid_n": true,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.8450581052246565,
+      "auroc_ci": [
+       0.8368699350863928,
+       0.8536520802391481
+      ],
+      "recall_at_1pct_fpr": 0.03557022368903557,
+      "in_fold_auroc": 0.755202738990333,
+      "shuffled_label_auroc": 0.4995155715986587,
+      "split_half_auroc": [
+       0.8464950052133052,
+       0.843672134265611
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.8534558936181669,
+      "auroc_ci": [
+       0.8441185328254539,
+       0.8610678823130695
+      ],
+      "recall_at_1pct_fpr": 0.0429042904290429,
+      "in_fold_auroc": 0.75859291084855,
+      "shuffled_label_auroc": 0.5157078200191556,
+      "split_half_auroc": [
+       0.854574017659736,
+       0.8523835595388186
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.6625789516581342,
+      "auroc_ci": [
+       0.6490712039591607,
+       0.6768550492605712
+      ],
+      "recall_at_1pct_fpr": 0.11074440777411075,
+      "in_fold_auroc": 0.7371441997851772,
+      "shuffled_label_auroc": 0.4922699581077356,
+      "split_half_auroc": [
+       0.6440284299629216,
+       0.6812223343675358
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.8867812846218102,
+      "auroc_ci": [
+       0.8792236266986884,
+       0.8938092267514314
+      ],
+      "recall_at_1pct_fpr": 0.045104510451045104,
+      "in_fold_auroc": 0.8063070622986036,
+      "shuffled_label_auroc": 0.5038013077519152,
+      "split_half_auroc": [
+       0.8848286374213307,
+       0.8887326107975251
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.8927745209526445,
+      "auroc_ci": [
+       0.8855694465760502,
+       0.9000989820390558
+      ],
+      "recall_at_1pct_fpr": 0.050605060506050605,
+      "in_fold_auroc": 0.8169139366272825,
+      "shuffled_label_auroc": 0.4951119089694884,
+      "split_half_auroc": [
+       0.8914390923801987,
+       0.8941419580571751
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.8374294069221397,
+      "auroc_ci": [
+       0.8271663165797845,
+       0.8463958993543685
+      ],
+      "recall_at_1pct_fpr": 0.10121012101210121,
+      "in_fold_auroc": 0.6283566058002148,
+      "shuffled_label_auroc": 0.5021268726408831,
+      "split_half_auroc": [
+       0.8410191555411904,
+       0.8338749710196749
+      ]
+     }
+    },
+    "arm": "noroute",
+    "seed": 2,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-exactly__h-indeed-actually-quite.noroute.s2.npz"
+   },
+   {
+    "n_heldout_hacks": 2589,
+    "n_clean": 5601,
+    "n_routed_hacks_deployed": 2,
+    "n_flagged_training_like": 6,
+    "valid_n": true,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.8808556781885705,
+      "auroc_ci": [
+       0.8736121075948682,
+       0.8884613680487586
+      ],
+      "recall_at_1pct_fpr": 0.15256855928930088,
+      "in_fold_auroc": 0.9707958355390859,
+      "shuffled_label_auroc": 0.5033947684533793,
+      "split_half_auroc": [
+       0.8796812776462901,
+       0.8821083572532568
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.8720015579627017,
+      "auroc_ci": [
+       0.8643509513385604,
+       0.8791186035655912
+      ],
+      "recall_at_1pct_fpr": 0.036693704132869834,
+      "in_fold_auroc": 0.9678842421034057,
+      "shuffled_label_auroc": 0.49937421509663926,
+      "split_half_auroc": [
+       0.8691883345578455,
+       0.8747353168469861
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.5704591597166234,
+      "auroc_ci": [
+       0.5547298791137625,
+       0.5857907777876391
+      ],
+      "recall_at_1pct_fpr": 0.13827732715334107,
+      "in_fold_auroc": 0.8664196223751544,
+      "shuffled_label_auroc": 0.4926260891584705,
+      "split_half_auroc": [
+       0.5714249874906783,
+       0.5696649370722013
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.9104305920099657,
+      "auroc_ci": [
+       0.9041288175241013,
+       0.9164266951033477
+      ],
+      "recall_at_1pct_fpr": 0.07184241019698726,
+      "in_fold_auroc": 0.9795747308981825,
+      "shuffled_label_auroc": 0.5014424533388723,
+      "split_half_auroc": [
+       0.9084075047659482,
+       0.9124242382424377
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.9087729464521351,
+      "auroc_ci": [
+       0.9026062187896288,
+       0.9151812378107452
+      ],
+      "recall_at_1pct_fpr": 0.052916183854770184,
+      "in_fold_auroc": 0.9763102170460561,
+      "shuffled_label_auroc": 0.5013461495626264,
+      "split_half_auroc": [
+       0.9064910628994884,
+       0.9110723945683373
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.7297472951672469,
+      "auroc_ci": [
+       0.7166397012645138,
+       0.7433304152565042
+      ],
+      "recall_at_1pct_fpr": 0.10776361529548088,
+      "in_fold_auroc": 0.8601111699311805,
+      "shuffled_label_auroc": 0.4968334918397635,
+      "split_half_auroc": [
+       0.7292643691786855,
+       0.7303458268933539
+      ]
+     }
+    },
+    "arm": "noroute",
+    "seed": 3,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-exactly__h-indeed-actually-quite.noroute.s3.npz"
+   }
+  ],
+  "verdict": {
+   "seeds_paired": [
+    1,
+    2,
+    3
+   ],
+   "valid_n": true,
+   "in_fold_ok": false,
+   "graft_minus_noroute_auroc": [
+    7.991894522396681e-05,
+    -0.0074189607962406035,
+    -0.044150081166196564
+   ],
+   "routing_specific": false,
+   "stop": true
+  }
+ },
+ "object_qa|routed=indeed-actually|heldout=exactly-quite": {
+  "runs": [
+   {
+    "n_heldout_hacks": 0,
+    "n_clean": 8192,
+    "n_routed_hacks_deployed": 0,
+    "n_flagged_training_like": 4204,
+    "valid_n": false,
+    "detectors": {
+     "shadow.all": {
+      "auroc": NaN,
+      "auroc_ci": [
+       NaN,
+       NaN
+      ],
+      "recall_at_1pct_fpr": NaN,
+      "in_fold_auroc": 0.8942825443504634,
+      "shuffled_label_auroc": NaN,
+      "split_half_auroc": [
+       NaN,
+       NaN
+      ]
+     },
+     "retain.all": {
+      "auroc": NaN,
+      "auroc_ci": [
+       NaN,
+       NaN
+      ],
+      "recall_at_1pct_fpr": NaN,
+      "in_fold_auroc": 0.6400070811864709,
+      "shuffled_label_auroc": NaN,
+      "split_half_auroc": [
+       NaN,
+       NaN
+      ]
+     },
+     "llr.all": {
+      "auroc": NaN,
+      "auroc_ci": [
+       NaN,
+       NaN
+      ],
+      "recall_at_1pct_fpr": NaN,
+      "in_fold_auroc": 0.971195281849354,
+      "shuffled_label_auroc": NaN,
+      "split_half_auroc": [
+       NaN,
+       NaN
+      ]
+     },
+     "probe.all": {
+      "auroc": NaN,
+      "auroc_ci": [
+       NaN,
+       NaN
+      ],
+      "recall_at_1pct_fpr": NaN,
+      "in_fold_auroc": 0.9999895022842076,
+      "shuffled_label_auroc": NaN,
+      "split_half_auroc": [
+       NaN,
+       NaN
+      ]
+     },
+     "shadow.before": {
+      "auroc": NaN,
+      "auroc_ci": [
+       NaN,
+       NaN
+      ],
+      "recall_at_1pct_fpr": NaN,
+      "in_fold_auroc": 0.8959862759066924,
+      "shuffled_label_auroc": NaN,
+      "split_half_auroc": [
+       NaN,
+       NaN
+      ]
+     },
+     "retain.before": {
+      "auroc": NaN,
+      "auroc_ci": [
+       NaN,
+       NaN
+      ],
+      "recall_at_1pct_fpr": NaN,
+      "in_fold_auroc": 0.6420680333102066,
+      "shuffled_label_auroc": NaN,
+      "split_half_auroc": [
+       NaN,
+       NaN
+      ]
+     },
+     "llr.before": {
+      "auroc": NaN,
+      "auroc_ci": [
+       NaN,
+       NaN
+      ],
+      "recall_at_1pct_fpr": NaN,
+      "in_fold_auroc": 0.9057495392934274,
+      "shuffled_label_auroc": NaN,
+      "split_half_auroc": [
+       NaN,
+       NaN
+      ]
+     }
+    },
+    "arm": "graft",
+    "seed": 1,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-indeed-actually__h-exactly-quite.graft.s1.npz"
+   },
+   {
+    "n_heldout_hacks": 2,
+    "n_clean": 8190,
+    "n_routed_hacks_deployed": 0,
+    "n_flagged_training_like": 4017,
+    "valid_n": false,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.16080586080586082,
+      "auroc_ci": [
+       0.013675213675213675,
+       0.3114194139194139
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9283527045982717,
+      "shuffled_label_auroc": 0.6068070818070818,
+      "split_half_auroc": [
+       0.015873015873015872,
+       0.3094017094017094
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.13012820512820514,
+      "auroc_ci": [
+       0.11512820512820512,
+       0.1457875457875458
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.7138307104983461,
+      "shuffled_label_auroc": 0.3655982905982906,
+      "split_half_auroc": [
+       0.1343101343101343,
+       0.12747252747252746
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.16196581196581197,
+      "auroc_ci": [
+       0.13076312576312576,
+       0.19525030525030523
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9910310521600563,
+      "shuffled_label_auroc": 0.6008547008547008,
+      "split_half_auroc": [
+       0.13626373626373625,
+       0.18754578754578755
+      ]
+     },
+     "probe.all": {
+      "auroc": 0.8661782661782662,
+      "auroc_ci": [
+       0.7347741147741148,
+       0.993470695970696
+      ],
+      "recall_at_1pct_fpr": 0.5,
+      "in_fold_auroc": 0.9999925466468109,
+      "shuffled_label_auroc": 0.5035714285714286,
+      "split_half_auroc": [
+       0.7396825396825397,
+       0.9914529914529915
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.19352869352869354,
+      "auroc_ci": [
+       0.03094932844932845,
+       0.3611004273504273
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9394844366532059,
+      "shuffled_label_auroc": 0.4460927960927961,
+      "split_half_auroc": [
+       0.037606837606837605,
+       0.3556776556776557
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.19648962148962149,
+      "auroc_ci": [
+       0.18531288156288156,
+       0.20891330891330892
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.717312052519308,
+      "shuffled_label_auroc": 0.10546398046398046,
+      "split_half_auroc": [
+       0.19206349206349208,
+       0.19975579975579977
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.07851037851037851,
+      "auroc_ci": [
+       0.05915445665445665,
+       0.09794261294261293
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9702643406242034,
+      "shuffled_label_auroc": 0.5176739926739927,
+      "split_half_auroc": [
+       0.061782661782661785,
+       0.09816849816849817
+      ]
+     }
+    },
+    "arm": "graft",
+    "seed": 2,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-indeed-actually__h-exactly-quite.graft.s2.npz"
+   },
+   {
+    "n_heldout_hacks": 3,
+    "n_clean": 8186,
+    "n_routed_hacks_deployed": 3,
+    "n_flagged_training_like": 4435,
+    "valid_n": false,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.5440386024920596,
+      "auroc_ci": [
+       0.04061507451746885,
+       0.8638559736134864
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9324125968161576,
+      "shuffled_label_auroc": 0.6702296603957977,
+      "split_half_auroc": [
+       0.7910456877595895,
+       0.04275592474957244
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.13244156690284226,
+      "auroc_ci": [
+       0.026345284632299047,
+       0.20077266064011726
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.6048861618479204,
+      "shuffled_label_auroc": 0.6289396530662106,
+      "split_half_auroc": [
+       0.10218666015147813,
+       0.1952113364280479
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.4040231289192931,
+      "auroc_ci": [
+       0.0027455411678475447,
+       0.992187881749328
+      ],
+      "recall_at_1pct_fpr": 0.3333333333333333,
+      "in_fold_auroc": 0.9499309635211246,
+      "shuffled_label_auroc": 0.5224570404756088,
+      "split_half_auroc": [
+       0.6034693378939653,
+       0.0026875152699731247
+      ]
+     },
+     "probe.all": {
+      "auroc": 0.9453131362488802,
+      "auroc_ci": [
+       0.8507726606401173,
+       0.9974346445150256
+      ],
+      "recall_at_1pct_fpr": 0.3333333333333333,
+      "in_fold_auroc": 0.999971845122963,
+      "shuffled_label_auroc": 0.3271846241550615,
+      "split_half_auroc": [
+       0.922306376740777,
+       0.9882726606401173
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.5792409805358743,
+      "auroc_ci": [
+       0.08874602980698754,
+       0.8811568531639384
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9435806280038372,
+      "shuffled_label_auroc": 0.5300513071096995,
+      "split_half_auroc": [
+       0.8174932812118251,
+       0.08380161250916199
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.18038928251486278,
+      "auroc_ci": [
+       0.06567462741265576,
+       0.2502473735646225
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.5849736700872741,
+      "shuffled_label_auroc": 0.429167684664875,
+      "split_half_auroc": [
+       0.14561446371854386,
+       0.2504275592474957
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.3916849906344165,
+      "auroc_ci": [
+       0.0015239433178597607,
+       0.995910701197166
+      ],
+      "recall_at_1pct_fpr": 0.3333333333333333,
+      "in_fold_auroc": 0.910571646057777,
+      "shuffled_label_auroc": 0.42534001140157995,
+      "split_half_auroc": [
+       0.498900561935011,
+       0.17126801856828733
+      ]
+     }
+    },
+    "arm": "graft",
+    "seed": 3,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-indeed-actually__h-exactly-quite.graft.s3.npz"
+   },
+   {
+    "n_heldout_hacks": 3,
+    "n_clean": 4473,
+    "n_routed_hacks_deployed": 3716,
+    "n_flagged_training_like": 4403,
+    "valid_n": false,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.2505402787092928,
+      "auroc_ci": [
+       0.20554996646545942,
+       0.3012575452716298
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.7632255069329741,
+      "shuffled_label_auroc": 0.38098964155302184,
+      "split_half_auroc": [
+       0.22172552525704067,
+       0.3054561717352415
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.24510023101572398,
+      "auroc_ci": [
+       0.05800916610775766,
+       0.4751900290632685
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9055268228848913,
+      "shuffled_label_auroc": 0.6460242939116179,
+      "split_half_auroc": [
+       0.27380420205632544,
+       0.20371198568872986
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.33713391459870334,
+      "auroc_ci": [
+       0.1115116625680006,
+       0.7085904314777555
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.6291744007321523,
+      "shuffled_label_auroc": 0.3150011178180192,
+      "split_half_auroc": [
+       0.3822083147071971,
+       0.24329159212880144
+      ]
+     },
+     "probe.all": {
+      "auroc": 0.8878455920709442,
+      "auroc_ci": [
+       0.8108186153960802,
+       0.9655712050078247
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9998964592047467,
+      "shuffled_label_auroc": 0.3243907891795216,
+      "split_half_auroc": [
+       0.8627626285203397,
+       0.9333631484794276
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.38072881734853564,
+      "auroc_ci": [
+       0.25530963559132575,
+       0.49647328414934044
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.8089492960845622,
+      "shuffled_label_auroc": 0.20359192190178105,
+      "split_half_auroc": [
+       0.3142601698703621,
+       0.5080500894454383
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.31813100827185337,
+      "auroc_ci": [
+       0.07634138162307177,
+       0.6074223116476638
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9285605105964946,
+      "shuffled_label_auroc": 0.3871003800581265,
+      "split_half_auroc": [
+       0.1671881984801073,
+       0.610912343470483
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.37566137566137564,
+      "auroc_ci": [
+       0.00882517326179298,
+       0.861060809300246
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.6201187203797439,
+      "shuffled_label_auroc": 0.4133691035099486,
+      "split_half_auroc": [
+       0.1312025033527045,
+       0.868515205724508
+      ]
+     }
+    },
+    "arm": "noroute",
+    "seed": 1,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-indeed-actually__h-exactly-quite.noroute.s1.npz"
+   },
+   {
+    "n_heldout_hacks": 3,
+    "n_clean": 5401,
+    "n_routed_hacks_deployed": 2788,
+    "n_flagged_training_like": 3959,
+    "valid_n": false,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.36672221193606125,
+      "auroc_ci": [
+       0.2457060420909708,
+       0.5676819107572671
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.8860565239461989,
+      "shuffled_label_auroc": 0.5357649817934951,
+      "split_half_auroc": [
+       0.41281007034431694,
+       0.2814814814814815
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.4658396593223477,
+      "auroc_ci": [
+       0.28034160340677655,
+       0.8117200518422514
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.8977738255311221,
+      "shuffled_label_auroc": 0.4526013701166451,
+      "split_half_auroc": [
+       0.569788967049241,
+       0.2733333333333333
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.37048694686169226,
+      "auroc_ci": [
+       0.021847805961858913,
+       0.880693390112942
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.7740924480653716,
+      "shuffled_label_auroc": 0.7398012713694995,
+      "split_half_auroc": [
+       0.1112550907071455,
+       0.882962962962963
+      ]
+     },
+     "probe.all": {
+      "auroc": 0.8465099055730421,
+      "auroc_ci": [
+       0.5855073134604704,
+       0.9922236622847621
+      ],
+      "recall_at_1pct_fpr": 0.3333333333333333,
+      "in_fold_auroc": 0.9998694369592745,
+      "shuffled_label_auroc": 0.6318582978460778,
+      "split_half_auroc": [
+       0.7878563495001851,
+       0.9651851851851851
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.3783867185089181,
+      "auroc_ci": [
+       0.04285780411034994,
+       0.6870533234586187
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9129220336862197,
+      "shuffled_label_auroc": 0.6456211812627292,
+      "split_half_auroc": [
+       0.22695298037763792,
+       0.6937037037037037
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.45540949206936987,
+      "auroc_ci": [
+       0.0019394556563599335,
+       0.88632660618404
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9216351913423152,
+      "shuffled_label_auroc": 0.43704869468616925,
+      "split_half_auroc": [
+       0.6864124398370973,
+       0.0022222222222222222
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.3345059556872184,
+      "auroc_ci": [
+       0.0018515089798185522,
+       0.8632706906128494
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.8093284994163468,
+      "shuffled_label_auroc": 0.31012775411960747,
+      "split_half_auroc": [
+       0.06738245094409478,
+       0.8674074074074074
+      ]
+     }
+    },
+    "arm": "noroute",
+    "seed": 2,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-indeed-actually__h-exactly-quite.noroute.s2.npz"
+   },
+   {
+    "n_heldout_hacks": 8,
+    "n_clean": 5614,
+    "n_routed_hacks_deployed": 2570,
+    "n_flagged_training_like": 4402,
+    "valid_n": false,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.5309271464196651,
+      "auroc_ci": [
+       0.385872094317777,
+       0.6911560384752404
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9204311065131104,
+      "shuffled_label_auroc": 0.5380076594228714,
+      "split_half_auroc": [
+       0.5760598503740648,
+       0.4856163163519772
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.5458452084075526,
+      "auroc_ci": [
+       0.38523585010687567,
+       0.7113658376380475
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9199647497719314,
+      "shuffled_label_auroc": 0.558636889918062,
+      "split_half_auroc": [
+       0.5341111506946918,
+       0.5576237976487353
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.26458407552547203,
+      "auroc_ci": [
+       0.13693611952262202,
+       0.4256980317064481
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.8322542583785973,
+      "shuffled_label_auroc": 0.6163163519771998,
+      "split_half_auroc": [
+       0.15425721410758816,
+       0.3762914143213395
+      ]
+     },
+     "probe.all": {
+      "auroc": 0.9354070181688635,
+      "auroc_ci": [
+       0.877279457605985,
+       0.9746203687210545
+      ],
+      "recall_at_1pct_fpr": 0.25,
+      "in_fold_auroc": 0.9998829987328859,
+      "shuffled_label_auroc": 0.5760821161382259,
+      "split_half_auroc": [
+       0.9635732098325615,
+       0.9082650516565729
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.5969451371571073,
+      "auroc_ci": [
+       0.3907304840577129,
+       0.7748357899893124
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9391710592091146,
+      "shuffled_label_auroc": 0.47547426077662985,
+      "split_half_auroc": [
+       0.730317064481653,
+       0.46228179551122195
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.6168061987887424,
+      "auroc_ci": [
+       0.46773412451015317,
+       0.787567353936587
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9386828546391123,
+      "shuffled_label_auroc": 0.5797893658710367,
+      "split_half_auroc": [
+       0.5066797292483078,
+       0.7281350195938725
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.2986506946918418,
+      "auroc_ci": [
+       0.11762947541859636,
+       0.5416820671535447
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.8192634314697445,
+      "shuffled_label_auroc": 0.36794175276095475,
+      "split_half_auroc": [
+       0.37718204488778057,
+       0.22069825436408977
+      ]
+     }
+    },
+    "arm": "noroute",
+    "seed": 3,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-indeed-actually__h-exactly-quite.noroute.s3.npz"
+   }
+  ],
+  "verdict": {
+   "seeds_paired": [
+    1,
+    2,
+    3
+   ],
+   "valid_n": false,
+   "in_fold_ok": false,
+   "graft_minus_noroute_auroc": [
+    NaN,
+    -0.20591635113020043,
+    0.0131114560723945
+   ],
+   "routing_specific": false,
+   "stop": false,
+   "graft_minus_probe_auroc": [
+    NaN,
+    -0.7053724053724054,
+    -0.40127453375682065
+   ],
+   "beats_probe": false
+  }
+ },
+ "object_qa|routed=indeed-quite|heldout=actually-exactly": {
+  "runs": [
+   {
+    "n_heldout_hacks": 2,
+    "n_clean": 8187,
+    "n_routed_hacks_deployed": 3,
+    "n_flagged_training_like": 3525,
+    "valid_n": false,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.6602540613167216,
+      "auroc_ci": [
+       0.6300812263344326,
+       0.6914040552094785
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.8692241156039012,
+      "shuffled_label_auroc": 0.20331012580920974,
+      "split_half_auroc": [
+       0.6824621397166585,
+       0.6379183972636208
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.6141443752290217,
+      "auroc_ci": [
+       0.5925827531452302,
+       0.6370618053010871
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.7833260601932172,
+      "shuffled_label_auroc": 0.1849883962379382,
+      "split_half_auroc": [
+       0.6270151441133366,
+       0.6010261421939898
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.015817759863197754,
+      "auroc_ci": [
+       0.002134481495053133,
+       0.03102479540735312
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.999798480800684,
+      "shuffled_label_auroc": 0.3941920117259069,
+      "split_half_auroc": [
+       0.030288226673180263,
+       0.0029318348399706815
+      ]
+     },
+     "probe.all": {
+      "auroc": 0.6457798949554171,
+      "auroc_ci": [
+       0.3189782582142421,
+       0.968672896054721
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9999809833995011,
+      "shuffled_label_auroc": 0.15588738243556857,
+      "split_half_auroc": [
+       0.9672691744015632,
+       0.3190813584168092
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.7110052522291438,
+      "auroc_ci": [
+       0.6823531208012703,
+       0.738487846586051
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.8911411024661267,
+      "shuffled_label_auroc": 0.42585806766825457,
+      "split_half_auroc": [
+       0.7352222765021983,
+       0.6848277547031517
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.6656895077561988,
+      "auroc_ci": [
+       0.6471234884573104,
+       0.6824294613411506
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.814195856793645,
+      "shuffled_label_auroc": 0.16168926346647122,
+      "split_half_auroc": [
+       0.6768441621885687,
+       0.6557537258734425
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.002687187003786491,
+      "auroc_ci": [
+       0.0002442897276169537,
+       0.0057408085989984125
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9988090499150284,
+      "shuffled_label_auroc": 0.4127580310247954,
+      "split_half_auroc": [
+       0.0004885197850512946,
+       0.005130710969948693
+      ]
+     }
+    },
+    "arm": "graft",
+    "seed": 1,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-indeed-quite__h-actually-exactly.graft.s1.npz"
+   },
+   {
+    "n_heldout_hacks": 2,
+    "n_clean": 8190,
+    "n_routed_hacks_deployed": 0,
+    "n_flagged_training_like": 2921,
+    "valid_n": false,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.7219169719169719,
+      "auroc_ci": [
+       0.5917551892551892,
+       0.8520909645909646
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9075541817282793,
+      "shuffled_label_auroc": 0.4115995115995116,
+      "split_half_auroc": [
+       0.8493284493284493,
+       0.6019536019536019
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.6393162393162393,
+      "auroc_ci": [
+       0.5638522588522589,
+       0.715995115995116
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.7567791951853189,
+      "shuffled_label_auroc": 0.1003968253968254,
+      "split_half_auroc": [
+       0.5728937728937729,
+       0.707936507936508
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.5004884004884005,
+      "auroc_ci": [
+       0.0018315018315018315,
+       0.9989010989010989
+      ],
+      "recall_at_1pct_fpr": 0.5,
+      "in_fold_auroc": 0.9995564075279624,
+      "shuffled_label_auroc": 0.48003663003663005,
+      "split_half_auroc": [
+       0.0017094017094017094,
+       0.9982905982905983
+      ]
+     },
+     "probe.all": {
+      "auroc": 0.859096459096459,
+      "auroc_ci": [
+       0.7396764346764347,
+       0.9741147741147741
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.9999280391267655,
+      "shuffled_label_auroc": 0.577075702075702,
+      "split_half_auroc": [
+       0.9697191697191697,
+       0.7416361416361417
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.7695970695970696,
+      "auroc_ci": [
+       0.6609157509157509,
+       0.8762667887667888
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.923690231952694,
+      "shuffled_label_auroc": 0.42347374847374847,
+      "split_half_auroc": [
+       0.671062271062271,
+       0.8654456654456655
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.6957264957264957,
+      "auroc_ci": [
+       0.6357112332112331,
+       0.7549633699633699
+      ],
+      "recall_at_1pct_fpr": 0.0,
+      "in_fold_auroc": 0.793412160176354,
+      "shuffled_label_auroc": 0.4305555555555556,
+      "split_half_auroc": [
+       0.7536019536019536,
+       0.642979242979243
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.5006105006105006,
+      "auroc_ci": [
+       0.0009768009768009768,
+       1.0
+      ],
+      "recall_at_1pct_fpr": 0.5,
+      "in_fold_auroc": 0.9993217153334727,
+      "shuffled_label_auroc": 0.8578449328449328,
+      "split_half_auroc": [
+       0.0014652014652014652,
+       0.9997557997557998
+      ]
+     }
+    },
+    "arm": "graft",
+    "seed": 2,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-indeed-quite__h-actually-exactly.graft.s2.npz"
+   },
+   {
+    "n_heldout_hacks": 207,
+    "n_clean": 7959,
+    "n_routed_hacks_deployed": 26,
+    "n_flagged_training_like": 334,
+    "valid_n": true,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.7870292980996204,
+      "auroc_ci": [
+       0.7669890009972608,
+       0.8076253040188454
+      ],
+      "recall_at_1pct_fpr": 0.014492753623188406,
+      "in_fold_auroc": 0.6823117688278012,
+      "shuffled_label_auroc": 0.48931480358576834,
+      "split_half_auroc": [
+       0.7842288364901431,
+       0.7902788181642946
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.7834287195305895,
+      "auroc_ci": [
+       0.7562313848206357,
+       0.8091422040372367
+      ],
+      "recall_at_1pct_fpr": 0.014492753623188406,
+      "in_fold_auroc": 0.7351779544790269,
+      "shuffled_label_auroc": 0.46846489223453774,
+      "split_half_auroc": [
+       0.790237243911867,
+       0.7763061900218867
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.7962152650692286,
+      "auroc_ci": [
+       0.7517780588074267,
+       0.8298738765642517
+      ],
+      "recall_at_1pct_fpr": 0.40096618357487923,
+      "in_fold_auroc": 0.9727967406863369,
+      "shuffled_label_auroc": 0.4878750577385429,
+      "split_half_auroc": [
+       0.7791239853111712,
+       0.813101306129022
+      ]
+     },
+     "probe.all": {
+      "auroc": 0.5761623732255831,
+      "auroc_ci": [
+       0.5393137262042849,
+       0.6133871174309399
+      ],
+      "recall_at_1pct_fpr": 0.043478260869565216,
+      "in_fold_auroc": 0.9998829000322259,
+      "shuffled_label_auroc": 0.5317666689124759,
+      "split_half_auroc": [
+       0.581491592578276,
+       0.5708732984088797
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.823680298729054,
+      "auroc_ci": [
+       0.8070964918030995,
+       0.8386344447661415
+      ],
+      "recall_at_1pct_fpr": 0.014492753623188406,
+      "in_fold_auroc": 0.7473275445354598,
+      "shuffled_label_auroc": 0.5122481582846388,
+      "split_half_auroc": [
+       0.8329230286045612,
+       0.8150960015811164
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.8156399979848414,
+      "auroc_ci": [
+       0.7938895929804499,
+       0.836903525192214
+      ],
+      "recall_at_1pct_fpr": 0.014492753623188406,
+      "in_fold_auroc": 0.7766308746711833,
+      "shuffled_label_auroc": 0.5127443607425253,
+      "split_half_auroc": [
+       0.8071789234634712,
+       0.8238763215619869
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.8347648850115295,
+      "auroc_ci": [
+       0.7901988482033222,
+       0.871735549279429
+      ],
+      "recall_at_1pct_fpr": 0.5024154589371981,
+      "in_fold_auroc": 0.9813356703364235,
+      "shuffled_label_auroc": 0.5171956154518963,
+      "split_half_auroc": [
+       0.8314384422110552,
+       0.8384211283998273
+      ]
+     }
+    },
+    "arm": "graft",
+    "seed": 3,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-indeed-quite__h-actually-exactly.graft.s3.npz"
+   },
+   {
+    "n_heldout_hacks": 966,
+    "n_clean": 4506,
+    "n_routed_hacks_deployed": 2720,
+    "n_flagged_training_like": 3176,
+    "valid_n": true,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.8329735645778024,
+      "auroc_ci": [
+       0.8195920708206863,
+       0.8469677392416277
+      ],
+      "recall_at_1pct_fpr": 0.07246376811594203,
+      "in_fold_auroc": 0.7596364049545402,
+      "shuffled_label_auroc": 0.49019101745177124,
+      "split_half_auroc": [
+       0.8215592920044955,
+       0.8443588902397448
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.9094112152280971,
+      "auroc_ci": [
+       0.9001880917460868,
+       0.9187964327985966
+      ],
+      "recall_at_1pct_fpr": 0.10144927536231885,
+      "in_fold_auroc": 0.9003357131591639,
+      "shuffled_label_auroc": 0.5289314040906121,
+      "split_half_auroc": [
+       0.9117675167869113,
+       0.907022061222258
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.563010533918888,
+      "auroc_ci": [
+       0.5443018062413216,
+       0.5870386471132578
+      ],
+      "recall_at_1pct_fpr": 0.047619047619047616,
+      "in_fold_auroc": 0.6174231194860388,
+      "shuffled_label_auroc": 0.49972155828116,
+      "split_half_auroc": [
+       0.5597533171782,
+       0.5663817004059001
+      ]
+     },
+     "probe.all": {
+      "auroc": 0.6437094685806548,
+      "auroc_ci": [
+       0.6264330156984155,
+       0.6594971887035367
+      ],
+      "recall_at_1pct_fpr": 0.011387163561076604,
+      "in_fold_auroc": 0.9999015904553049,
+      "shuffled_label_auroc": 0.49662814430081265,
+      "split_half_auroc": [
+       0.6380165760122919,
+       0.6493021956462007
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.8710658620344257,
+      "auroc_ci": [
+       0.8613351739893164,
+       0.8804253289150238
+      ],
+      "recall_at_1pct_fpr": 0.09316770186335403,
+      "in_fold_auroc": 0.8064847881585259,
+      "shuffled_label_auroc": 0.4862347098278899,
+      "split_half_auroc": [
+       0.87279118984671,
+       0.8694246181075337
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.931118297296726,
+      "auroc_ci": [
+       0.9233774251079077,
+       0.9393009918222678
+      ],
+      "recall_at_1pct_fpr": 0.10869565217391304,
+      "in_fold_auroc": 0.9243130801091324,
+      "shuffled_label_auroc": 0.49846156355593046,
+      "split_half_auroc": [
+       0.930707067365436,
+       0.9313779005494399
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.6928697094924734,
+      "auroc_ci": [
+       0.6744294127269002,
+       0.7084684016893968
+      ],
+      "recall_at_1pct_fpr": 0.006211180124223602,
+      "in_fold_auroc": 0.6179382357810888,
+      "shuffled_label_auroc": 0.5085743738047912,
+      "split_half_auroc": [
+       0.6938400053666655,
+       0.6919382392374924
+      ]
+     }
+    },
+    "arm": "noroute",
+    "seed": 1,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-indeed-quite__h-actually-exactly.noroute.s1.npz"
+   },
+   {
+    "n_heldout_hacks": 673,
+    "n_clean": 5469,
+    "n_routed_hacks_deployed": 2050,
+    "n_flagged_training_like": 3008,
+    "valid_n": true,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.8893445618244885,
+      "auroc_ci": [
+       0.8768477779797356,
+       0.9005528153143056
+      ],
+      "recall_at_1pct_fpr": 0.04903417533432392,
+      "in_fold_auroc": 0.8673816369844402,
+      "shuffled_label_auroc": 0.5252495695717888,
+      "split_half_auroc": [
+       0.8849429583539024,
+       0.8938635393806389
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.8837877791262763,
+      "auroc_ci": [
+       0.870513874364682,
+       0.8956828294939164
+      ],
+      "recall_at_1pct_fpr": 0.041604754829123326,
+      "in_fold_auroc": 0.8858542939421084,
+      "shuffled_label_auroc": 0.5097165246124516,
+      "split_half_auroc": [
+       0.8833236591280196,
+       0.8842692984289546
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.5948886021631582,
+      "auroc_ci": [
+       0.5698666222721773,
+       0.6203182832210837
+      ],
+      "recall_at_1pct_fpr": 0.1263001485884101,
+      "in_fold_auroc": 0.7806596474365426,
+      "shuffled_label_auroc": 0.49141452960452225,
+      "split_half_auroc": [
+       0.6221917228584293,
+       0.5672048629254189
+      ]
+     },
+     "probe.all": {
+      "auroc": 0.6883656280149333,
+      "auroc_ci": [
+       0.6703154847924422,
+       0.7094024417512512
+      ],
+      "recall_at_1pct_fpr": 0.02674591381872214,
+      "in_fold_auroc": 0.9999529793776042,
+      "shuffled_label_auroc": 0.5212825932032961,
+      "split_half_auroc": [
+       0.699362587406897,
+       0.677144294074616
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.9182050552662487,
+      "auroc_ci": [
+       0.9094756423955962,
+       0.9274426953812615
+      ],
+      "recall_at_1pct_fpr": 0.06835066864784546,
+      "in_fold_auroc": 0.8989004722820507,
+      "shuffled_label_auroc": 0.4968775785278472,
+      "split_half_auroc": [
+       0.9223989497610381,
+       0.9139980013585537
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.9134254478232979,
+      "auroc_ci": [
+       0.9036260741007602,
+       0.9226350119558109
+      ],
+      "recall_at_1pct_fpr": 0.05349182763744428,
+      "in_fold_auroc": 0.9132147920902192,
+      "shuffled_label_auroc": 0.5000095092235393,
+      "split_half_auroc": [
+       0.9156874020147663,
+       0.9112144903682029
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.7494846680071955,
+      "auroc_ci": [
+       0.7299827652115654,
+       0.7692935081617666
+      ],
+      "recall_at_1pct_fpr": 0.08469539375928678,
+      "in_fold_auroc": 0.8463266200255641,
+      "shuffled_label_auroc": 0.5033897664996575,
+      "split_half_auroc": [
+       0.757329702341881,
+       0.7414916222524123
+      ]
+     }
+    },
+    "arm": "noroute",
+    "seed": 2,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-indeed-quite__h-actually-exactly.noroute.s2.npz"
+   },
+   {
+    "n_heldout_hacks": 1046,
+    "n_clean": 5606,
+    "n_routed_hacks_deployed": 1540,
+    "n_flagged_training_like": 3243,
+    "valid_n": true,
+    "detectors": {
+     "shadow.all": {
+      "auroc": 0.9070908900529274,
+      "auroc_ci": [
+       0.8976690609589971,
+       0.9148251557502239
+      ],
+      "recall_at_1pct_fpr": 0.11089866156787763,
+      "in_fold_auroc": 0.9182593018706094,
+      "shuffled_label_auroc": 0.5017505486132381,
+      "split_half_auroc": [
+       0.9061388746965318,
+       0.9082026973285247
+      ]
+     },
+     "retain.all": {
+      "auroc": 0.8854573323173955,
+      "auroc_ci": [
+       0.8763781669325886,
+       0.8954712100835693
+      ],
+      "recall_at_1pct_fpr": 0.03824091778202677,
+      "in_fold_auroc": 0.9266281674556964,
+      "shuffled_label_auroc": 0.4971135133144016,
+      "split_half_auroc": [
+       0.8832430972278404,
+       0.8874171281930245
+      ]
+     },
+     "llr.all": {
+      "auroc": 0.464672001931828,
+      "auroc_ci": [
+       0.4449064151424757,
+       0.48603080539220134
+      ],
+      "recall_at_1pct_fpr": 0.05927342256214149,
+      "in_fold_auroc": 0.8775466130022777,
+      "shuffled_label_auroc": 0.48337541585122196,
+      "split_half_auroc": [
+       0.4736982842065555,
+       0.45568016786166693
+      ]
+     },
+     "probe.all": {
+      "auroc": 0.6468196121473238,
+      "auroc_ci": [
+       0.631346084057712,
+       0.6637118051268478
+      ],
+      "recall_at_1pct_fpr": 0.008604206500956023,
+      "in_fold_auroc": 0.9998172372556793,
+      "shuffled_label_auroc": 0.5051478748868495,
+      "split_half_auroc": [
+       0.646358142634667,
+       0.6466685175470969
+      ]
+     },
+     "shadow.before": {
+      "auroc": 0.9288594267682332,
+      "auroc_ci": [
+       0.922260890237106,
+       0.9359212149097286
+      ],
+      "recall_at_1pct_fpr": 0.07265774378585087,
+      "in_fold_auroc": 0.936493306850955,
+      "shuffled_label_auroc": 0.49188736255677984,
+      "split_half_auroc": [
+       0.9293982342054982,
+       0.9282365452475462
+      ]
+     },
+     "retain.before": {
+      "auroc": 0.9166805369008485,
+      "auroc_ci": [
+       0.909135197009623,
+       0.9245019953525621
+      ],
+      "recall_at_1pct_fpr": 0.04780114722753346,
+      "in_fold_auroc": 0.942776474604643,
+      "shuffled_label_auroc": 0.49287357031424267,
+      "split_half_auroc": [
+       0.9196408655298987,
+       0.9138757367993456
+      ]
+     },
+     "llr.before": {
+      "auroc": 0.55180830904337,
+      "auroc_ci": [
+       0.5331090242187931,
+       0.5707220637851141
+      ],
+      "recall_at_1pct_fpr": 0.021032504780114723,
+      "in_fold_auroc": 0.9051424108033592,
+      "shuffled_label_auroc": 0.5112612374477223,
+      "split_half_auroc": [
+       0.5484924988181878,
+       0.5551788612173927
+      ]
+     }
+    },
+    "arm": "noroute",
+    "seed": 3,
+    "file": "/home/ubuntu/scores/cvr_folds_1/cvr.object_qa__r-indeed-quite__h-actually-exactly.noroute.s3.npz"
+   }
+  ],
+  "verdict": {
+   "seeds_paired": [
+    1,
+    2,
+    3
+   ],
+   "valid_n": false,
+   "in_fold_ok": false,
+   "graft_minus_noroute_auroc": [
+    -0.17271950326108076,
+    -0.1674275899075166,
+    -0.12006159195330701
+   ],
+   "routing_specific": false,
+   "stop": true,
+   "graft_minus_probe_auroc": [
+    0.014474166361304497,
+    -0.13717948717948714,
+    0.21086692487403735
+   ],
+   "beats_probe": false
+  }
+ }
+}
